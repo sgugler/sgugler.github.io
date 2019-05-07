@@ -1,2 +1,4 @@
 name: Stefan Gugler
 markdown: kramdown
+
+theme: jekyll-theme-cayman
