@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "PhD Student in the Reiher Lab at ETH Zurich. Interested in how machine learning and artificial intelligence can help us with problems in theoretical and quantum chemistry."
   location         : "Zurich"
-  employer         : "ETH Zurich"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.ch/citations?user=uySipLsAAAAJ"
   email            : 
@@ -114,7 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  wikipedia        : https://de.wikipedia.org/wiki/Benutzer:Hiko
+  wikipedia        : "Hiko" 
 
 
 # Reading Files
