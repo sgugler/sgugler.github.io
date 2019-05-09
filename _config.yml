@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Stefan Gugler"
 description              : &description "PhD Student at ETH Zurich"
 url                      : https://sgugler.github.io 
-baseurl                  : "/about" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sgugler.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
