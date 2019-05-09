@@ -1,4 +1,4 @@
-[[---]]
+---
 permalink: /
 title: "About me"
 excerpt: "About me"
@@ -7,5 +7,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello
-
+Introductory Text.
