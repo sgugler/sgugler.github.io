@@ -1,10 +1,17 @@
+---
+layout: post
+mathjax: true
+comments: false
+title:  "Notes to the School of Batman Podcast"
+date:   2019-05-14 
+categories: chemistry 
+---
+
 ## Notes to the School of Batman Podcast
 
 I was featured on the (all around awesome) podcast [School of Badman](https://figshare.com/collections/School_of_Batman/3982956) to talk about chemistry in general, the field of my research group, theoretical and quantum chemistry, and my own specialization, machine learning in theoretical chemistry. I made this little post here to give some clarifications on things I explained dodgily or might need a visualization. I will go through it chronologically. You can find the podcast here:
 
-https://ndownloader.figshare.com/files/15135296
-
-https://figshare.com/articles/The_Case_Of_Mother_s_Child_Army_-_Stefan_Gugler/8117984
+<iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
 
 # In a Nutshell
 When I think of 'lab chemistry' I usually have a synthetical chemist in mind that produces molecules than can be used for a wide variety of tasks like glue, pesticides, plastics or drugs. I mostly talk about drugs in the podcast. An organic chemist might have a procedure like the following:
@@ -26,7 +33,7 @@ It's immediately clear that millions of compounds can't really be handled well o
 <NEURAL WINTER and TIMELINE figure>
 
 # Early Computational Chemistry
-John Pople was one of the fathers of computational chemistry proper with the developement of the quantum chemical software [Gaussian](https://en.wikipedia.org/wiki/Gaussian_(software)). He won the [Nobel Prize in 1998](https://www.nobelprize.org/prizes/chemistry/1998/pople/facts/) and he died in 2004, aged 78.
+John Pople was one of the fathers of computational chemistry proper with the developement of the quantum chemical software Gaussian. He won the [Nobel Prize in 1998](https://www.nobelprize.org/prizes/chemistry/1998/pople/facts/) and he died in 2004, aged 78.
 ![Pople in all his glory](/images/school-of-batman/pople.jpg)
 
 # OK, now what is a molecule
