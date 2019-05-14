@@ -32,6 +32,7 @@ It's immediately clear that millions of compounds can't really be handled well o
 <!---
 # Machine Learning Era
 <NEURAL WINTER and TIMELINE figure>
+https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
 --->
 
 # Early Computational Chemistry
