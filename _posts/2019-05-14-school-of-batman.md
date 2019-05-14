@@ -9,7 +9,7 @@ categories: chemistry
 ## Notes to the School of Batman Podcast
 
 I was featured on the (all around awesome) podcast [School of Badman](https://figshare.com/collections/School_of_Batman/3982956) to talk about chemistry in general, the field of my research group, theoretical and quantum chemistry, and my own specialization, machine learning in theoretical chemistry. I made this little post here to give some clarifications on things I explained dodgily or might need a visualization. I will go through it chronologically. You can find the podcast [here](https://figshare.com/articles/The_Case_Of_Mother_s_Child_Army_-_Stefan_Gugler/8117984) or directly here:
-<iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="150" allowfullscreen="true" frameborder="0"></iframe>
 
 # In a Nutshell
 When I think of 'lab chemistry' I usually have a synthetical chemist in mind that produces molecules than can be used for a wide variety of tasks like glue, pesticides, plastics or drugs. I mostly talk about drugs in the podcast. An organic chemist might have a procedure like the following:
