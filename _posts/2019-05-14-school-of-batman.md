@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 mathjax: true
 comments: false
 title:  "Notes to the School of Batman Podcast"
