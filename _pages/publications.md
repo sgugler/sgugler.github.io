@@ -14,7 +14,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 
 # Peer-Reviewed Articles
 
-1. Aditya Nandy, Chenru Duan, Jon Paul Janet, <u>Stefan Gugler</u>, and Heather J. Kulik, &quot;Strategies and Software for Machine Learning Accelerated Discovery in Transition Metal Chemistry.&quot;, <i><a href="https://pubs.acs.org/doi/full/10.1021/acs.iecr.8b04015">Ind. Eng. Chem. Res.</i> <b>2018</b>, <i>57</i> 13973</a>
+1. Aditya Nandy, Chenru Duan, Jon Paul Janet, <u>Stefan Gugler</u>, and Heather J. Kulik, &quot;Strategies and Software for Machine Learning Accelerated Discovery in Transition Metal Chemistry.&quot;, <a href="https://pubs.acs.org/doi/full/10.1021/acs.iecr.8b04015"><i>Ind. Eng. Chem. Res.</i> <b>2018</b>, <i>57</i> 13973</a>; <a href= https://chemrxiv.org/articles/Strategies_and_Software_for_Machine_Learning_Accelerated_Discovery_in_Transition_Metal_Chemistry/6987074>chemrxiv:6987074</a>
 
 # Converence Contributions (Posters)
 1. Enumerating the inorganic universe of small complexes for machine learning
