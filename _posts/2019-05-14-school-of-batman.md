@@ -9,7 +9,7 @@ categories: chemistry
 # Notes on the School of Batman Podcast
 
 I was featured on the (all around awesome) podcast [School of Badman](https://figshare.com/collections/School_of_Batman/3982956) to talk about chemistry in general, the field of my research group, theoretical and quantum chemistry, and my own specialization, machine learning in theoretical chemistry. I made this little post here to give some clarifications on things I explained shakily or might need a visualization. I will go through it chronologically. You can find the podcast [here](https://figshare.com/articles/The_Case_Of_Mother_s_Child_Army_-_Stefan_Gugler/8117984) or directly here:
-<iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="300" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="250" allowfullscreen="true" frameborder="0"></iframe>
 
 ## In a Nutshell
 When I think of 'lab chemistry', I usually have a synthetical chemist in mind who produces molecules that can be used for a wide variety of tasks like glue, pesticides, plastics or drugs. In the podcast, I use drugs to illustrate my points. An organic chemist might have a procedure like the following:
@@ -53,7 +53,7 @@ What I am trying to say a bit haphazardly in the beginning is the following: Up 
 
 As the name says, neural networks are inspired by how nature processes information. The human brain is of course far away from being modelled or simulated but we figured out how to upload aspects of a worms brain. It complements what I say in the podcast quite nicely:
 
-{% include youtubePlayer.html id=eYS7UIUM_SQ %}
+<iframe width="280" height="167" src="https://www.youtube.com/embed/eYS7UIUM_SQ" frameborder="0" allowfullscreen></iframe>
 
 Instead of implementing a worm, you could also build a neural system whose only job it is to classify bird pictures. Make the system large and you have deep learning. The decision food/light vs. food/non-light vs. non-food/light vs. non-food/non-light is important for the worm's survival but it could very well be 'thinking' about something else (especially if there is no survival needed.)
 
