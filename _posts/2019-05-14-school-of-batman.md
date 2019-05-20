@@ -31,7 +31,7 @@ It's immediately clear that millions of compounds can't really be handled well o
 
 # Machine Learning and a Bit of History
 I used the word 'neural winter' in the podcast yet in the literature you would rather read about the 'AI winter'. I was introduced to the concept with the first term, but it means the same: A period starting from the 70ies and peaking in early 90ies where funding for AI was sparse and people were rather pessimistic about progress in AI. At latest in 2012, machine learning and AI is back on track with successful application of neural nets and deep learning for a host of problems.
-<iframe width="900" height="300" frameborder="0" scrolling="no" src="//plot.ly/~akira70000/4.embed"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~akira70000/4.embed"></iframe>
 <!---
 <NEURAL WINTER HISTOGRAM figure>
 https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
