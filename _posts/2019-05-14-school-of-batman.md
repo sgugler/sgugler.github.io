@@ -30,16 +30,21 @@ In drug discovery, in the very first phase of finding a new drug, thousands of m
 It's immediately clear that millions of compounds can't really be handled well on your average laptop. To play around with molecule clusters, you should try out [sketchmap](https://interactive.sketchmap.org/Lysine-Dipeptide).
 
 # Machine Learning and a Bit of History
-I used the word 'neural winter' in the podcast yet in the literature you would rather read about the 'AI winter'. I was introduced to the concept with the first term, but it means the same: A period starting from the 70ies and peaking in early 90ies where funding for AI was sparse and people were rather pessimistic about progress in AI. At latest in 2012, machine learning and AI is back on track with successful application of neural nets and deep learning for a host of problems.
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~akira70000/4.embed"></iframe>
-<!---
-<NEURAL WINTER HISTOGRAM figure>
-https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
---->
+I used the word 'neural winter' in the podcast yet in the literature you would rather read about the 'AI winter'. I was introduced to the concept with the first term, but it means the same: A period starting from the 70ies and peaking in early 90ies where funding for AI was sparse and people were rather pessimistic about progress in AI. Commonly it is even subdivided into the first (1974–1980) and second (1987–1993) AI winter. 
+<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plot.ly/~akira70000/4.embed"></iframe>
+As you can see in the Figure, it was preceded by the 'golden years'. At latest in 2012, machine learning and AI is back on track with successful application of neural nets and deep learning for a host of problems. Currently, AI and machine learning are revolutionizing large parts of the industry, similarly as when the introduction of the computer turned over many businesses. A [full history on AI](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) is found on Wikipedia and gives a devent overview.
 
-## Early Computational Chemistry
-John Pople was one of the fathers of computational chemistry proper with the developement of the quantum chemical software Gaussian. He won the [Nobel Prize in 1998](https://www.nobelprize.org/prizes/chemistry/1998/pople/facts/) and he died in 2004, aged 78.
+## Pople and Early Computational Chemistry
+John Pople was one of the fathers of computational chemistry proper with the developement of the quantum chemical software [Gaussian](https://gaussian.com/). (On a tangent: The course of Gaussian became pretty weird after people got ['banned' from using it](https://www.nature.com/articles/429231a), even [Pople himself](https://web.archive.org/web/20170609073016/http://bannedbygaussian.org/).) He won the [Nobel Prize in 1998](https://www.nobelprize.org/prizes/chemistry/1998/pople/facts/) and he died in 2004, aged 78.
+
 ![Pople in all his glory](/images/school-of-batman/pople.jpg)
+
+The computational chemistry we are talking here, is all quantum. Unlike molecular dynamics (mentioned above), which applies Newtonian forces to all the atoms, in quantum chemistry we assume all the atoms behave in a 'quantum way'. Without going into the quantum details here, for us it mainly means that the electrons behave in a very complicated way which in turn results in long computing time. The Newtonian picture (molecular dynamics) ignores electrons and is therefore much faster for molecules of the same size, yet much less accurate, because the world is fundamentally quantum (we think.) When we want to check out really large molecules like proteins, we adapt the Newtonian picture, because a quantum calculation could take millions of years. Here is a very small protein as illustration. It's [gramicidin S](https://en.wikipedia.org/wiki/Gramicidin_S), an antibiotic.
+
+![Pople in all his glory](/images/school-of-batman/gramicidin.png)
+
+It has 174 atoms. When we compare that to the tiny H2O molecule, which has only 3 atoms, it seems huge. If H2O is a big deal to calculate, you can imagine how difficult gramicidin S is. The largest protein known is Titin (a human adult has about 0.5 kg of Titin in their muscles) with [539,022](https://web.expasy.org/cgi-bin/protparam/protparam1?Q8WZ42@1-34350@) atoms (depending on which variant.) 
+
 
 <!---
 # OK, now what is a molecule
