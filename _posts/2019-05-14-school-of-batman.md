@@ -45,8 +45,25 @@ The computational chemistry we are talking here, is all quantum. Unlike molecula
 
 It has 174 atoms. When we compare that to the tiny H2O molecule, which has only 3 atoms, it seems huge. If H2O is a big deal to calculate, you can imagine how difficult gramicidin S is. The largest protein known is Titin (a human adult has about 0.5 kg of Titin in their muscles) with [539,022](https://web.expasy.org/cgi-bin/protparam/protparam1?Q8WZ42@1-34350@) atoms (depending on which variant.) 
 
+## Batman
+So what would be needed here is a [forensic chemist](https://en.wikipedia.org/wiki/Forensic_chemistry). Apart from the analytical methods used in this field, I'm not very familiar with the specifics. Of course a theoretician is not immediately used on a crime scene like the one described in the podcast. Machine learning [has](http://www.biospec.net/learning/Metab06/Goodacre-FTIRmaps.pdf) [helped](https://onlinelibrary.wiley.com/doi/epdf/10.1002/advs.201801367) [in](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6121588/pdf/ijms-19-02358.pdf) many branches of analytical chemistry so indirectly stuff that I might develop could maybe perhaps help Batman at some point. Figuring out what kind of poison the children ingested seems to be a good starting point.
 
-<!---
-# OK, now what is a molecule
-I will fill in more tonight. Stay tuned. 
---->
+## Back to Neural Networks
+What I am trying to say a bit haphazardly in the beginning is the following: Up to 2012 (or so), stuff you wanted to classify like birds or handwriting had to follow a very clear form the be interpretable for a machine. This could be a checklist: Does it have a beak? Does it have feathers? Does it lay eggs? If it fulfills all these criteria, it is a bird, else it isn't. The problem is that for most things it is very difficult to list all properties and for sure you're going to miss some. A neural network is able to generalize a bird so much, that it can learn about birds without having specific yes/no samples from which it learns but it could classify birds just by looking at pictures. In fact, as of 2015, [machines classify generic images better (and of course faster) than humans](https://www.theguardian.com/global/2015/may/13/baidu-minwa-supercomputer-better-than-humans-recognising-images).
+
+As the name says, neural networks are inspired by how nature processes information. The human brain is of course far away from being modelled or simulated but we figured out how to upload aspects of a worms brain. It complements what I say in the podcast quite nicely:
+
+{% include youtubePlayer.html id=eYS7UIUM_SQ %}
+
+Instead of implementing a worm, you could also build a neural system whose only job it is to classify bird pictures. Make the system large and you have deep learning. The decision food/light vs. food/non-light vs. non-food/light vs. non-food/non-light is important for the worm's survival but it could very well be 'thinking' about something else (especially if there is no survival needed.)
+
+## Wrapping up
+In the end I talk of probabilities. One cool thing that machine learning brought to chemistry is talking about probabilities and uncertainties. Whenever we do an estimate, we want to know how certain we are (turns out, usually we're not very certain.) If you've ever watched Jeopardy! with [IBM Watson](https://www.ibm.com/watson), you could've seen something like this:
+
+![Watson not being entirely sure.](/images/school-of-batman/ibm.png)
+
+Of course, Watson, the AI program to answer Jeopardy! questions, knows the answer. But we see that he wasn't *entirely* certain. There is always a bit of uncertainty remaining (in humans, this manifests itself usually as epistemic humility.) With the example from the podcast: A program might never be 100 % sure that something is a bird but always have some residual doubt whether it might be something else (e.g. a [hippogriff](https://en.wikipedia.org/wiki/Hippogriff).)
+
+I was a bit all over the place in the end. I just wanted to say that we can figure out properties of molecules and they could be understood in the analogy as beaks or wings of an animal, which are properties that let us identify the animal as a bird.
+
+Again it was very cool to take part and I hope I could clarify some things here. Stay tuned for more.
