@@ -60,9 +60,7 @@ The worm has to take certain decision during its life. The decision food/light v
 ## Wrapping it up
 In the end of the podcast, I talk of probabilities. One cool thing that machine learning brought to chemistry is talking about probabilities and uncertainties. Whenever we do an estimate, we want to know how certain we are (turns out, usually we're not very certain). If you've ever watched Jeopardy! with [IBM Watson](https://www.ibm.com/watson), you could've seen something like this:
 
-![](/images/school-of-batman/ibm.png)
-<img src="/images/school-of-batman/ibm.png" alt="Watson not being entirely sure." style="width:400px">
-
+<img src="/images/school-of-batman/ibm.png" alt="Watson not being entirely sure." style="width:450px">
 
 Of course, Watson, the AI program to answer Jeopardy! questions, knows the answer. But we see that he wasn't *entirely* sure. There is always a bit of uncertainty remaining (in humans, this manifests itself usually as epistemic humility (or arrogance/overconfidence, if we are never uncertain)). With the example from the podcast: A program might never be 100 % sure that something is a bird but always have some residual doubt whether it might be something else (e.g. a [hippogriff](https://en.wikipedia.org/wiki/Hippogriff)).
 
