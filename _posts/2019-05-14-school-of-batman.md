@@ -1,7 +1,7 @@
 ---
 mathjax: true
 comments: false
-title:  "Notes to the School of Batman Podcast"
+title:  "Notes on the School of Batman Podcast"
 date:   2019-05-14 
 categories: chemistry 
 ---
