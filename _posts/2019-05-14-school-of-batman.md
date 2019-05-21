@@ -37,11 +37,11 @@ As you can see in the Figure, it was preceded by the 'golden years'. At latest i
 ## Pople and Early Computational Chemistry
 John Pople was one of the fathers of computational chemistry proper with the developement of the quantum chemical software [Gaussian](https://gaussian.com/). (On a tangent: The course of Gaussian became pretty weird after people got ['banned' from using it](https://www.nature.com/articles/429231a), even [Pople himself was banned](https://web.archive.org/web/20170609073016/http://bannedbygaussian.org/)). It remains one of the most cited programs in academia and has had enormous influence on how we go about with more modern iterations of quantum software. He won the [Nobel Prize in 1998](https://www.nobelprize.org/prizes/chemistry/1998/pople/facts/) and he died in 2004, aged 78.
 
-![Pople in all his glory](/images/school-of-batman/pople.jpg)
+![Pople in all his glory.](/images/school-of-batman/pople.jpg)
 
 The computational chemistry we are talking here is all quantum. Unlike molecular dynamics, which applies Newtonian forces to all the atoms, in quantum chemistry we assume all the atoms behave in a 'quantum way'. Without going into the quantum details, for us it mainly means that the electrons behave in a very complicated way which in turn results in long computing time. The Newtonian picture (molecular dynamics) ignores electrons and is therefore much faster for molecules of the same size, yet much less accurate, because the world is (likely) fundamentally quantum (that's why I was calling molecular dynamics a shortcut above: it utilizes the Newtonian approximation (to speed up the calculations). When we want to check out really large molecules like proteins, we adapt the Newtonian picture, because a quantum calculation could take millions of years. Here is a very small protein as illustration. It's [gramicidin S](https://en.wikipedia.org/wiki/Gramicidin_S), an antibiotic.
 
-![Pople in all his glory](/images/school-of-batman/gramicidin.png)
+![Gramicidin S in ball and stick depiction.](/images/school-of-batman/gramicidin.png)
 
 It has 174 atoms. When we compare that to the tiny H2O molecule, which has only 3 atoms, it seems huge. If H2O is a big deal to calculate, you can imagine how difficult gramicidin S is. The largest protein known is Titin (a human adult has about 0.5 kg of Titin in their muscles) with [539,022](https://web.expasy.org/cgi-bin/protparam/protparam1?Q8WZ42@1-34350@) atoms (depending on which variant). 
 
@@ -60,7 +60,9 @@ The worm has to take certain decision during its life. The decision food/light v
 ## Wrapping it up
 In the end of the podcast, I talk of probabilities. One cool thing that machine learning brought to chemistry is talking about probabilities and uncertainties. Whenever we do an estimate, we want to know how certain we are (turns out, usually we're not very certain). If you've ever watched Jeopardy! with [IBM Watson](https://www.ibm.com/watson), you could've seen something like this:
 
-![Watson not being entirely sure.](/images/school-of-batman/ibm.png)
+![](/images/school-of-batman/ibm.png)
+<img src="/images/school-of-batman/ibm.png" alt="Watson not being entirely sure." style="width:400px">
+
 
 Of course, Watson, the AI program to answer Jeopardy! questions, knows the answer. But we see that he wasn't *entirely* sure. There is always a bit of uncertainty remaining (in humans, this manifests itself usually as epistemic humility (or arrogance/overconfidence, if we are never uncertain)). With the example from the podcast: A program might never be 100 % sure that something is a bird but always have some residual doubt whether it might be something else (e.g. a [hippogriff](https://en.wikipedia.org/wiki/Hippogriff)).
 
