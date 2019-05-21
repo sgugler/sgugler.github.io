@@ -14,7 +14,7 @@ I was featured on the (all around awesome) podcast [School of Badman](https://fi
 ## In a Nutshell
 When I think of 'lab chemistry', I usually have a synthetical chemist in mind who produces molecules that can be used for a wide variety of tasks like glue, pesticides, plastics or drugs. In the podcast, I use drugs to illustrate my points. An organic chemist might have a procedure like the following:
 
-<img src="/images/school-of-batman/paclitaxel.png" alt="Part of the Holton Taxol synthesis." style="width:450px">
+<img src="/images/school-of-batman/paclitaxel.png" alt="Part of the Holton Taxol synthesis." style="width:600px">
 
 This is part of the [first route ever described](https://en.wikipedia.org/wiki/Holton_Taxol_total_synthesis) to synthesize [Taxol](https://en.wikipedia.org/wiki/Paclitaxel) aka Paclitaxel, a drug for chemotherapy. The chemists _actually_ stand at their benches and put chemical *1* in a flask and add _t_-BuLi and hexane, two reagents, and cook ('reflux') it for 5 h and so on and so on. You see this takes a lot of time to prepare, especially if you are the first person ever to try it. A lot of dead ends are to be expected. Despite me just glossing over it, this is an enormously difficult and tedious process, where a lot of practical knowledge is required you also need to understand the most state of the art model for every kind of reaction to draw up a synthesis like the one shown here, but usually many, many more steps.   
 
