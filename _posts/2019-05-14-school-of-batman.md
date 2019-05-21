@@ -6,7 +6,7 @@ date:   2019-05-14
 categories: chemistry 
 ---
 
-# Notes on the School of Batman Podcast
+<!---# Notes on the School of Batman Podcast -->
 
 I was featured on the (all around awesome) podcast [School of Badman](https://figshare.com/collections/School_of_Batman/3982956) to talk about my field, chemistry, the subfield of my research group, quantum chemistry, and my own specialization or niche, machine learning in quantum chemistry. I made this post here to give some clarifications on things I explained shakily and to present some visualization. I will go through it chronologically. You can find the podcast [here](https://figshare.com/articles/The_Case_Of_Mother_s_Child_Army_-_Stefan_Gugler/8117984) or directly here:
 <iframe src="https://widgets.figshare.com/articles/8117984/embed?show_title=1" width="568" height="250" allowfullscreen="true" frameborder="0"></iframe>
