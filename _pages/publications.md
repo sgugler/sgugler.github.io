@@ -9,7 +9,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 
 ## Peer-Reviewed Articles
 1. J. Proppe<sup>⊥</sup>, **S. Gugler**<sup>⊥</sup>, M. Reiher &quot;Gaussian Process-Based Refinement of Dispersion Corrections&quot;, <a href="https://arxiv.org/abs/1906.09342">arXiv:1906.09342</a>
-3. **S. Gugler**, J. P. Janet, H. J. Kulik, &quot;Enumeration of de novo Inorganic Complexes for Chemical Discovery and Machine Learning&quot;, <a href="https://pubs.rsc.org/en/content/articlelanding/2019/me/c9me00069k"><i>Mol. Syst. Des. Eng.</i> <b>2019</b> </a>;<a href="https://chemrxiv.org/articles/Enumeration_of_de_novo_Inorganic_Complexes_for_Chemical_Discovery_and_Machine_Learning/8279609">chemrxiv</a>
+3. **S. Gugler**, J. P. Janet, H. J. Kulik, &quot;Enumeration of de novo Inorganic Complexes for Chemical Discovery and Machine Learning&quot;, <a href="https://pubs.rsc.org/en/content/articlelanding/2019/me/c9me00069k"><i>Mol. Syst. Des. Eng.</i> <b>2019</b></a>; <a href="https://chemrxiv.org/articles/Enumeration_of_de_novo_Inorganic_Complexes_for_Chemical_Discovery_and_Machine_Learning/8279609">chemrxiv</a>
 4. A. Nandy, C. Duan, J. P. Janet, **S. Gugler**, H. J. Kulik, &quot;Strategies and Software for Machine Learning Accelerated Discovery in Transition Metal Chemistry&quot;, <a href="https://pubs.acs.org/doi/full/10.1021/acs.iecr.8b04015"><i>Ind. Eng. Chem. Res.</i> <b>2018</b>, <i>57</i>, 13973</a>; <a href=" https://chemrxiv.org/articles/Strategies_and_Software_for_Machine_Learning_Accelerated_Discovery_in_Transition_Metal_Chemistry/6987074">chemrxiv</a>
 
 ## Conference Contributions (Posters)
