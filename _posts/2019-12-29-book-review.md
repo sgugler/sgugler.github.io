@@ -14,7 +14,7 @@ Another "trick" was to put down books that didn't catch my attention right away-
 
 I basically just scroll through my to-do list and start reading what catches my attention (which, as we will see below, was not without consequences). I'm lucky enough to be a bit of a genre fan ('lucky' because I suppose the selection process for non-fans might be a tad more difficult in times of cluelessness) so if I don't know where to go, I can just consult the [list of joint winners of the Hugo and Nebula awards](https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards) (my clue is my genre). It's not the most elegant process but I was rarely disappointed by the entries. 
 
-![da09edfdf3695711088a8f6059983a85.png](:../images/book-review-2019/daf969281edf4bb7b380850f4151d945)
+![Books coarsly classified by genre](:/images/book-review-2019/daf969281edf4bb7b380850f4151d945.png)
 
 It was quite hard to classify the books by genres. Making the classifications too narrow resulted in too many different genres and setting them too wide (which is what I did here) results in some inaccuracies. You can verify for yourself how daft I was with certain classifications, but it's more for myself to get an overview.
 
@@ -28,7 +28,7 @@ In the middle of the year, I compared my reading list with Anna and she was imme
 
 [3] [Gender Discrimination in SFF Awards](https://ladybusiness.dreamwidth.org/2015/09/29/gender-discrimination-in-sff-awards.html)
 
-![88e5e4393a3c5066495c1451b164d404.png](:../images/book-review-2019/9a67ff36840344b488767fd03fbc51eb)
+![OOF](:/images/book-review-2019/9a67ff36840344b488767fd03fbc51eb.png)
 
 Half of the authors in the second half of the year were female, so the de-biasing worked out quite well on these terms. One final observation on that: Certain types of books are easier to gender-swap than others. There is no real alternative to the 'genre' 'Chomsky'. Sure, contentwise (for Chomsky: political analysis), there are plenty of alternatives, but it seems that certain authors are more of a genre themselves. People might read Chomsky qua Chomsky and not qua political commentator. For more genre-centered literature (like SF), it was easier to just seamlessly swap out male for female authors, because I might be more interested in SF-topics than the actual author (SF qua SF, to use 'qua' one last time). I hear the quick-witted gender-sceptical from the back say: "But if the author is not important, why even bother to de-bias according to gender?" My answer is this: Just because the SF-topic/story is more important to me than the author, does (fairly obviously) not mean that the experiences of an author has tremendous influence on how a story is told or how characters are built (early Asimov's women are very different from e.g. Ann Leckie's), which can in itself be a worthwhile goal.
 
@@ -40,7 +40,7 @@ I applied for and won a small 'grant' from the Swiss Study Foundation to hold a 
 
 Some more sceptical friends immediately asked "50 books, ... I mean, what do you define as a book?" I think that's a silly and ill-targeted question. I'm not trying to read 50 book because it's some sort of magic number or to show off. If I failed in Feburary and only read three books, it would have been already worth it. The goal is of instrumental nature to get me started. Some of the books are small novellas (Binti Trilogy) or longer essays (Rothbard), others are actual tomes (oh my Dune). But since I like numbers anyways, I tracked it all and I think I can actually say that I'm not cheating since on average the books had 297 pages with a standard deviation of 150 pages. The median is at 304 pages. That results in about 1200 pages each month.
 
-![6369d869e8ad05a5751801d379546239.png](:../images/book-review-2019/4bb3ce1fe0944985b01d1f7d17f7ae62)
+![Number of pages per month](:/images/book-review-2019/4bb3ce1fe0944985b01d1f7d17f7ae62.png)
 
 ## What it did for me
 
