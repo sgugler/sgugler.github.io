@@ -104,4 +104,4 @@ The ratings are very qualitative and not normalized at all. I thought about writ
 
 If you like Goodreads (a website that tracks your reading and 'looks like it hasn't been updated since 2009' (Anna)), you can [check out my account](https://www.goodreads.com/user/show/21258671-stefan-gugler). I read many books on my phone and on the computer screen. When I bought them, I tried supporting local bookstores rather than Amazon. Concluding, I hope I could spark some motivation to take up a book you always wanted to get through in 2020!
 
-Thanks to Anna and Roy for reading through beforehand.
+Thanks to Anna for reading through beforehand.
