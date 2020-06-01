@@ -13,9 +13,9 @@ the process a bit more. The result is are another video, a few slides, and a nic
 
 Naturally, the video contains major spoilers.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Video Link](https://img.youtube.com/vi/fTx1K2KXCCY/0.jpg)](https://www.youtube.com/watch?v=fTx1K2KXCCY)
 
-where you can find the slides [here](/images/fs/fs_presentation.pdf) and my goodreads review [here](https://www.goodreads.com/review/show/3339446261).
+You can find the slides [here](/images/fs/fs_presentation.pdf) and my goodreads review [here](https://www.goodreads.com/review/show/3339446261).
 
 
 ## Intro
@@ -28,12 +28,13 @@ where you can find the slides [here](/images/fs/fs_presentation.pdf) and my good
 
 ## Timeline
 
-Damaya: 2, 6, 11, 17
-Syenite: 4, 8, 9, 12, 14, 16, 19, 20, 22
-Essun: 1, 3, 5, 7, 10, 13, 15, 18, 21, 23
+* Damaya: 2, 6, 11, 17
+* Syenite: 4, 8, 9, 12, 14, 16, 19, 20, 22
+* Essun: 1, 3, 5, 7, 10, 13, 15, 18, 21, 23
 
 <img src="/images/fs/fs_plot_diagram.png" alt="Diagram of the plot.">
-*code for Mermaid diagram at the end.*
+
+(*code for Mermaid diagram at the end)
 
 ### Damaya
 * **Damaya**, an **orogene**, is collected by **Schaffa** from her bad parents and scares her (2, 6)
