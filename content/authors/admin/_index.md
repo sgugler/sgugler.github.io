@@ -47,18 +47,18 @@ profiles:
     url: https://orcid.org/0000-0001-6257-1923
 
 interests:
-  - Generative diffusion models for molecules
+  - Diffusion models for molecules
   - Chemical reaction network exploration
-  - Machine-learned force fields and molecular dynamics
+  - ML force fields and MD
   - Explainable AI for chemistry
   - Multi-reference quantum chemistry
 
 education:
-  - area: PhD in Theoretical Chemistry (2019–2023)
-    institution: ETH Zurich, group of Prof. Markus Reiher
-  - area: MSc Interdisciplinary Sciences (2016–2018), thesis with Prof. Heather J. Kulik
-    institution: ETH Zurich / Massachusetts Institute of Technology
-  - area: BSc Interdisciplinary Sciences (2013–2016)
+  - area: PhD in Theoretical Chemistry
+    institution: ETH Zurich, with Markus Reiher
+  - area: MSc Interdisciplinary Sciences
+    institution: MIT, with Heather J. Kulik<br>ETH Zurich
+  - area: BSc Interdisciplinary Sciences
     institution: ETH Zurich
 
 # Awards.
