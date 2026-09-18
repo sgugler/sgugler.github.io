@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Stefan Gugler, postdoctoral researcher at TU Berlin / BIFOLD: machine learning for theoretical chemistry, generative diffusion models, chemical reaction networks, machine-learned force fields.'
+    twitter: 'stevain'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
