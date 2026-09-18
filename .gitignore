@@ -4,3 +4,8 @@
 .hugo_build.lock
 hugo_stats.json
 go.sum
+
+# yanzi (SvelteKit app)
+/yanzi/node_modules/
+/yanzi/build/
+/yanzi/.svelte-kit/
