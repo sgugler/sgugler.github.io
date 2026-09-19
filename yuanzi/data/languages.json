@@ -1,0 +1,828 @@
+[
+{
+"z": 1,
+"symbol": "H",
+"ja": "水素",
+"ko": "수소",
+"vi": "hydro"
+},
+{
+"z": 2,
+"symbol": "He",
+"ja": "ヘリウム",
+"ko": "헬륨",
+"vi": "heli"
+},
+{
+"z": 3,
+"symbol": "Li",
+"ja": "リチウム",
+"ko": "리튬",
+"vi": "lithi"
+},
+{
+"z": 4,
+"symbol": "Be",
+"ja": "ベリリウム",
+"ko": "베릴륨",
+"vi": "beryli"
+},
+{
+"z": 5,
+"symbol": "B",
+"ja": "ホウ素",
+"ko": "붕소",
+"vi": "bor"
+},
+{
+"z": 6,
+"symbol": "C",
+"ja": "炭素",
+"ko": "탄소",
+"vi": "carbon"
+},
+{
+"z": 7,
+"symbol": "N",
+"ja": "窒素",
+"ko": "질소",
+"vi": "nitơ"
+},
+{
+"z": 8,
+"symbol": "O",
+"ja": "酸素",
+"ko": "산소",
+"vi": "oxy"
+},
+{
+"z": 9,
+"symbol": "F",
+"ja": "フッ素",
+"ko": "플루오린",
+"vi": "fluor"
+},
+{
+"z": 10,
+"symbol": "Ne",
+"ja": "ネオン",
+"ko": "네온",
+"vi": "neon"
+},
+{
+"z": 11,
+"symbol": "Na",
+"ja": "ナトリウム",
+"ko": "나트륨",
+"vi": "natri"
+},
+{
+"z": 12,
+"symbol": "Mg",
+"ja": "マグネシウム",
+"ko": "마그네슘",
+"vi": "magnesi"
+},
+{
+"z": 13,
+"symbol": "Al",
+"ja": "アルミニウム",
+"ko": "알루미늄",
+"vi": "nhôm"
+},
+{
+"z": 14,
+"symbol": "Si",
+"ja": "ケイ素",
+"ko": "규소",
+"vi": "silic"
+},
+{
+"z": 15,
+"symbol": "P",
+"ja": "リン",
+"ko": "인",
+"vi": "phosphor"
+},
+{
+"z": 16,
+"symbol": "S",
+"ja": "硫黄",
+"ko": "황",
+"vi": "lưu huỳnh"
+},
+{
+"z": 17,
+"symbol": "Cl",
+"ja": "塩素",
+"ko": "염소",
+"vi": "chlor"
+},
+{
+"z": 18,
+"symbol": "Ar",
+"ja": "アルゴン",
+"ko": "아르곤",
+"vi": "agon"
+},
+{
+"z": 19,
+"symbol": "K",
+"ja": "カリウム",
+"ko": "칼륨",
+"vi": "kali"
+},
+{
+"z": 20,
+"symbol": "Ca",
+"ja": "カルシウム",
+"ko": "칼슘",
+"vi": "calci"
+},
+{
+"z": 21,
+"symbol": "Sc",
+"ja": "スカンジウム",
+"ko": "스칸듐",
+"vi": "scandi"
+},
+{
+"z": 22,
+"symbol": "Ti",
+"ja": "チタン",
+"ko": "타이타늄",
+"vi": "titan"
+},
+{
+"z": 23,
+"symbol": "V",
+"ja": "バナジウム",
+"ko": "바나듐",
+"vi": "vanadi"
+},
+{
+"z": 24,
+"symbol": "Cr",
+"ja": "クロム",
+"ko": "크로뮴",
+"vi": "chromi"
+},
+{
+"z": 25,
+"symbol": "Mn",
+"ja": "マンガン",
+"ko": "망가니즈",
+"vi": "mangan"
+},
+{
+"z": 26,
+"symbol": "Fe",
+"ja": "鉄",
+"ko": "철",
+"vi": "sắt"
+},
+{
+"z": 27,
+"symbol": "Co",
+"ja": "コバルト",
+"ko": "코발트",
+"vi": "cobalt"
+},
+{
+"z": 28,
+"symbol": "Ni",
+"ja": "ニッケル",
+"ko": "니켈",
+"vi": "niken"
+},
+{
+"z": 29,
+"symbol": "Cu",
+"ja": "銅",
+"ko": "구리",
+"vi": "đồng"
+},
+{
+"z": 30,
+"symbol": "Zn",
+"ja": "亜鉛",
+"ko": "아연",
+"vi": "kẽm"
+},
+{
+"z": 31,
+"symbol": "Ga",
+"ja": "ガリウム",
+"ko": "갈륨",
+"vi": "gali"
+},
+{
+"z": 32,
+"symbol": "Ge",
+"ja": "ゲルマニウム",
+"ko": "저마늄",
+"vi": "gecmani"
+},
+{
+"z": 33,
+"symbol": "As",
+"ja": "ヒ素",
+"ko": "비소",
+"vi": "asen"
+},
+{
+"z": 34,
+"symbol": "Se",
+"ja": "セレン",
+"ko": "셀레늄",
+"vi": "selen"
+},
+{
+"z": 35,
+"symbol": "Br",
+"ja": "臭素",
+"ko": "브로민",
+"vi": "brom"
+},
+{
+"z": 36,
+"symbol": "Kr",
+"ja": "クリプトン",
+"ko": "크립톤",
+"vi": "krypton"
+},
+{
+"z": 37,
+"symbol": "Rb",
+"ja": "ルビジウム",
+"ko": "루비듐",
+"vi": "rubidi"
+},
+{
+"z": 38,
+"symbol": "Sr",
+"ja": "ストロンチウム",
+"ko": "스트론튬",
+"vi": "stronti"
+},
+{
+"z": 39,
+"symbol": "Y",
+"ja": "イットリウム",
+"ko": "이트륨",
+"vi": "yttri"
+},
+{
+"z": 40,
+"symbol": "Zr",
+"ja": "ジルコニウム",
+"ko": "지르코늄",
+"vi": "zirconi"
+},
+{
+"z": 41,
+"symbol": "Nb",
+"ja": "ニオブ",
+"ko": "나이오븀",
+"vi": "niobi"
+},
+{
+"z": 42,
+"symbol": "Mo",
+"ja": "モリブデン",
+"ko": "몰리브데넘",
+"vi": "molypden"
+},
+{
+"z": 43,
+"symbol": "Tc",
+"ja": "テクネチウム",
+"ko": "테크네튬",
+"vi": "tecneti"
+},
+{
+"z": 44,
+"symbol": "Ru",
+"ja": "ルテニウム",
+"ko": "루테늄",
+"vi": "rutheni"
+},
+{
+"z": 45,
+"symbol": "Rh",
+"ja": "ロジウム",
+"ko": "로듐",
+"vi": "rhodi"
+},
+{
+"z": 46,
+"symbol": "Pd",
+"ja": "パラジウム",
+"ko": "팔라듐",
+"vi": "paladi"
+},
+{
+"z": 47,
+"symbol": "Ag",
+"ja": "銀",
+"ko": "은",
+"vi": "bạc"
+},
+{
+"z": 48,
+"symbol": "Cd",
+"ja": "カドミウム",
+"ko": "카드뮴",
+"vi": "cadmi"
+},
+{
+"z": 49,
+"symbol": "In",
+"ja": "インジウム",
+"ko": "인듐",
+"vi": "indi"
+},
+{
+"z": 50,
+"symbol": "Sn",
+"ja": "スズ",
+"ko": "주석",
+"vi": "thiếc"
+},
+{
+"z": 51,
+"symbol": "Sb",
+"ja": "アンチモン",
+"ko": "안티모니",
+"vi": "antimon"
+},
+{
+"z": 52,
+"symbol": "Te",
+"ja": "テルル",
+"ko": "텔루륨",
+"vi": "telua"
+},
+{
+"z": 53,
+"symbol": "I",
+"ja": "ヨウ素",
+"ko": "아이오딘",
+"vi": "iod"
+},
+{
+"z": 54,
+"symbol": "Xe",
+"ja": "キセノン",
+"ko": "제논",
+"vi": "xenon"
+},
+{
+"z": 55,
+"symbol": "Cs",
+"ja": "セシウム",
+"ko": "세슘",
+"vi": "xêsi"
+},
+{
+"z": 56,
+"symbol": "Ba",
+"ja": "バリウム",
+"ko": "바륨",
+"vi": "bari"
+},
+{
+"z": 57,
+"symbol": "La",
+"ja": "ランタン",
+"ko": "란타넘",
+"vi": "lantan"
+},
+{
+"z": 58,
+"symbol": "Ce",
+"ja": "セリウム",
+"ko": "세륨",
+"vi": "xeri"
+},
+{
+"z": 59,
+"symbol": "Pr",
+"ja": "プラセオジム",
+"ko": "프라세오디뮴",
+"vi": "praseodymi"
+},
+{
+"z": 60,
+"symbol": "Nd",
+"ja": "ネオジム",
+"ko": "네오디뮴",
+"vi": "neodymi"
+},
+{
+"z": 61,
+"symbol": "Pm",
+"ja": "プロメチウム",
+"ko": "프로메튬",
+"vi": "promethi"
+},
+{
+"z": 62,
+"symbol": "Sm",
+"ja": "サマリウム",
+"ko": "사마륨",
+"vi": "samari"
+},
+{
+"z": 63,
+"symbol": "Eu",
+"ja": "ユウロピウム",
+"ko": "유로퓸",
+"vi": "europi"
+},
+{
+"z": 64,
+"symbol": "Gd",
+"ja": "ガドリニウム",
+"ko": "가돌리늄",
+"vi": "gadolini"
+},
+{
+"z": 65,
+"symbol": "Tb",
+"ja": "テルビウム",
+"ko": "터븀",
+"vi": "terbi"
+},
+{
+"z": 66,
+"symbol": "Dy",
+"ja": "ジスプロシウム",
+"ko": "디스프로슘",
+"vi": "dysprosi"
+},
+{
+"z": 67,
+"symbol": "Ho",
+"ja": "ホルミウム",
+"ko": "홀뮴",
+"vi": "holmi"
+},
+{
+"z": 68,
+"symbol": "Er",
+"ja": "エルビウム",
+"ko": "어븀",
+"vi": "erbi"
+},
+{
+"z": 69,
+"symbol": "Tm",
+"ja": "ツリウム",
+"ko": "툴륨",
+"vi": "thuli"
+},
+{
+"z": 70,
+"symbol": "Yb",
+"ja": "イッテルビウム",
+"ko": "이터븀",
+"vi": "ytterbi"
+},
+{
+"z": 71,
+"symbol": "Lu",
+"ja": "ルテチウム",
+"ko": "루테튬",
+"vi": "luteti"
+},
+{
+"z": 72,
+"symbol": "Hf",
+"ja": "ハフニウム",
+"ko": "하프늄",
+"vi": "hafni"
+},
+{
+"z": 73,
+"symbol": "Ta",
+"ja": "タンタル",
+"ko": "탄탈럼",
+"vi": "tantali"
+},
+{
+"z": 74,
+"symbol": "W",
+"ja": "タングステン",
+"ko": "텅스텐",
+"vi": "vonfram"
+},
+{
+"z": 75,
+"symbol": "Re",
+"ja": "レニウム",
+"ko": "레늄",
+"vi": "rheni"
+},
+{
+"z": 76,
+"symbol": "Os",
+"ja": "オスミウム",
+"ko": "오스뮴",
+"vi": "osmi"
+},
+{
+"z": 77,
+"symbol": "Ir",
+"ja": "イリジウム",
+"ko": "이리듐",
+"vi": "iridi"
+},
+{
+"z": 78,
+"symbol": "Pt",
+"ja": "白金",
+"ko": "백금",
+"vi": "platin"
+},
+{
+"z": 79,
+"symbol": "Au",
+"ja": "金",
+"ko": "금",
+"vi": "vàng"
+},
+{
+"z": 80,
+"symbol": "Hg",
+"ja": "水銀",
+"ko": "수은",
+"vi": "thủy ngân"
+},
+{
+"z": 81,
+"symbol": "Tl",
+"ja": "タリウム",
+"ko": "탈륨",
+"vi": "tali"
+},
+{
+"z": 82,
+"symbol": "Pb",
+"ja": "鉛",
+"ko": "납",
+"vi": "chì"
+},
+{
+"z": 83,
+"symbol": "Bi",
+"ja": "ビスマス",
+"ko": "비스무트",
+"vi": "bitmut"
+},
+{
+"z": 84,
+"symbol": "Po",
+"ja": "ポロニウム",
+"ko": "폴로늄",
+"vi": "poloni"
+},
+{
+"z": 85,
+"symbol": "At",
+"ja": "アスタチン",
+"ko": "아스타틴",
+"vi": "astatin"
+},
+{
+"z": 86,
+"symbol": "Rn",
+"ja": "ラドン",
+"ko": "라돈",
+"vi": "radon"
+},
+{
+"z": 87,
+"symbol": "Fr",
+"ja": "フランシウム",
+"ko": "프랑슘",
+"vi": "franxi"
+},
+{
+"z": 88,
+"symbol": "Ra",
+"ja": "ラジウム",
+"ko": "라듐",
+"vi": "radi"
+},
+{
+"z": 89,
+"symbol": "Ac",
+"ja": "アクチニウム",
+"ko": "악티늄",
+"vi": "actini"
+},
+{
+"z": 90,
+"symbol": "Th",
+"ja": "トリウム",
+"ko": "토륨",
+"vi": "thori"
+},
+{
+"z": 91,
+"symbol": "Pa",
+"ja": "プロトアクチニウム",
+"ko": "프로탁티늄",
+"vi": "protactini"
+},
+{
+"z": 92,
+"symbol": "U",
+"ja": "ウラン",
+"ko": "우라늄",
+"vi": "urani"
+},
+{
+"z": 93,
+"symbol": "Np",
+"ja": "ネプツニウム",
+"ko": "넵투늄",
+"vi": "neptuni"
+},
+{
+"z": 94,
+"symbol": "Pu",
+"ja": "プルトニウム",
+"ko": "플루토늄",
+"vi": "plutoni"
+},
+{
+"z": 95,
+"symbol": "Am",
+"ja": "アメリシウム",
+"ko": "아메리슘",
+"vi": "americi"
+},
+{
+"z": 96,
+"symbol": "Cm",
+"ja": "キュリウム",
+"ko": "퀴륨",
+"vi": "curium"
+},
+{
+"z": 97,
+"symbol": "Bk",
+"ja": "バークリウム",
+"ko": "버클륨",
+"vi": "berkeli"
+},
+{
+"z": 98,
+"symbol": "Cf",
+"ja": "カリホルニウム",
+"ko": "캘리포늄",
+"vi": "californi"
+},
+{
+"z": 99,
+"symbol": "Es",
+"ja": "アインスタイニウム",
+"ko": "아인슈타이늄",
+"vi": "einsteini"
+},
+{
+"z": 100,
+"symbol": "Fm",
+"ja": "フェルミウム",
+"ko": "페르뮴",
+"vi": "fermi"
+},
+{
+"z": 101,
+"symbol": "Md",
+"ja": "メンデレビウム",
+"ko": "멘델레븀",
+"vi": "Mendelevi"
+},
+{
+"z": 102,
+"symbol": "No",
+"ja": "ノーベリウム",
+"ko": "노벨륨",
+"vi": "Nobeli"
+},
+{
+"z": 103,
+"symbol": "Lr",
+"ja": "ローレンシウム",
+"ko": "로렌슘",
+"vi": "Lawrenci"
+},
+{
+"z": 104,
+"symbol": "Rf",
+"ja": "ラザホージウム",
+"ko": "러더포듐",
+"vi": "rutherfordi"
+},
+{
+"z": 105,
+"symbol": "Db",
+"ja": "ドブニウム",
+"ko": "더브늄",
+"vi": "dubni"
+},
+{
+"z": 106,
+"symbol": "Sg",
+"ja": "シーボーギウム",
+"ko": "시보귬",
+"vi": "seaborgi"
+},
+{
+"z": 107,
+"symbol": "Bh",
+"ja": "ボーリウム",
+"ko": "보륨",
+"vi": "bohri"
+},
+{
+"z": 108,
+"symbol": "Hs",
+"ja": "ハッシウム",
+"ko": "하슘",
+"vi": "hassi"
+},
+{
+"z": 109,
+"symbol": "Mt",
+"ja": "マイトネリウム",
+"ko": "마이트너륨",
+"vi": "meitneri"
+},
+{
+"z": 110,
+"symbol": "Ds",
+"ja": "ダームスタチウム",
+"ko": "다름슈타튬",
+"vi": "darmstadti"
+},
+{
+"z": 111,
+"symbol": "Rg",
+"ja": "レントゲニウム",
+"ko": "뢴트게늄",
+"vi": "Roentgeni"
+},
+{
+"z": 112,
+"symbol": "Cn",
+"ja": "コペルニシウム",
+"ko": "코페르니슘",
+"vi": "copernixi"
+},
+{
+"z": 113,
+"symbol": "Nh",
+"ja": "ニホニウム",
+"ko": "니호늄",
+"vi": "nihoni"
+},
+{
+"z": 114,
+"symbol": "Fl",
+"ja": "フレロビウム",
+"ko": "플레로븀",
+"vi": "flerovi"
+},
+{
+"z": 115,
+"symbol": "Mc",
+"ja": "モスコビウム",
+"ko": "모스코븀",
+"vi": "moscovi"
+},
+{
+"z": 116,
+"symbol": "Lv",
+"ja": "リバモリウム",
+"ko": "리버모륨",
+"vi": "livermori"
+},
+{
+"z": 117,
+"symbol": "Ts",
+"ja": "テネシン",
+"ko": "테네신",
+"vi": "tennessine"
+},
+{
+"z": 118,
+"symbol": "Og",
+"ja": "オガネソン",
+"ko": "오가네손",
+"vi": "oganesson"
+}
+]

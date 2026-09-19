@@ -27,10 +27,15 @@ IDS = {"𥑢": "⿰石布", "𨦗": "⿰金卜", "𳆗": "⿱信金"}
 
 attest = {e["symbol"]: [] for e in elements}
 
+# The comparison table mixes simplified and traditional spellings; write each
+# current character in its traditional form so one form gets one row.
+to_hant = {v["hans"]: v["hant"] for v in variants.values() if v.get("hant") and v["hans"] != v["hant"]}
+
 for row in early:
     for src in ("martin1868", "kerr1870", "macgowan1871", "xu1871"):
         form = row.get(src)
         if form:
+            form = to_hant.get(form, form)
             entry = {"form": form, "source": src}
             if form in IDS:
                 entry["ids"] = IDS[form]
@@ -92,4 +97,5 @@ for e in elements:
 with_history = sum(1 for s in out.values() if s["forms"])
 (root / "src/lib/history.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
 (root / "src/lib/sources.json").write_text(json.dumps(sources, ensure_ascii=False, indent=1) + "\n")
+(root / "src/lib/timeline.json").write_text((data / "timeline.json").read_text())
 print(f"{with_history} elements with attested earlier forms; {sum(len(s['forms']) for s in out.values())} attestations")

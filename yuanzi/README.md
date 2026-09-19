@@ -1,6 +1,6 @@
 # 元字 yuánzì
 
-A small SvelteKit app that lets you search and explore the Chinese characters of
+Inspired by Adrian Hill's [Guzi](https://adrianhill.de/guzi/). A small SvelteKit app that lets you search and explore the Chinese characters of
 the 118 chemical elements. It is served at <https://sgugler.ch/yuanzi/> next to
 the Hugo site: the publish workflow builds it and copies `build/` into
 `public/yuanzi/`.
@@ -50,11 +50,22 @@ Add an attestation to a curated file and rerun the script. An entry may carry
 `succeeds` (the form it replaced, drawn as a link), `ids` (composition for
 characters most fonts lack) and `year` (for undated proposals).
 
+## Phonetics, languages, etymology
+
+`scripts/build-extras.py` writes `src/lib/phonetics.json` (one entry per
+phonetic component with its Unihan reading and gloss, and the syllable of the
+international name it transliterates; hand-checked overrides live in the
+script) and `src/lib/extras.json` (per element: Japanese, Korean and
+Vietnamese names from Wikidata, Western etymology from Wikipedia's list).
+Inputs: `data/unihan.json`, `data/languages.json`, `data/etymology.txt`.
+`data/timeline.json` feeds the Timeline page.
+
 ## Layout
 
 - `src/routes/+page.svelte` – explorer: search, radical and origin filters,
   periodic table or list view
 - `src/routes/[symbol]/` – one prerendered page per element (`/yuanzi/fe/`)
+- `src/routes/phonetic/`, `timeline/`, `sources/`, `languages/`, `compounds/`, `about/` – the other sections
 - `src/lib/data.js` – search, tone-insensitive pinyin matching, homophones
 - `src/service-worker.js`, `static/manifest.webmanifest` – installable, works
   offline

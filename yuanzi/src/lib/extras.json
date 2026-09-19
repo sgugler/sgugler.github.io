@@ -1,0 +1,2085 @@
+{
+ "H": {
+  "sourceName": "hydrogen",
+  "syllables": [
+   "hyd",
+   "ro",
+   "gen"
+  ],
+  "matched": null,
+  "ja": "水素",
+  "ko": "수소",
+  "vi": "hydro",
+  "etymology": {
+   "language": "Greek via Latin and French",
+   "word": "ὕδωρ (root: ὑδρ-) + γενής (hydor genes)",
+   "meaning": "water + begetter",
+   "kind": "descriptive"
+  }
+ },
+ "He": {
+  "sourceName": "helium",
+  "syllables": [
+   "he",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "ヘリウム",
+  "ko": "헬륨",
+  "vi": "heli",
+  "etymology": {
+   "language": "Greek",
+   "word": "ἥλιος (hélios)",
+   "meaning": "sun",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Li": {
+  "sourceName": "lithium",
+  "syllables": [
+   "lit",
+   "hium"
+  ],
+  "matched": 0,
+  "ja": "リチウム",
+  "ko": "리튬",
+  "vi": "lithi",
+  "etymology": {
+   "language": "Greek",
+   "word": "λίθος (lithos)",
+   "meaning": "stone",
+   "kind": ""
+  }
+ },
+ "Be": {
+  "sourceName": "beryllium",
+  "syllables": [
+   "be",
+   "ryl",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "ベリリウム",
+  "ko": "베릴륨",
+  "vi": "beryli",
+  "etymology": {
+   "language": "Sanskrit, Pali, and Prakrit via Greek, Latin, Old French, and Middle English",
+   "word": "City of Belur in India via Greek βήρυλλος (beryllos)",
+   "meaning": "beryl\", a mineral",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "B": {
+  "sourceName": "boron",
+  "syllables": [
+   "bo",
+   "ron"
+  ],
+  "matched": null,
+  "ja": "ホウ素",
+  "ko": "붕소",
+  "vi": "bor",
+  "etymology": {
+   "language": "Arabic, Medieval Latin, Anglo-Norman, Middle French, and Middle English",
+   "word": "بورق (buraq)",
+   "meaning": "",
+   "kind": ""
+  }
+ },
+ "C": {
+  "sourceName": "carbon",
+  "syllables": [
+   "car",
+   "bon"
+  ],
+  "matched": null,
+  "ja": "炭素",
+  "ko": "탄소",
+  "vi": "carbon",
+  "etymology": {
+   "language": "Latin via French",
+   "word": "charbone",
+   "meaning": "charcoal",
+   "kind": ""
+  }
+ },
+ "N": {
+  "sourceName": "nitrogen",
+  "syllables": [
+   "nit",
+   "ro",
+   "gen"
+  ],
+  "matched": null,
+  "ja": "窒素",
+  "ko": "질소",
+  "vi": "nitơ",
+  "etymology": {
+   "language": "Greek via Latin and French",
+   "word": "νίτρον (Latin: nitrum) -γενής (-genes)",
+   "meaning": "native-soda begetter",
+   "kind": "descriptive"
+  }
+ },
+ "O": {
+  "sourceName": "oxygen",
+  "syllables": [
+   "o",
+   "xy",
+   "gen"
+  ],
+  "matched": null,
+  "ja": "酸素",
+  "ko": "산소",
+  "vi": "oxy",
+  "etymology": {
+   "language": "Greek via French",
+   "word": "ὀξύ γείνομαι (oxy geinomai)/oxygène",
+   "meaning": "to bring forth acid",
+   "kind": ""
+  }
+ },
+ "F": {
+  "sourceName": "fluorine",
+  "syllables": [
+   "fluo",
+   "ri",
+   "ne"
+  ],
+  "matched": 0,
+  "ja": "フッ素",
+  "ko": "플루오린",
+  "vi": "fluor",
+  "etymology": {
+   "language": "Latin",
+   "word": "fluor",
+   "meaning": "a flowing",
+   "kind": ""
+  }
+ },
+ "Ne": {
+  "sourceName": "neon",
+  "syllables": [
+   "neon"
+  ],
+  "matched": 0,
+  "ja": "ネオン",
+  "ko": "네온",
+  "vi": "neon",
+  "etymology": {
+   "language": "Greek",
+   "word": "νέος (neos)",
+   "meaning": "new",
+   "kind": ""
+  }
+ },
+ "Na": {
+  "sourceName": "natrium",
+  "syllables": [
+   "nat",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "ナトリウム",
+  "ko": "나트륨",
+  "vi": "natri",
+  "etymology": {
+   "language": "English",
+   "word": "soda",
+   "meaning": "",
+   "kind": ""
+  }
+ },
+ "Mg": {
+  "sourceName": "magnesium",
+  "syllables": [
+   "mag",
+   "ne",
+   "sium"
+  ],
+  "matched": 0,
+  "ja": "マグネシウム",
+  "ko": "마그네슘",
+  "vi": "magnesi",
+  "etymology": {
+   "language": "Greek",
+   "word": "Μαγνησία (Magnesia)",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Al": {
+  "sourceName": "aluminium",
+  "syllables": [
+   "a",
+   "lu",
+   "mi",
+   "nium"
+  ],
+  "matched": 1,
+  "ja": "アルミニウム",
+  "ko": "알루미늄",
+  "vi": "nhôm",
+  "etymology": {
+   "language": "Latin",
+   "word": "alumen",
+   "meaning": "alum\" (literally: bitter salt)",
+   "kind": ""
+  }
+ },
+ "Si": {
+  "sourceName": "silicon",
+  "syllables": [
+   "si",
+   "li",
+   "con"
+  ],
+  "matched": null,
+  "ja": "ケイ素",
+  "ko": "규소",
+  "vi": "silic",
+  "etymology": {
+   "language": "Latin",
+   "word": "silex, silicis",
+   "meaning": "flint",
+   "kind": "descriptive"
+  }
+ },
+ "P": {
+  "sourceName": "phosphorus",
+  "syllables": [
+   "phosp",
+   "ho",
+   "rus"
+  ],
+  "matched": null,
+  "ja": "リン",
+  "ko": "인",
+  "vi": "phosphor",
+  "etymology": {
+   "language": "Greek via Latin",
+   "word": "φῶς + φόρος (phos + phoros)",
+   "meaning": "light-bearer",
+   "kind": "descriptive"
+  }
+ },
+ "S": {
+  "sourceName": "sulphur",
+  "syllables": [
+   "sulp",
+   "hur"
+  ],
+  "matched": null,
+  "ja": "硫黄",
+  "ko": "황",
+  "vi": "lưu huỳnh",
+  "etymology": {
+   "language": "Latin; ; Proto-Indo-European (PIE)",
+   "word": "Old Latin sulpur; (later sulphur, sulfur); ; Proto-Indo-European *swépl̥; (genitive *sulplós),; nominal derivative of *swelp.",
+   "meaning": "to burn",
+   "kind": ""
+  }
+ },
+ "Cl": {
+  "sourceName": "chlorine",
+  "syllables": [
+   "chlo",
+   "ri",
+   "ne"
+  ],
+  "matched": null,
+  "ja": "塩素",
+  "ko": "염소",
+  "vi": "chlor",
+  "etymology": {
+   "language": "Greek",
+   "word": "χλωρός (chlorós)",
+   "meaning": "pale green",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Ar": {
+  "sourceName": "argon",
+  "syllables": [
+   "ar",
+   "gon"
+  ],
+  "matched": 0,
+  "ja": "アルゴン",
+  "ko": "아르곤",
+  "vi": "agon",
+  "etymology": {
+   "language": "Greek",
+   "word": "ἀργόν (argon)",
+   "meaning": "inactive",
+   "kind": "descriptive"
+  }
+ },
+ "K": {
+  "sourceName": "kalium",
+  "syllables": [
+   "ka",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "カリウム",
+  "ko": "칼륨",
+  "vi": "kali",
+  "etymology": {
+   "language": "Neo-Latin via Dutch and English",
+   "word": "potassa; potasch via potash",
+   "meaning": "pot-ash",
+   "kind": ""
+  }
+ },
+ "Ca": {
+  "sourceName": "calcium",
+  "syllables": [
+   "cal",
+   "cium"
+  ],
+  "matched": 0,
+  "ja": "カルシウム",
+  "ko": "칼슘",
+  "vi": "calci",
+  "etymology": {
+   "language": "Greek/Latin",
+   "word": "χάλιξ/calx",
+   "meaning": "pebble\"/\"limestone",
+   "kind": ""
+  }
+ },
+ "Sc": {
+  "sourceName": "scandium",
+  "syllables": [
+   "scan",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "スカンジウム",
+  "ko": "스칸듐",
+  "vi": "scandi",
+  "etymology": {
+   "language": "Latin",
+   "word": "Scandia",
+   "meaning": "Scandinavia",
+   "kind": "toponym"
+  }
+ },
+ "Ti": {
+  "sourceName": "titanium",
+  "syllables": [
+   "ti",
+   "ta",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "チタン",
+  "ko": "타이타늄",
+  "vi": "titan",
+  "etymology": {
+   "language": "Greek",
+   "word": "Τιτάν, : Τιτάνος (Titan)",
+   "meaning": "Titans\", sons of Gaia",
+   "kind": "mythological"
+  }
+ },
+ "V": {
+  "sourceName": "vanadium",
+  "syllables": [
+   "va",
+   "na",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "バナジウム",
+  "ko": "바나듐",
+  "vi": "vanadi",
+  "etymology": {
+   "language": "Old Norse",
+   "word": "Vanadís",
+   "meaning": "Dís of the Vanir",
+   "kind": "mythological"
+  }
+ },
+ "Cr": {
+  "sourceName": "chromium",
+  "syllables": [
+   "chro",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "クロム",
+  "ko": "크로뮴",
+  "vi": "chromi",
+  "etymology": {
+   "language": "Greek via French",
+   "word": "χρῶμα (chróma)",
+   "meaning": "colour",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Mn": {
+  "sourceName": "manganese",
+  "syllables": [
+   "man",
+   "ga",
+   "ne",
+   "se"
+  ],
+  "matched": 0,
+  "ja": "マンガン",
+  "ko": "망가니즈",
+  "vi": "mangan",
+  "etymology": {
+   "language": "Greek via Latin, Italian, and French",
+   "word": "Μαγνησία; (Magnesia;; Medieval Latin: magnesia)",
+   "meaning": "Magnesia (regional unit)\", Greece",
+   "kind": "descriptive, toponym"
+  }
+ },
+ "Fe": {
+  "sourceName": "iron",
+  "syllables": [
+   "i",
+   "ron"
+  ],
+  "matched": null,
+  "ja": "鉄",
+  "ko": "철",
+  "vi": "sắt",
+  "etymology": {
+   "language": "Old English via Middle English",
+   "word": "īsern; (earlier: īren/īsen); /yren/yron",
+   "meaning": "holy metal or strong metal",
+   "kind": "descriptive"
+  }
+ },
+ "Co": {
+  "sourceName": "cobalt",
+  "syllables": [
+   "co",
+   "balt"
+  ],
+  "matched": 0,
+  "ja": "コバルト",
+  "ko": "코발트",
+  "vi": "cobalt",
+  "etymology": {
+   "language": "German",
+   "word": "Kobold|italic=yes",
+   "meaning": "goblin",
+   "kind": ""
+  }
+ },
+ "Ni": {
+  "sourceName": "nickel",
+  "syllables": [
+   "nic",
+   "kel"
+  ],
+  "matched": 0,
+  "ja": "ニッケル",
+  "ko": "니켈",
+  "vi": "niken",
+  "etymology": {
+   "language": "Swedish via German",
+   "word": "Kopparnickel/; Kupfernickel",
+   "meaning": "copper-coloured ore",
+   "kind": "descriptive"
+  }
+ },
+ "Cu": {
+  "sourceName": "copper",
+  "syllables": [
+   "cop",
+   "per"
+  ],
+  "matched": null,
+  "ja": "銅",
+  "ko": "구리",
+  "vi": "đồng",
+  "etymology": {
+   "language": "Greek? via Latin, West Germanic, Old English, and Middle English",
+   "word": "Κύπριος (Kyprios)?",
+   "meaning": "who/which is from Cyprus",
+   "kind": "toponym"
+  }
+ },
+ "Zn": {
+  "sourceName": "zinc",
+  "syllables": [
+   "zinc"
+  ],
+  "matched": 0,
+  "ja": "亜鉛",
+  "ko": "아연",
+  "vi": "kẽm",
+  "etymology": {
+   "language": "German",
+   "word": "Zink",
+   "meaning": "?\"Cornet",
+   "kind": ""
+  }
+ },
+ "Ga": {
+  "sourceName": "gallium",
+  "syllables": [
+   "gal",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "ガリウム",
+  "ko": "갈륨",
+  "vi": "gali",
+  "etymology": {
+   "language": "Latin",
+   "word": "Gallia",
+   "meaning": "Gaul\" (Ancient France)",
+   "kind": "toponym"
+  }
+ },
+ "Ge": {
+  "sourceName": "germanium",
+  "syllables": [
+   "ger",
+   "ma",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ゲルマニウム",
+  "ko": "저마늄",
+  "vi": "gecmani",
+  "etymology": {
+   "language": "Latin",
+   "word": "Germania",
+   "meaning": "Germany",
+   "kind": "toponym"
+  }
+ },
+ "As": {
+  "sourceName": "arsenic",
+  "syllables": [
+   "ar",
+   "se",
+   "nic"
+  ],
+  "matched": 1,
+  "ja": "ヒ素",
+  "ko": "비소",
+  "vi": "asen",
+  "etymology": {
+   "language": "Syriac/Persian via Greek, Latin, Old French, and Middle English",
+   "word": "ἀρσενικόν (arsenikon)",
+   "meaning": "?\"male",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Se": {
+  "sourceName": "selenium",
+  "syllables": [
+   "se",
+   "le",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "セレン",
+  "ko": "셀레늄",
+  "vi": "selen",
+  "etymology": {
+   "language": "Greek",
+   "word": "σελήνη (selene)",
+   "meaning": "moon",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Br": {
+  "sourceName": "bromine",
+  "syllables": [
+   "bro",
+   "mi",
+   "ne"
+  ],
+  "matched": 0,
+  "ja": "臭素",
+  "ko": "브로민",
+  "vi": "brom",
+  "etymology": {
+   "language": "Greek via French",
+   "word": "βρῶμος (brómos)",
+   "meaning": "dirt\" or \"stench\" (of male goat){{cite book",
+   "kind": ""
+  }
+ },
+ "Kr": {
+  "sourceName": "krypton",
+  "syllables": [
+   "kryp",
+   "ton"
+  ],
+  "matched": 0,
+  "ja": "クリプトン",
+  "ko": "크립톤",
+  "vi": "krypton",
+  "etymology": {
+   "language": "Greek",
+   "word": "κρυπτός (kryptos)",
+   "meaning": "hidden",
+   "kind": "descriptive"
+  }
+ },
+ "Rb": {
+  "sourceName": "rubidium",
+  "syllables": [
+   "ru",
+   "bi",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "ルビジウム",
+  "ko": "루비듐",
+  "vi": "rubidi",
+  "etymology": {
+   "language": "Latin",
+   "word": "rubidus",
+   "meaning": "deepest red",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Sr": {
+  "sourceName": "strontium",
+  "syllables": [
+   "stron",
+   "tium"
+  ],
+  "matched": 0,
+  "ja": "ストロンチウム",
+  "ko": "스트론튬",
+  "vi": "stronti",
+  "etymology": {
+   "language": "Scottish Gaelic via English",
+   "word": "Strontian",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Y": {
+  "sourceName": "yttrium",
+  "syllables": [
+   "ytt",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "イットリウム",
+  "ko": "이트륨",
+  "vi": "yttri",
+  "etymology": {
+   "language": "Swedish",
+   "word": "Ytterby",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Zr": {
+  "sourceName": "zirconium",
+  "syllables": [
+   "zir",
+   "co",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ジルコニウム",
+  "ko": "지르코늄",
+  "vi": "zirconi",
+  "etymology": {
+   "language": "Syriac/Persian via Arabic and German",
+   "word": "ܙܐܪܓܥܢܥ (zargono),{{cite web",
+   "meaning": "gold-like",
+   "kind": ""
+  }
+ },
+ "Nb": {
+  "sourceName": "niobium",
+  "syllables": [
+   "nio",
+   "bium"
+  ],
+  "matched": 0,
+  "ja": "ニオブ",
+  "ko": "나이오븀",
+  "vi": "niobi",
+  "etymology": {
+   "language": "Greek",
+   "word": "Νιόβη (Niobe)",
+   "meaning": "snowy",
+   "kind": "mythological"
+  }
+ },
+ "Mo": {
+  "sourceName": "molybdenum",
+  "syllables": [
+   "mo",
+   "lyb",
+   "de",
+   "num"
+  ],
+  "matched": 0,
+  "ja": "モリブデン",
+  "ko": "몰리브데넘",
+  "vi": "molypden",
+  "etymology": {
+   "language": "Greek",
+   "word": "μόλυβδος (molybdos)",
+   "meaning": "lead-like",
+   "kind": "descriptive"
+  }
+ },
+ "Tc": {
+  "sourceName": "technetium",
+  "syllables": [
+   "tech",
+   "ne",
+   "tium"
+  ],
+  "matched": 0,
+  "ja": "テクネチウム",
+  "ko": "테크네튬",
+  "vi": "tecneti",
+  "etymology": {
+   "language": "Greek",
+   "word": "τεχνητός (technetos)",
+   "meaning": "artificial",
+   "kind": "descriptive"
+  }
+ },
+ "Ru": {
+  "sourceName": "ruthenium",
+  "syllables": [
+   "rut",
+   "he",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ルテニウム",
+  "ko": "루테늄",
+  "vi": "rutheni",
+  "etymology": {
+   "language": "Latin",
+   "word": "Ruthenia",
+   "meaning": "Ruthenia\", Kievan Rus'{{Cite book",
+   "kind": "toponym (exonym)"
+  }
+ },
+ "Rh": {
+  "sourceName": "rhodium",
+  "syllables": [
+   "rho",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "ロジウム",
+  "ko": "로듐",
+  "vi": "rhodi",
+  "etymology": {
+   "language": "Greek",
+   "word": "ῥόδον (rhodon)",
+   "meaning": "rose",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Pd": {
+  "sourceName": "palladium",
+  "syllables": [
+   "pal",
+   "la",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "パラジウム",
+  "ko": "팔라듐",
+  "vi": "paladi",
+  "etymology": {
+   "language": "Greek via Latin",
+   "word": "Παλλάς (genitive: Παλλάδος) (Pallas)",
+   "meaning": "little maiden",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Ag": {
+  "sourceName": "silver",
+  "syllables": [
+   "sil",
+   "ver"
+  ],
+  "matched": null,
+  "ja": "銀",
+  "ko": "은",
+  "vi": "bạc",
+  "etymology": {
+   "language": "Akkadian via Old English and Middle English",
+   "word": "(siolfor/seolfor)",
+   "meaning": "to refine\", \"smelt",
+   "kind": ""
+  }
+ },
+ "Cd": {
+  "sourceName": "cadmium",
+  "syllables": [
+   "cad",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "カドミウム",
+  "ko": "카드뮴",
+  "vi": "cadmi",
+  "etymology": {
+   "language": "Greek/Latin",
+   "word": "καδμεία (kadmeia)",
+   "meaning": "Earth\" (as classical element),; \"calamine\" or Cadmean earth[?]",
+   "kind": ""
+  }
+ },
+ "In": {
+  "sourceName": "indium",
+  "syllables": [
+   "in",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "インジウム",
+  "ko": "인듐",
+  "vi": "indi",
+  "etymology": {
+   "language": "Greek via Latin and English",
+   "word": "indigo",
+   "meaning": "",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Sn": {
+  "sourceName": "stannum",
+  "syllables": [
+   "stan",
+   "num"
+  ],
+  "matched": null,
+  "ja": "スズ",
+  "ko": "주석",
+  "vi": "thiếc",
+  "etymology": {
+   "language": "Anglo-Saxon via Middle English",
+   "word": "tin",
+   "meaning": "",
+   "kind": ""
+  }
+ },
+ "Sb": {
+  "sourceName": "stibium",
+  "syllables": [
+   "sti",
+   "bium"
+  ],
+  "matched": 0,
+  "ja": "アンチモン",
+  "ko": "안티모니",
+  "vi": "antimon",
+  "etymology": {
+   "language": "Greek? via Medieval Latin and Middle English",
+   "word": "",
+   "meaning": "various",
+   "kind": ""
+  }
+ },
+ "Te": {
+  "sourceName": "tellurium",
+  "syllables": [
+   "tel",
+   "lu",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "テルル",
+  "ko": "텔루륨",
+  "vi": "telua",
+  "etymology": {
+   "language": "Latin",
+   "word": "Tellus",
+   "meaning": "Earth",
+   "kind": ""
+  }
+ },
+ "I": {
+  "sourceName": "iodine",
+  "syllables": [
+   "io",
+   "di",
+   "ne"
+  ],
+  "matched": 1,
+  "ja": "ヨウ素",
+  "ko": "아이오딘",
+  "vi": "iod",
+  "etymology": {
+   "language": "Greek via French",
+   "word": "ἰώδης (iodes)",
+   "meaning": "violet",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Xe": {
+  "sourceName": "xenon",
+  "syllables": [
+   "xe",
+   "non"
+  ],
+  "matched": 0,
+  "ja": "キセノン",
+  "ko": "제논",
+  "vi": "xenon",
+  "etymology": {
+   "language": "Greek",
+   "word": "ξένος (xenos)",
+   "meaning": "foreign",
+   "kind": ""
+  }
+ },
+ "Cs": {
+  "sourceName": "caesium",
+  "syllables": [
+   "cae",
+   "sium"
+  ],
+  "matched": null,
+  "ja": "セシウム",
+  "ko": "세슘",
+  "vi": "xêsi",
+  "etymology": {
+   "language": "Latin",
+   "word": "caesius",
+   "meaning": "blue-grey\" or \"sky blue",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Ba": {
+  "sourceName": "barium",
+  "syllables": [
+   "ba",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "バリウム",
+  "ko": "바륨",
+  "vi": "bari",
+  "etymology": {
+   "language": "Greek via Neo-Latin",
+   "word": "βαρύς (barys)",
+   "meaning": "heavy",
+   "kind": ""
+  }
+ },
+ "La": {
+  "sourceName": "lanthanum",
+  "syllables": [
+   "lant",
+   "ha",
+   "num"
+  ],
+  "matched": 0,
+  "ja": "ランタン",
+  "ko": "란타넘",
+  "vi": "lantan",
+  "etymology": {
+   "language": "Greek",
+   "word": "λανθάνειν (lanthanein)",
+   "meaning": "to escape notice",
+   "kind": ""
+  }
+ },
+ "Ce": {
+  "sourceName": "cerium",
+  "syllables": [
+   "ce",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "セリウム",
+  "ko": "세륨",
+  "vi": "xeri",
+  "etymology": {
+   "language": "Latin",
+   "word": "ceres",
+   "meaning": "grain\", \"bread",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Pr": {
+  "sourceName": "praseodymium",
+  "syllables": [
+   "pra",
+   "seo",
+   "dy",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "プラセオジム",
+  "ko": "프라세오디뮴",
+  "vi": "praseodymi",
+  "etymology": {
+   "language": "Greek",
+   "word": "πράσιος δίδυμος (prasios didymos)",
+   "meaning": "green twin",
+   "kind": "descriptive"
+  }
+ },
+ "Nd": {
+  "sourceName": "neodymium",
+  "syllables": [
+   "neo",
+   "dy",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "ネオジム",
+  "ko": "네오디뮴",
+  "vi": "neodymi",
+  "etymology": {
+   "language": "Greek",
+   "word": "νέος δίδυμος (neos didymos)",
+   "meaning": "new twin",
+   "kind": "descriptive"
+  }
+ },
+ "Pm": {
+  "sourceName": "promethium",
+  "syllables": [
+   "pro",
+   "met",
+   "hium"
+  ],
+  "matched": 0,
+  "ja": "プロメチウム",
+  "ko": "프로메튬",
+  "vi": "promethi",
+  "etymology": {
+   "language": "Greek",
+   "word": "Προμηθεύς (Prometheus)",
+   "meaning": "forethought",
+   "kind": "mythological"
+  }
+ },
+ "Sm": {
+  "sourceName": "samarium",
+  "syllables": [
+   "sa",
+   "ma",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "サマリウム",
+  "ko": "사마륨",
+  "vi": "samari",
+  "etymology": {
+   "language": "",
+   "word": "Samarsky-Bykhovets, Vassili",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Eu": {
+  "sourceName": "europium",
+  "syllables": [
+   "eu",
+   "ro",
+   "pium"
+  ],
+  "matched": 0,
+  "ja": "ユウロピウム",
+  "ko": "유로퓸",
+  "vi": "europi",
+  "etymology": {
+   "language": "Ancient Greek",
+   "word": "Εὐρώπη (Europe)",
+   "meaning": "broad-faced\" or \"well-watered",
+   "kind": "toponym;; mythological"
+  }
+ },
+ "Gd": {
+  "sourceName": "gadolinium",
+  "syllables": [
+   "ga",
+   "do",
+   "li",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ガドリニウム",
+  "ko": "가돌리늄",
+  "vi": "gadolini",
+  "etymology": {
+   "language": "Finnish",
+   "word": "Gadolin, Johan",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Tb": {
+  "sourceName": "terbium",
+  "syllables": [
+   "ter",
+   "bium"
+  ],
+  "matched": 0,
+  "ja": "テルビウム",
+  "ko": "터븀",
+  "vi": "terbi",
+  "etymology": {
+   "language": "Swedish",
+   "word": "Ytterby",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Dy": {
+  "sourceName": "dysprosium",
+  "syllables": [
+   "dysp",
+   "ro",
+   "sium"
+  ],
+  "matched": 0,
+  "ja": "ジスプロシウム",
+  "ko": "디스프로슘",
+  "vi": "dysprosi",
+  "etymology": {
+   "language": "Greek",
+   "word": "δυσπρόσιτος (dysprositos)",
+   "meaning": "hard to get at",
+   "kind": "descriptive"
+  }
+ },
+ "Ho": {
+  "sourceName": "holmium",
+  "syllables": [
+   "hol",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "ホルミウム",
+  "ko": "홀뮴",
+  "vi": "holmi",
+  "etymology": {
+   "language": "Latin",
+   "word": "Holmia",
+   "meaning": "Stockholm",
+   "kind": "toponym"
+  }
+ },
+ "Er": {
+  "sourceName": "erbium",
+  "syllables": [
+   "er",
+   "bium"
+  ],
+  "matched": 0,
+  "ja": "エルビウム",
+  "ko": "어븀",
+  "vi": "erbi",
+  "etymology": {
+   "language": "Swedish",
+   "word": "Ytterby",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Tm": {
+  "sourceName": "thulium",
+  "syllables": [
+   "thu",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "ツリウム",
+  "ko": "툴륨",
+  "vi": "thuli",
+  "etymology": {
+   "language": "Greek",
+   "word": "Θούλη (Thoúlē){{cite web",
+   "meaning": "Thule",
+   "kind": "mythological"
+  }
+ },
+ "Yb": {
+  "sourceName": "ytterbium",
+  "syllables": [
+   "yt",
+   "ter",
+   "bium"
+  ],
+  "matched": 0,
+  "ja": "イッテルビウム",
+  "ko": "이터븀",
+  "vi": "ytterbi",
+  "etymology": {
+   "language": "Swedish",
+   "word": "Ytterby",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Lu": {
+  "sourceName": "lutetium",
+  "syllables": [
+   "lu",
+   "te",
+   "tium"
+  ],
+  "matched": 0,
+  "ja": "ルテチウム",
+  "ko": "루테튬",
+  "vi": "luteti",
+  "etymology": {
+   "language": "Latin",
+   "word": "Lutetia",
+   "meaning": "Paris",
+   "kind": "toponym"
+  }
+ },
+ "Hf": {
+  "sourceName": "hafnium",
+  "syllables": [
+   "haf",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ハフニウム",
+  "ko": "하프늄",
+  "vi": "hafni",
+  "etymology": {
+   "language": "Latin",
+   "word": "Hafnia",
+   "meaning": "Copenhagen",
+   "kind": "toponym"
+  }
+ },
+ "Ta": {
+  "sourceName": "tantalum",
+  "syllables": [
+   "tan",
+   "ta",
+   "lum"
+  ],
+  "matched": 0,
+  "ja": "タンタル",
+  "ko": "탄탈럼",
+  "vi": "tantali",
+  "etymology": {
+   "language": "Greek",
+   "word": "Τάνταλος (Tantalus)",
+   "meaning": "possibly \"the bearer\" or \"the sufferer",
+   "kind": "mythological"
+  }
+ },
+ "W": {
+  "sourceName": "wolframium",
+  "syllables": [
+   "wolf",
+   "ra",
+   "mium"
+  ],
+  "matched": null,
+  "ja": "タングステン",
+  "ko": "텅스텐",
+  "vi": "vonfram",
+  "etymology": {
+   "language": "Swedish and Danish",
+   "word": "tung sten",
+   "meaning": "heavy stone",
+   "kind": "descriptive"
+  }
+ },
+ "Re": {
+  "sourceName": "rhenium",
+  "syllables": [
+   "rhe",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "レニウム",
+  "ko": "레늄",
+  "vi": "rheni",
+  "etymology": {
+   "language": "Latin",
+   "word": "Rhenus",
+   "meaning": "Rhine",
+   "kind": "toponym"
+  }
+ },
+ "Os": {
+  "sourceName": "osmium",
+  "syllables": [
+   "os",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "オスミウム",
+  "ko": "오스뮴",
+  "vi": "osmi",
+  "etymology": {
+   "language": "Greek via Neo-Latin",
+   "word": "ὀσμή (osme)",
+   "meaning": "a smell",
+   "kind": "descriptive"
+  }
+ },
+ "Ir": {
+  "sourceName": "iridium",
+  "syllables": [
+   "i",
+   "ri",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "イリジウム",
+  "ko": "이리듐",
+  "vi": "iridi",
+  "etymology": {
+   "language": "Greek via Latin",
+   "word": "ἴρις (genitive: ἴριδος) (iris)",
+   "meaning": "of rainbows",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Pt": {
+  "sourceName": "platinum",
+  "syllables": [
+   "pla",
+   "ti",
+   "num"
+  ],
+  "matched": null,
+  "ja": "白金",
+  "ko": "백금",
+  "vi": "platin",
+  "etymology": {
+   "language": "Spanish via Neo-Latin",
+   "word": "platina (del Pinto)",
+   "meaning": "little silver\" (of the Pinto River){{cite book",
+   "kind": "descriptive"
+  }
+ },
+ "Au": {
+  "sourceName": "gold",
+  "syllables": [
+   "gold"
+  ],
+  "matched": null,
+  "ja": "金",
+  "ko": "금",
+  "vi": "vàng",
+  "etymology": {
+   "language": "Old English via Middle English",
+   "word": "gold",
+   "meaning": "",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Hg": {
+  "sourceName": "mercury",
+  "syllables": [
+   "mer",
+   "cu",
+   "ry"
+  ],
+  "matched": null,
+  "ja": "水銀",
+  "ko": "수은",
+  "vi": "thủy ngân",
+  "etymology": {
+   "language": "Latin",
+   "word": "Mercurius",
+   "meaning": "Mercury\", Roman god",
+   "kind": "mythological"
+  }
+ },
+ "Tl": {
+  "sourceName": "thallium",
+  "syllables": [
+   "thal",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "タリウム",
+  "ko": "탈륨",
+  "vi": "tali",
+  "etymology": {
+   "language": "Greek",
+   "word": "θαλλός (thallos)",
+   "meaning": "green twig",
+   "kind": "descriptive"
+  }
+ },
+ "Pb": {
+  "sourceName": "lead",
+  "syllables": [
+   "lead"
+  ],
+  "matched": null,
+  "ja": "鉛",
+  "ko": "납",
+  "vi": "chì",
+  "etymology": {
+   "language": "Anglo-Saxon",
+   "word": "lead",
+   "meaning": "",
+   "kind": ""
+  }
+ },
+ "Bi": {
+  "sourceName": "bismuth",
+  "syllables": [
+   "bis",
+   "muth"
+  ],
+  "matched": 0,
+  "ja": "ビスマス",
+  "ko": "비스무트",
+  "vi": "bitmut",
+  "etymology": {
+   "language": "Neo-Latin from German",
+   "word": "bisemutum",
+   "meaning": "white mass",
+   "kind": "descriptive (colour)"
+  }
+ },
+ "Po": {
+  "sourceName": "polonium",
+  "syllables": [
+   "po",
+   "lo",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ポロニウム",
+  "ko": "폴로늄",
+  "vi": "poloni",
+  "etymology": {
+   "language": "Latin",
+   "word": "Polonia",
+   "meaning": "Poland",
+   "kind": "toponym"
+  }
+ },
+ "At": {
+  "sourceName": "astatine",
+  "syllables": [
+   "as",
+   "ta",
+   "ti",
+   "ne"
+  ],
+  "matched": 0,
+  "ja": "アスタチン",
+  "ko": "아스타틴",
+  "vi": "astatin",
+  "etymology": {
+   "language": "Greek",
+   "word": "ἄστατος (astatos)",
+   "meaning": "unstable",
+   "kind": ""
+  }
+ },
+ "Rn": {
+  "sourceName": "radon",
+  "syllables": [
+   "ra",
+   "don"
+  ],
+  "matched": 1,
+  "ja": "ラドン",
+  "ko": "라돈",
+  "vi": "radon",
+  "etymology": {
+   "language": "Latin via German and English",
+   "word": "radium",
+   "meaning": "",
+   "kind": ""
+  }
+ },
+ "Fr": {
+  "sourceName": "francium",
+  "syllables": [
+   "fran",
+   "cium"
+  ],
+  "matched": 0,
+  "ja": "フランシウム",
+  "ko": "프랑슘",
+  "vi": "franxi",
+  "etymology": {
+   "language": "French",
+   "word": "France",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Ra": {
+  "sourceName": "radium",
+  "syllables": [
+   "ra",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "ラジウム",
+  "ko": "라듐",
+  "vi": "radi",
+  "etymology": {
+   "language": "Latin via French",
+   "word": "radius",
+   "meaning": "ray",
+   "kind": "descriptive"
+  }
+ },
+ "Ac": {
+  "sourceName": "actinium",
+  "syllables": [
+   "ac",
+   "ti",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "アクチニウム",
+  "ko": "악티늄",
+  "vi": "actini",
+  "etymology": {
+   "language": "Greek",
+   "word": "ἀκτίς (aktis)",
+   "meaning": "beam",
+   "kind": ""
+  }
+ },
+ "Th": {
+  "sourceName": "thorium",
+  "syllables": [
+   "tho",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "トリウム",
+  "ko": "토륨",
+  "vi": "thori",
+  "etymology": {
+   "language": "Old Norse",
+   "word": "Þōrr (Thor)",
+   "meaning": "thunder",
+   "kind": "mythological"
+  }
+ },
+ "Pa": {
+  "sourceName": "protactinium",
+  "syllables": [
+   "pro",
+   "tac",
+   "ti",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "プロトアクチニウム",
+  "ko": "프로탁티늄",
+  "vi": "protactini",
+  "etymology": {
+   "language": "Greek",
+   "word": "πρῶτος + ἀκτίς",
+   "meaning": "first beam element",
+   "kind": "descriptive?"
+  }
+ },
+ "U": {
+  "sourceName": "uranium",
+  "syllables": [
+   "u",
+   "ra",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ウラン",
+  "ko": "우라늄",
+  "vi": "urani",
+  "etymology": {
+   "language": "Greek via Latin",
+   "word": "Οὐρανός (Ouranos); \"Uranus\"",
+   "meaning": "sky",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Np": {
+  "sourceName": "neptunium",
+  "syllables": [
+   "nep",
+   "tu",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ネプツニウム",
+  "ko": "넵투늄",
+  "vi": "neptuni",
+  "etymology": {
+   "language": "Latin",
+   "word": "Neptunus",
+   "meaning": "Neptune",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Pu": {
+  "sourceName": "plutonium",
+  "syllables": [
+   "plu",
+   "to",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "プルトニウム",
+  "ko": "플루토늄",
+  "vi": "plutoni",
+  "etymology": {
+   "language": "Greek via Latin",
+   "word": "Πλούτων (Ploutōn) via \"Pluto\"",
+   "meaning": "god of wealth",
+   "kind": "astrological;; mythological"
+  }
+ },
+ "Am": {
+  "sourceName": "americium",
+  "syllables": [
+   "a",
+   "me",
+   "ri",
+   "cium"
+  ],
+  "matched": 0,
+  "ja": "アメリシウム",
+  "ko": "아메리슘",
+  "vi": "americi",
+  "etymology": {
+   "language": "",
+   "word": "America",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Cm": {
+  "sourceName": "curium",
+  "syllables": [
+   "cu",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "キュリウム",
+  "ko": "퀴륨",
+  "vi": "curium",
+  "etymology": {
+   "language": "",
+   "word": "Curie, Marie and Pierre",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Bk": {
+  "sourceName": "berkelium",
+  "syllables": [
+   "ber",
+   "ke",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "バークリウム",
+  "ko": "버클륨",
+  "vi": "berkeli",
+  "etymology": {
+   "language": "Anglo-Saxon via English",
+   "word": "University of California, Berkeley",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Cf": {
+  "sourceName": "californium",
+  "syllables": [
+   "ca",
+   "li",
+   "for",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "カリホルニウム",
+  "ko": "캘리포늄",
+  "vi": "californi",
+  "etymology": {
+   "language": "English",
+   "word": "California",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Es": {
+  "sourceName": "einsteinium",
+  "syllables": [
+   "eins",
+   "tei",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "アインスタイニウム",
+  "ko": "아인슈타이늄",
+  "vi": "einsteini",
+  "etymology": {
+   "language": "German",
+   "word": "Einstein, Albert",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Fm": {
+  "sourceName": "fermium",
+  "syllables": [
+   "fer",
+   "mium"
+  ],
+  "matched": 0,
+  "ja": "フェルミウム",
+  "ko": "페르뮴",
+  "vi": "fermi",
+  "etymology": {
+   "language": "Italian",
+   "word": "Fermi, Enrico",
+   "meaning": "Italian surname",
+   "kind": "eponym"
+  }
+ },
+ "Md": {
+  "sourceName": "mendelevium",
+  "syllables": [
+   "men",
+   "de",
+   "le",
+   "vium"
+  ],
+  "matched": 0,
+  "ja": "メンデレビウム",
+  "ko": "멘델레븀",
+  "vi": "Mendelevi",
+  "etymology": {
+   "language": "",
+   "word": "Mendeleyev, Dmitri",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "No": {
+  "sourceName": "nobelium",
+  "syllables": [
+   "no",
+   "be",
+   "lium"
+  ],
+  "matched": 0,
+  "ja": "ノーベリウム",
+  "ko": "노벨륨",
+  "vi": "Nobeli",
+  "etymology": {
+   "language": "",
+   "word": "Nobel, Alfred",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Lr": {
+  "sourceName": "lawrencium",
+  "syllables": [
+   "law",
+   "ren",
+   "cium"
+  ],
+  "matched": 0,
+  "ja": "ローレンシウム",
+  "ko": "로렌슘",
+  "vi": "Lawrenci",
+  "etymology": {
+   "language": "",
+   "word": "Lawrence, Ernest",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Rf": {
+  "sourceName": "rutherfordium",
+  "syllables": [
+   "rut",
+   "her",
+   "for",
+   "dium"
+  ],
+  "matched": 0,
+  "ja": "ラザホージウム",
+  "ko": "러더포듐",
+  "vi": "rutherfordi",
+  "etymology": {
+   "language": "",
+   "word": "Rutherford, Ernest",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Db": {
+  "sourceName": "dubnium",
+  "syllables": [
+   "dub",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ドブニウム",
+  "ko": "더브늄",
+  "vi": "dubni",
+  "etymology": {
+   "language": "Russian",
+   "word": "Дубна (Dubna)",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Sg": {
+  "sourceName": "seaborgium",
+  "syllables": [
+   "sea",
+   "bor",
+   "gium"
+  ],
+  "matched": 0,
+  "ja": "シーボーギウム",
+  "ko": "시보귬",
+  "vi": "seaborgi",
+  "etymology": {
+   "language": "Swedish via English",
+   "word": "Seaborg, Glenn Teodor",
+   "meaning": "Swedish surname",
+   "kind": "eponym"
+  }
+ },
+ "Bh": {
+  "sourceName": "bohrium",
+  "syllables": [
+   "boh",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "ボーリウム",
+  "ko": "보륨",
+  "vi": "bohri",
+  "etymology": {
+   "language": "",
+   "word": "Bohr, Niels",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Hs": {
+  "sourceName": "hassium",
+  "syllables": [
+   "has",
+   "sium"
+  ],
+  "matched": 0,
+  "ja": "ハッシウム",
+  "ko": "하슘",
+  "vi": "hassi",
+  "etymology": {
+   "language": "Latin",
+   "word": "Hassia",
+   "meaning": "Hesse",
+   "kind": "toponym"
+  }
+ },
+ "Mt": {
+  "sourceName": "meitnerium",
+  "syllables": [
+   "meit",
+   "ne",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "マイトネリウム",
+  "ko": "마이트너륨",
+  "vi": "meitneri",
+  "etymology": {
+   "language": "",
+   "word": "Meitner, Lise",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Ds": {
+  "sourceName": "darmstadtium",
+  "syllables": [
+   "darms",
+   "tad",
+   "tium"
+  ],
+  "matched": 0,
+  "ja": "ダームスタチウム",
+  "ko": "다름슈타튬",
+  "vi": "darmstadti",
+  "etymology": {
+   "language": "German",
+   "word": "Darmstadt",
+   "meaning": "proper name",
+   "kind": "toponym"
+  }
+ },
+ "Rg": {
+  "sourceName": "roentgenium",
+  "syllables": [
+   "roent",
+   "ge",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "レントゲニウム",
+  "ko": "뢴트게늄",
+  "vi": "Roentgeni",
+  "etymology": {
+   "language": "",
+   "word": "Röntgen, Wilhelm Conrad",
+   "meaning": "",
+   "kind": "eponym"
+  }
+ },
+ "Cn": {
+  "sourceName": "copernicium",
+  "syllables": [
+   "co",
+   "per",
+   "ni",
+   "cium"
+  ],
+  "matched": 0,
+  "ja": "コペルニシウム",
+  "ko": "코페르니슘",
+  "vi": "copernixi",
+  "etymology": {
+   "language": "Polish via Latin",
+   "word": "Copernicus, Nicolaus",
+   "meaning": "Polish surname",
+   "kind": "eponym"
+  }
+ },
+ "Nh": {
+  "sourceName": "nihonium",
+  "syllables": [
+   "ni",
+   "ho",
+   "nium"
+  ],
+  "matched": 0,
+  "ja": "ニホニウム",
+  "ko": "니호늄",
+  "vi": "nihoni",
+  "etymology": {
+   "language": "Japanese",
+   "word": "日本 (Nihon)",
+   "meaning": "Japan",
+   "kind": "toponym"
+  }
+ },
+ "Fl": {
+  "sourceName": "flerovium",
+  "syllables": [
+   "fle",
+   "ro",
+   "vium"
+  ],
+  "matched": 0,
+  "ja": "フレロビウム",
+  "ko": "플레로븀",
+  "vi": "flerovi",
+  "etymology": {
+   "language": "Russian",
+   "word": "Flerov, Georgy",
+   "meaning": "Russian surname",
+   "kind": "eponym"
+  }
+ },
+ "Mc": {
+  "sourceName": "moscovium",
+  "syllables": [
+   "mos",
+   "co",
+   "vium"
+  ],
+  "matched": 0,
+  "ja": "モスコビウム",
+  "ko": "모스코븀",
+  "vi": "moscovi",
+  "etymology": {
+   "language": "Latin",
+   "word": "Moscovia",
+   "meaning": "Moscow",
+   "kind": "toponym"
+  }
+ },
+ "Lv": {
+  "sourceName": "livermorium",
+  "syllables": [
+   "li",
+   "ver",
+   "mo",
+   "rium"
+  ],
+  "matched": 0,
+  "ja": "リバモリウム",
+  "ko": "리버모륨",
+  "vi": "livermori",
+  "etymology": {
+   "language": "English",
+   "word": "Livermore",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Ts": {
+  "sourceName": "tennessine",
+  "syllables": [
+   "ten",
+   "nes",
+   "si",
+   "ne"
+  ],
+  "matched": 0,
+  "ja": "テネシン",
+  "ko": "테네신",
+  "vi": "tennessine",
+  "etymology": {
+   "language": "Cherokee via English",
+   "word": "Tennessee",
+   "meaning": "",
+   "kind": "toponym"
+  }
+ },
+ "Og": {
+  "sourceName": "oganesson",
+  "syllables": [
+   "o",
+   "ga",
+   "nes",
+   "son"
+  ],
+  "matched": 0,
+  "ja": "オガネソン",
+  "ko": "오가네손",
+  "vi": "oganesson",
+  "etymology": {
+   "language": "Russian",
+   "word": "Oganessian, Yuri (Оганесян)",
+   "meaning": "Armenian surname",
+   "kind": "eponym"
+  }
+ }
+}

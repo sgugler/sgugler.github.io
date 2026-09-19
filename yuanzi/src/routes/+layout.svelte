@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 	import { browser } from '$app/environment';
 
 	let { children } = $props();
@@ -16,13 +17,29 @@
 			localStorage.setItem('yuanzi:theme', theme);
 		} catch {}
 	}
+
+	const nav = [
+		['/', 'Elements'],
+		['/phonetic', 'Phonetics'],
+		['/timeline', 'Timeline'],
+		['/sources', 'Sources'],
+		['/languages', 'Languages'],
+		['/compounds', 'Compounds'],
+		['/about', 'About']
+	];
+
+	function active(path) {
+		const p = page.url.pathname.replace(/\/$/, '');
+		const base = resolve(path).replace(/\/$/, '');
+		return path === '/' ? p === base : p.startsWith(base);
+	}
 </script>
 
 <svelte:head>
 	<title>元字 Yuánzì – Chinese characters of the chemical elements</title>
 	<meta
 		name="description"
-		content="Search and explore the Chinese characters of all 118 chemical elements: radical, phonetic component, pinyin, origin and Unicode."
+		content="Search and explore the Chinese characters of all 118 chemical elements: radical, phonetic component, pinyin, origin, history and Unicode."
 	/>
 </svelte:head>
 
@@ -34,6 +51,11 @@
 			<span class="brand-sub">Chinese characters of the chemical elements</span>
 		</span>
 	</a>
+	<nav aria-label="Sections">
+		{#each nav as [path, label]}
+			<a href={resolve(path)} class:active={active(path)}>{label}</a>
+		{/each}
+	</nav>
 	<button class="chip theme" onclick={toggleTheme} aria-label="Toggle light or dark theme" title="Light / dark">◐</button>
 </header>
 
@@ -45,7 +67,8 @@
 	<p>
 		Data from S. Gugler, Y. Cui, P. O. Dral,
 		<a href="https://doi.org/10.1007/s40828-026-00222-0">Architecture of Chinese chemical element names</a>,
-		<i>ChemTexts</i> 12, 11 (2026). Part of <a href="https://sgugler.ch/">sgugler.ch</a>.
+		<i>ChemTexts</i> 12, 11 (2026), and the sources listed under <a href={resolve('/sources')}>Sources</a>.
+		Inspired by Adrian Hill's <a href="https://adrianhill.de/guzi/">Guzi</a>. Part of <a href="https://sgugler.ch/">sgugler.ch</a>.
 	</p>
 </footer>
 
@@ -55,7 +78,8 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 1rem;
-		padding: 1rem clamp(1rem, 4vw, 3rem);
+		flex-wrap: wrap;
+		padding: 0.75rem clamp(1rem, 4vw, 3rem);
 		border-bottom: 1px solid var(--line);
 	}
 	.brand {
@@ -81,6 +105,25 @@
 	.brand-sub {
 		font-size: 0.85rem;
 		color: var(--muted);
+	}
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.15rem 0.9rem;
+		font-size: 0.95rem;
+	}
+	nav a {
+		text-decoration: none;
+		color: var(--muted);
+		padding: 0.2rem 0;
+		border-bottom: 2px solid transparent;
+	}
+	nav a:hover {
+		color: var(--fg);
+	}
+	nav a.active {
+		color: var(--fg);
+		border-bottom-color: var(--accent);
 	}
 	main {
 		max-width: 1200px;

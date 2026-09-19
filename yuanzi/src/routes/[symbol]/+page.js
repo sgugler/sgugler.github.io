@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { elements, bySymbol, homophones } from '$lib/data.js';
 import history from '$lib/history.json';
+import extras from '$lib/extras.json';
 
 /** One prerendered page per element, e.g. /yuanzi/fe/ */
 export function entries() {
@@ -16,6 +17,7 @@ export function load({ params }) {
 		prev: elements[i - 1] ?? null,
 		next: elements[i + 1] ?? null,
 		homophones: homophones(element),
-		history: history[element.symbol]
+		history: history[element.symbol],
+		extras: extras[element.symbol]
 	};
 }

@@ -1,0 +1,2537 @@
+{
+ "轻": {
+  "char": "轻",
+  "reading": "qīng",
+  "definition": "light; easy, simple; gentle",
+  "cantonese": "hing1",
+  "elements": [
+   {
+    "symbol": "H",
+    "z": 1,
+    "name": "Hydrogen",
+    "char": "氢",
+    "glyph": null,
+    "pinyin": "qīng",
+    "matched": null,
+    "syllables": [
+     "hyd",
+     "ro",
+     "gen"
+    ]
+   }
+  ]
+ },
+ "亥": {
+  "char": "亥",
+  "reading": "hài",
+  "definition": "twelfth earthly branch",
+  "cantonese": "hoi6",
+  "elements": [
+   {
+    "symbol": "He",
+    "z": 2,
+    "name": "Helium",
+    "char": "氦",
+    "glyph": null,
+    "pinyin": "hài",
+    "matched": 0,
+    "syllables": [
+     "he",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "里": {
+  "char": "里",
+  "reading": "lǐ",
+  "definition": "unit of distance; village; lane; Kangxi radical 166",
+  "cantonese": "lei5",
+  "elements": [
+   {
+    "symbol": "Li",
+    "z": 3,
+    "name": "Lithium",
+    "char": "锂",
+    "glyph": null,
+    "pinyin": "lǐ",
+    "matched": 0,
+    "syllables": [
+     "lit",
+     "hium"
+    ]
+   }
+  ]
+ },
+ "皮": {
+  "char": "皮",
+  "reading": "pí",
+  "definition": "skin, hide, fur, feather; outer",
+  "cantonese": "pei4",
+  "elements": [
+   {
+    "symbol": "Be",
+    "z": 4,
+    "name": "Beryllium",
+    "char": "铍",
+    "glyph": null,
+    "pinyin": "pí",
+    "matched": 0,
+    "syllables": [
+     "be",
+     "ryl",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "朋": {
+  "char": "朋",
+  "reading": "péng",
+  "definition": "friend, pal, acquaintance",
+  "cantonese": "pang4",
+  "elements": [
+   {
+    "symbol": "B",
+    "z": 5,
+    "name": "Boron",
+    "char": "硼",
+    "glyph": null,
+    "pinyin": "péng",
+    "matched": null,
+    "syllables": [
+     "bo",
+     "ron"
+    ]
+   }
+  ]
+ },
+ "炭": {
+  "char": "炭",
+  "reading": "tàn",
+  "definition": "charcoal; coal; carbon",
+  "cantonese": "taan3",
+  "elements": [
+   {
+    "symbol": "C",
+    "z": 6,
+    "name": "Carbon",
+    "char": "碳",
+    "glyph": null,
+    "pinyin": "tàn",
+    "matched": null,
+    "syllables": [
+     "car",
+     "bon"
+    ]
+   }
+  ]
+ },
+ "炎": {
+  "char": "炎",
+  "reading": "yán",
+  "definition": "flame, blaze; hot",
+  "cantonese": "jim4",
+  "elements": [
+   {
+    "symbol": "N",
+    "z": 7,
+    "name": "Nitrogen",
+    "char": "氮",
+    "glyph": null,
+    "pinyin": "dàn",
+    "matched": null,
+    "syllables": [
+     "nit",
+     "ro",
+     "gen"
+    ]
+   }
+  ]
+ },
+ "羊": {
+  "char": "羊",
+  "reading": "yáng",
+  "definition": "sheep, goat; Kangxi radical 123",
+  "cantonese": "joeng4",
+  "elements": [
+   {
+    "symbol": "O",
+    "z": 8,
+    "name": "Oxygen",
+    "char": "氧",
+    "glyph": null,
+    "pinyin": "yǎng",
+    "matched": null,
+    "syllables": [
+     "o",
+     "xy",
+     "gen"
+    ]
+   }
+  ]
+ },
+ "弗": {
+  "char": "弗",
+  "reading": "fú",
+  "definition": "not, negative; dollar",
+  "cantonese": "fat1",
+  "elements": [
+   {
+    "symbol": "F",
+    "z": 9,
+    "name": "Fluorine",
+    "char": "氟",
+    "glyph": null,
+    "pinyin": "fú",
+    "matched": 0,
+    "syllables": [
+     "fluo",
+     "ri",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "乃": {
+  "char": "乃",
+  "reading": "nǎi",
+  "definition": "then; really, indeed; as it turned out, after all; namely",
+  "cantonese": "naai5",
+  "elements": [
+   {
+    "symbol": "Ne",
+    "z": 10,
+    "name": "Neon",
+    "char": "氖",
+    "glyph": null,
+    "pinyin": "nǎi",
+    "matched": 0,
+    "syllables": [
+     "neon"
+    ]
+   }
+  ]
+ },
+ "内": {
+  "char": "内",
+  "reading": "nèi",
+  "definition": "inside",
+  "cantonese": "noi6",
+  "elements": [
+   {
+    "symbol": "Na",
+    "z": 11,
+    "name": "Sodium",
+    "char": "钠",
+    "glyph": null,
+    "pinyin": "nà",
+    "matched": 0,
+    "syllables": [
+     "nat",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "美": {
+  "char": "美",
+  "reading": "měi",
+  "definition": "beautiful, pretty; pleasing",
+  "cantonese": "mei5",
+  "elements": [
+   {
+    "symbol": "Mg",
+    "z": 12,
+    "name": "Magnesium",
+    "char": "镁",
+    "glyph": null,
+    "pinyin": "měi",
+    "matched": 0,
+    "syllables": [
+     "mag",
+     "ne",
+     "sium"
+    ]
+   }
+  ]
+ },
+ "吕": {
+  "char": "吕",
+  "reading": "lǚ",
+  "definition": "surname; a musical note",
+  "cantonese": "leoi5",
+  "elements": [
+   {
+    "symbol": "Al",
+    "z": 13,
+    "name": "Aluminium",
+    "char": "铝",
+    "glyph": null,
+    "pinyin": "lǚ",
+    "matched": 1,
+    "syllables": [
+     "a",
+     "lu",
+     "mi",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "圭": {
+  "char": "圭",
+  "reading": "guī",
+  "definition": "jade pointed at top",
+  "cantonese": "gwai1",
+  "elements": [
+   {
+    "symbol": "Si",
+    "z": 14,
+    "name": "Silicon",
+    "char": "硅",
+    "glyph": null,
+    "pinyin": "guī",
+    "matched": null,
+    "syllables": [
+     "si",
+     "li",
+     "con"
+    ]
+   }
+  ]
+ },
+ "粦": {
+  "char": "粦",
+  "reading": "lín",
+  "definition": "phosphorus (element 15, P)",
+  "cantonese": "leon4",
+  "elements": [
+   {
+    "symbol": "P",
+    "z": 15,
+    "name": "Phosphorus",
+    "char": "磷",
+    "glyph": null,
+    "pinyin": "lín",
+    "matched": null,
+    "syllables": [
+     "phosp",
+     "ho",
+     "rus"
+    ]
+   }
+  ]
+ },
+ "㐬": {
+  "char": "㐬",
+  "reading": "liú",
+  "definition": "(same as 旒; corrupted form of 荒) a cup with pendants, a pennant, wild, barren, uncultivated",
+  "cantonese": "lau4",
+  "elements": [
+   {
+    "symbol": "S",
+    "z": 16,
+    "name": "Sulphur",
+    "char": "硫",
+    "glyph": null,
+    "pinyin": "liú",
+    "matched": null,
+    "syllables": [
+     "sulp",
+     "hur"
+    ]
+   }
+  ]
+ },
+ "录": {
+  "char": "录",
+  "reading": "lù",
+  "definition": "copy, write down, record",
+  "cantonese": "luk6",
+  "elements": [
+   {
+    "symbol": "Cl",
+    "z": 17,
+    "name": "Chlorine",
+    "char": "氯",
+    "glyph": null,
+    "pinyin": "lǜ",
+    "matched": null,
+    "syllables": [
+     "chlo",
+     "ri",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "亚": {
+  "char": "亚",
+  "reading": "yà",
+  "definition": "Asia; second",
+  "cantonese": "aa3",
+  "elements": [
+   {
+    "symbol": "Ar",
+    "z": 18,
+    "name": "Argon",
+    "char": "氩",
+    "glyph": null,
+    "pinyin": "yà",
+    "matched": 0,
+    "syllables": [
+     "ar",
+     "gon"
+    ]
+   }
+  ]
+ },
+ "甲": {
+  "char": "甲",
+  "reading": "jiǎ",
+  "definition": "armor, shell; fingernails; 1st heavenly stem",
+  "cantonese": "gaap3",
+  "elements": [
+   {
+    "symbol": "K",
+    "z": 19,
+    "name": "Potassium",
+    "char": "钾",
+    "glyph": null,
+    "pinyin": "jiǎ",
+    "matched": 0,
+    "syllables": [
+     "ka",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "丐": {
+  "char": "丐",
+  "reading": "gài",
+  "definition": "beggar; beg; give",
+  "cantonese": "koi3",
+  "elements": [
+   {
+    "symbol": "Ca",
+    "z": 20,
+    "name": "Calcium",
+    "char": "钙",
+    "glyph": null,
+    "pinyin": "gài",
+    "matched": 0,
+    "syllables": [
+     "cal",
+     "cium"
+    ]
+   }
+  ]
+ },
+ "亢": {
+  "char": "亢",
+  "reading": "kàng",
+  "definition": "high, proud; violent, excessive; skilled; name; 2nd lunar mansion, determinative star κ Virginis (Kang)",
+  "cantonese": "kong3",
+  "elements": [
+   {
+    "symbol": "Sc",
+    "z": 21,
+    "name": "Scandium",
+    "char": "钪",
+    "glyph": null,
+    "pinyin": "kàng",
+    "matched": 0,
+    "syllables": [
+     "scan",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "太": {
+  "char": "太",
+  "reading": "tài",
+  "definition": "very, too, much; big; extreme",
+  "cantonese": "taai3",
+  "elements": [
+   {
+    "symbol": "Ti",
+    "z": 22,
+    "name": "Titanium",
+    "char": "钛",
+    "glyph": null,
+    "pinyin": "tài",
+    "matched": 0,
+    "syllables": [
+     "ti",
+     "ta",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "凡": {
+  "char": "凡",
+  "reading": "fán",
+  "definition": "all, any, every; ordinary, common",
+  "cantonese": "faan4",
+  "elements": [
+   {
+    "symbol": "V",
+    "z": 23,
+    "name": "Vanadium",
+    "char": "钒",
+    "glyph": null,
+    "pinyin": "fán",
+    "matched": 0,
+    "syllables": [
+     "va",
+     "na",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "各": {
+  "char": "各",
+  "reading": "gè",
+  "definition": "each, individually, every, all",
+  "cantonese": "gok3",
+  "elements": [
+   {
+    "symbol": "Cr",
+    "z": 24,
+    "name": "Chromium",
+    "char": "铬",
+    "glyph": null,
+    "pinyin": "gè",
+    "matched": 0,
+    "syllables": [
+     "chro",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "孟": {
+  "char": "孟",
+  "reading": "mèng",
+  "definition": "first in series; great, eminent",
+  "cantonese": "maang6",
+  "elements": [
+   {
+    "symbol": "Mn",
+    "z": 25,
+    "name": "Manganese",
+    "char": "锰",
+    "glyph": null,
+    "pinyin": "měng",
+    "matched": 0,
+    "syllables": [
+     "man",
+     "ga",
+     "ne",
+     "se"
+    ]
+   }
+  ]
+ },
+ "失": {
+  "char": "失",
+  "reading": "shī",
+  "definition": "lose; make mistake, neglect",
+  "cantonese": "sat1",
+  "elements": [
+   {
+    "symbol": "Fe",
+    "z": 26,
+    "name": "Iron",
+    "char": "铁",
+    "glyph": null,
+    "pinyin": "tiě",
+    "matched": null,
+    "syllables": [
+     "i",
+     "ron"
+    ]
+   }
+  ]
+ },
+ "古": {
+  "char": "古",
+  "reading": "gǔ",
+  "definition": "old, classic, ancient",
+  "cantonese": "gu2",
+  "elements": [
+   {
+    "symbol": "Co",
+    "z": 27,
+    "name": "Cobalt",
+    "char": "钴",
+    "glyph": null,
+    "pinyin": "gǔ",
+    "matched": 0,
+    "syllables": [
+     "co",
+     "balt"
+    ]
+   }
+  ]
+ },
+ "臬": {
+  "char": "臬",
+  "reading": "niè",
+  "definition": "law, rule; door post",
+  "cantonese": "jit6",
+  "elements": [
+   {
+    "symbol": "Ni",
+    "z": 28,
+    "name": "Nickel",
+    "char": "镍",
+    "glyph": null,
+    "pinyin": "niè",
+    "matched": 0,
+    "syllables": [
+     "nic",
+     "kel"
+    ]
+   }
+  ]
+ },
+ "同": {
+  "char": "同",
+  "reading": "tóng",
+  "definition": "same, similar; together with",
+  "cantonese": "tung4",
+  "elements": [
+   {
+    "symbol": "Cu",
+    "z": 29,
+    "name": "Copper",
+    "char": "铜",
+    "glyph": null,
+    "pinyin": "tóng",
+    "matched": null,
+    "syllables": [
+     "cop",
+     "per"
+    ]
+   }
+  ]
+ },
+ "辛": {
+  "char": "辛",
+  "reading": "xīn",
+  "definition": "bitter; toilsome, laborious; 8th heavenly stem; Kangxi radical 160",
+  "cantonese": "san1",
+  "elements": [
+   {
+    "symbol": "Zn",
+    "z": 30,
+    "name": "Zinc",
+    "char": "锌",
+    "glyph": null,
+    "pinyin": "xīn",
+    "matched": 0,
+    "syllables": [
+     "zinc"
+    ]
+   }
+  ]
+ },
+ "家": {
+  "char": "家",
+  "reading": "jiā",
+  "definition": "house, home, residence; family",
+  "cantonese": "gaa1",
+  "elements": [
+   {
+    "symbol": "Ga",
+    "z": 31,
+    "name": "Gallium",
+    "char": "镓",
+    "glyph": null,
+    "pinyin": "jiā",
+    "matched": 0,
+    "syllables": [
+     "gal",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "者": {
+  "char": "者",
+  "reading": "zhě",
+  "definition": "that which; he who; those who",
+  "cantonese": "ze2",
+  "elements": [
+   {
+    "symbol": "Ge",
+    "z": 32,
+    "name": "Germanium",
+    "char": "锗",
+    "glyph": null,
+    "pinyin": "zhě",
+    "matched": 0,
+    "syllables": [
+     "ger",
+     "ma",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "申": {
+  "char": "申",
+  "reading": "shēn",
+  "definition": "to state to a superior, report; extend; ninth earthly branch",
+  "cantonese": "san1",
+  "elements": [
+   {
+    "symbol": "As",
+    "z": 33,
+    "name": "Arsenic",
+    "char": "砷",
+    "glyph": null,
+    "pinyin": "shēn",
+    "matched": 1,
+    "syllables": [
+     "ar",
+     "se",
+     "nic"
+    ]
+   }
+  ]
+ },
+ "西": {
+  "char": "西",
+  "reading": "xī",
+  "definition": "west(ern); westward; occident; Kangxi radical 146",
+  "cantonese": "sai1",
+  "elements": [
+   {
+    "symbol": "Se",
+    "z": 34,
+    "name": "Selenium",
+    "char": "硒",
+    "glyph": null,
+    "pinyin": "xī",
+    "matched": 0,
+    "syllables": [
+     "se",
+     "le",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "臭": {
+  "char": "臭",
+  "reading": "chòu",
+  "definition": "smell, stink, emit foul odor",
+  "cantonese": "cau3",
+  "elements": [
+   {
+    "symbol": "Br",
+    "z": 35,
+    "name": "Bromine",
+    "char": "溴",
+    "glyph": null,
+    "pinyin": "xiù",
+    "matched": 0,
+    "syllables": [
+     "bro",
+     "mi",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "克": {
+  "char": "克",
+  "reading": "kè",
+  "definition": "gram; overcome; transliteration",
+  "cantonese": "hak1",
+  "elements": [
+   {
+    "symbol": "Kr",
+    "z": 36,
+    "name": "Krypton",
+    "char": "氪",
+    "glyph": null,
+    "pinyin": "kè",
+    "matched": 0,
+    "syllables": [
+     "kryp",
+     "ton"
+    ]
+   }
+  ]
+ },
+ "如": {
+  "char": "如",
+  "reading": "rú",
+  "definition": "if, supposing; as if; like, as",
+  "cantonese": "jyu4",
+  "elements": [
+   {
+    "symbol": "Rb",
+    "z": 37,
+    "name": "Rubidium",
+    "char": "铷",
+    "glyph": null,
+    "pinyin": "rú",
+    "matched": 0,
+    "syllables": [
+     "ru",
+     "bi",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "思": {
+  "char": "思",
+  "reading": "sī",
+  "definition": "think, consider, ponder; final particle",
+  "cantonese": "si1",
+  "elements": [
+   {
+    "symbol": "Sr",
+    "z": 38,
+    "name": "Strontium",
+    "char": "锶",
+    "glyph": null,
+    "pinyin": "sī",
+    "matched": 0,
+    "syllables": [
+     "stron",
+     "tium"
+    ]
+   }
+  ]
+ },
+ "乙": {
+  "char": "乙",
+  "reading": "yǐ",
+  "definition": "second; 2nd heavenly stem",
+  "cantonese": "jyut3",
+  "elements": [
+   {
+    "symbol": "Y",
+    "z": 39,
+    "name": "Yttrium",
+    "char": "钇",
+    "glyph": null,
+    "pinyin": "yǐ",
+    "matched": 0,
+    "syllables": [
+     "ytt",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "告": {
+  "char": "告",
+  "reading": "gào",
+  "definition": "tell, announce, inform; accuse",
+  "cantonese": "gou3",
+  "elements": [
+   {
+    "symbol": "Zr",
+    "z": 40,
+    "name": "Zirconium",
+    "char": "锆",
+    "glyph": null,
+    "pinyin": "gào",
+    "matched": 0,
+    "syllables": [
+     "zir",
+     "co",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "尼": {
+  "char": "尼",
+  "reading": "ní",
+  "definition": "Buddhist nun; transliteration",
+  "cantonese": "nei4",
+  "elements": [
+   {
+    "symbol": "Nb",
+    "z": 41,
+    "name": "Niobium",
+    "char": "铌",
+    "glyph": null,
+    "pinyin": "ní",
+    "matched": 0,
+    "syllables": [
+     "nio",
+     "bium"
+    ]
+   }
+  ]
+ },
+ "目": {
+  "char": "目",
+  "reading": "mù",
+  "definition": "eye; look, see; division, topic; Kangxi radical 109",
+  "cantonese": "muk6",
+  "elements": [
+   {
+    "symbol": "Mo",
+    "z": 42,
+    "name": "Molybdenum",
+    "char": "钼",
+    "glyph": null,
+    "pinyin": "mù",
+    "matched": 0,
+    "syllables": [
+     "mo",
+     "lyb",
+     "de",
+     "num"
+    ]
+   }
+  ]
+ },
+ "得": {
+  "char": "得",
+  "reading": "dé",
+  "definition": "obtain, get, gain, acquire",
+  "cantonese": "dak1",
+  "elements": [
+   {
+    "symbol": "Tc",
+    "z": 43,
+    "name": "Technetium",
+    "char": "锝",
+    "glyph": null,
+    "pinyin": "dé",
+    "matched": 0,
+    "syllables": [
+     "tech",
+     "ne",
+     "tium"
+    ]
+   }
+  ]
+ },
+ "了": {
+  "char": "了",
+  "reading": "le",
+  "definition": "to finish; particle of completed action",
+  "cantonese": "liu5",
+  "elements": [
+   {
+    "symbol": "Ru",
+    "z": 44,
+    "name": "Ruthenium",
+    "char": "钌",
+    "glyph": null,
+    "pinyin": "liǎo",
+    "matched": 0,
+    "syllables": [
+     "rut",
+     "he",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "老": {
+  "char": "老",
+  "reading": "lǎo",
+  "definition": "old, aged; experienced; Kangxi radical 125",
+  "cantonese": "lou5",
+  "elements": [
+   {
+    "symbol": "Rh",
+    "z": 45,
+    "name": "Rhodium",
+    "char": "铑",
+    "glyph": null,
+    "pinyin": "lǎo",
+    "matched": 0,
+    "syllables": [
+     "rho",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "巴": {
+  "char": "巴",
+  "reading": "bā",
+  "definition": "greatly desire, anxiously hope",
+  "cantonese": "baa1",
+  "elements": [
+   {
+    "symbol": "Pd",
+    "z": 46,
+    "name": "Palladium",
+    "char": "钯",
+    "glyph": null,
+    "pinyin": "bǎ",
+    "matched": 0,
+    "syllables": [
+     "pal",
+     "la",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "艮": {
+  "char": "艮",
+  "reading": "gěn",
+  "definition": "Kangxi radical 138; trigram ☶; hexagram ䷳",
+  "cantonese": "gan3",
+  "elements": [
+   {
+    "symbol": "Ag",
+    "z": 47,
+    "name": "Silver",
+    "char": "银",
+    "glyph": null,
+    "pinyin": "yín",
+    "matched": null,
+    "syllables": [
+     "sil",
+     "ver"
+    ]
+   }
+  ]
+ },
+ "鬲": {
+  "char": "鬲",
+  "reading": "gé",
+  "definition": "type of caldron with three hollow legs; name of a state; Kangxi radical 193",
+  "cantonese": "lik6",
+  "elements": [
+   {
+    "symbol": "Cd",
+    "z": 48,
+    "name": "Cadmium",
+    "char": "镉",
+    "glyph": null,
+    "pinyin": "gé",
+    "matched": 0,
+    "syllables": [
+     "cad",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "因": {
+  "char": "因",
+  "reading": "yīn",
+  "definition": "cause, reason; by; because (of)",
+  "cantonese": "jan1",
+  "elements": [
+   {
+    "symbol": "In",
+    "z": 49,
+    "name": "Indium",
+    "char": "铟",
+    "glyph": null,
+    "pinyin": "yīn",
+    "matched": 0,
+    "syllables": [
+     "in",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "易": {
+  "char": "易",
+  "reading": "yì",
+  "definition": "change; easy",
+  "cantonese": "ji6",
+  "elements": [
+   {
+    "symbol": "Sn",
+    "z": 50,
+    "name": "Tin",
+    "char": "锡",
+    "glyph": null,
+    "pinyin": "xī",
+    "matched": null,
+    "syllables": [
+     "stan",
+     "num"
+    ]
+   }
+  ]
+ },
+ "弟": {
+  "char": "弟",
+  "reading": "dì",
+  "definition": "young brother; junior; I, me",
+  "cantonese": "dai6",
+  "elements": [
+   {
+    "symbol": "Sb",
+    "z": 51,
+    "name": "Antimony",
+    "char": "锑",
+    "glyph": null,
+    "pinyin": "tī",
+    "matched": 0,
+    "syllables": [
+     "sti",
+     "bium"
+    ]
+   }
+  ]
+ },
+ "帝": {
+  "char": "帝",
+  "reading": "dì",
+  "definition": "supreme ruler, emperor; god",
+  "cantonese": "dai3",
+  "elements": [
+   {
+    "symbol": "Te",
+    "z": 52,
+    "name": "Tellurium",
+    "char": "碲",
+    "glyph": null,
+    "pinyin": "dì",
+    "matched": 0,
+    "syllables": [
+     "tel",
+     "lu",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "典": {
+  "char": "典",
+  "reading": "diǎn",
+  "definition": "law, canon; documentation; classic, scripture",
+  "cantonese": "din2",
+  "elements": [
+   {
+    "symbol": "I",
+    "z": 53,
+    "name": "Iodine",
+    "char": "碘",
+    "glyph": null,
+    "pinyin": "diǎn",
+    "matched": 1,
+    "syllables": [
+     "io",
+     "di",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "山": {
+  "char": "山",
+  "reading": "shān",
+  "definition": "mountain, hill, peak",
+  "cantonese": "saan1",
+  "elements": [
+   {
+    "symbol": "Xe",
+    "z": 54,
+    "name": "Xenon",
+    "char": "氙",
+    "glyph": null,
+    "pinyin": "xiān",
+    "matched": 0,
+    "syllables": [
+     "xe",
+     "non"
+    ]
+   }
+  ]
+ },
+ "色": {
+  "char": "色",
+  "reading": "sè",
+  "definition": "color, tint, hue, shade; form, body; beauty, desire for beauty; Kangxi radical 139",
+  "cantonese": "sik1",
+  "elements": [
+   {
+    "symbol": "Cs",
+    "z": 55,
+    "name": "Caesium",
+    "char": "铯",
+    "glyph": null,
+    "pinyin": "sè",
+    "matched": null,
+    "syllables": [
+     "cae",
+     "sium"
+    ]
+   }
+  ]
+ },
+ "贝": {
+  "char": "贝",
+  "reading": "bèi",
+  "definition": "sea shell; money, currency",
+  "cantonese": "bui3",
+  "elements": [
+   {
+    "symbol": "Ba",
+    "z": 56,
+    "name": "Barium",
+    "char": "钡",
+    "glyph": null,
+    "pinyin": "bèi",
+    "matched": 0,
+    "syllables": [
+     "ba",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "阑": {
+  "char": "阑",
+  "reading": "lán",
+  "definition": "door screen; railing fence",
+  "cantonese": "laan4",
+  "elements": [
+   {
+    "symbol": "La",
+    "z": 57,
+    "name": "Lanthanum",
+    "char": "镧",
+    "glyph": null,
+    "pinyin": "lán",
+    "matched": 0,
+    "syllables": [
+     "lant",
+     "ha",
+     "num"
+    ]
+   }
+  ]
+ },
+ "市": {
+  "char": "市",
+  "reading": "shì",
+  "definition": "market, fair; city, town; trade",
+  "cantonese": "si5",
+  "elements": [
+   {
+    "symbol": "Ce",
+    "z": 58,
+    "name": "Cerium",
+    "char": "铈",
+    "glyph": null,
+    "pinyin": "shì",
+    "matched": 0,
+    "syllables": [
+     "ce",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "普": {
+  "char": "普",
+  "reading": "pǔ",
+  "definition": "universal, general, widespread",
+  "cantonese": "pou2",
+  "elements": [
+   {
+    "symbol": "Pr",
+    "z": 59,
+    "name": "Praseodymium",
+    "char": "镨",
+    "glyph": null,
+    "pinyin": "pǔ",
+    "matched": 0,
+    "syllables": [
+     "pra",
+     "seo",
+     "dy",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "女": {
+  "char": "女",
+  "reading": "nǚ",
+  "definition": "woman, girl; feminine; Kangxi radical 38; 10th lunar mansion, determinative star ε Aquarii (Albali)",
+  "cantonese": "neoi5",
+  "elements": [
+   {
+    "symbol": "Nd",
+    "z": 60,
+    "name": "Neodymium",
+    "char": "钕",
+    "glyph": null,
+    "pinyin": "nǚ",
+    "matched": 0,
+    "syllables": [
+     "neo",
+     "dy",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "叵": {
+  "char": "叵",
+  "reading": "pǒ",
+  "definition": "cannot, be unable do, improbable; thereupon",
+  "cantonese": "po2",
+  "elements": [
+   {
+    "symbol": "Pm",
+    "z": 61,
+    "name": "Promethium",
+    "char": "钷",
+    "glyph": null,
+    "pinyin": "pǒ",
+    "matched": 0,
+    "syllables": [
+     "pro",
+     "met",
+     "hium"
+    ]
+   }
+  ]
+ },
+ "彡": {
+  "char": "彡",
+  "reading": "shān",
+  "definition": "hair; Kangxi radical 59",
+  "cantonese": "saam1",
+  "elements": [
+   {
+    "symbol": "Sm",
+    "z": 62,
+    "name": "Samarium",
+    "char": "钐",
+    "glyph": null,
+    "pinyin": "shān",
+    "matched": 0,
+    "syllables": [
+     "sa",
+     "ma",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "有": {
+  "char": "有",
+  "reading": "yǒu",
+  "definition": "have, own, possess; exist",
+  "cantonese": "jau5",
+  "elements": [
+   {
+    "symbol": "Eu",
+    "z": 63,
+    "name": "Europium",
+    "char": "铕",
+    "glyph": null,
+    "pinyin": "yǒu",
+    "matched": 0,
+    "syllables": [
+     "eu",
+     "ro",
+     "pium"
+    ]
+   }
+  ]
+ },
+ "乚": {
+  "char": "乚",
+  "reading": "yǐn",
+  "definition": "hidden, mysterious, secret; to conceal; small; minute",
+  "cantonese": "jyut3",
+  "elements": [
+   {
+    "symbol": "Gd",
+    "z": 64,
+    "name": "Gadolinium",
+    "char": "钆",
+    "glyph": null,
+    "pinyin": "gá",
+    "matched": 0,
+    "syllables": [
+     "ga",
+     "do",
+     "li",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "忒": {
+  "char": "忒",
+  "reading": "tè",
+  "definition": "excessive; too; very-usually of objectionable things; to err; to mistake; changeable",
+  "cantonese": "tik1",
+  "elements": [
+   {
+    "symbol": "Tb",
+    "z": 65,
+    "name": "Terbium",
+    "char": "铽",
+    "glyph": null,
+    "pinyin": "tè",
+    "matched": 0,
+    "syllables": [
+     "ter",
+     "bium"
+    ]
+   }
+  ]
+ },
+ "啇": {
+  "char": "啇",
+  "reading": "dì",
+  "definition": "to stalk; the stem; the foot; the base",
+  "cantonese": "dik1",
+  "elements": [
+   {
+    "symbol": "Dy",
+    "z": 66,
+    "name": "Dysprosium",
+    "char": "镝",
+    "glyph": null,
+    "pinyin": "dī",
+    "matched": 0,
+    "syllables": [
+     "dysp",
+     "ro",
+     "sium"
+    ]
+   }
+  ]
+ },
+ "火": {
+  "char": "火",
+  "reading": "huǒ",
+  "definition": "fire, flame; burn; anger, rage",
+  "cantonese": "fo2",
+  "elements": [
+   {
+    "symbol": "Ho",
+    "z": 67,
+    "name": "Holmium",
+    "char": "钬",
+    "glyph": null,
+    "pinyin": "huǒ",
+    "matched": 0,
+    "syllables": [
+     "hol",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "耳": {
+  "char": "耳",
+  "reading": "ěr",
+  "definition": "ear; merely, only; handle; Kangxi radical 128",
+  "cantonese": "ji5",
+  "elements": [
+   {
+    "symbol": "Er",
+    "z": 68,
+    "name": "Erbium",
+    "char": "铒",
+    "glyph": null,
+    "pinyin": "ěr",
+    "matched": 0,
+    "syllables": [
+     "er",
+     "bium"
+    ]
+   }
+  ]
+ },
+ "丢": {
+  "char": "丢",
+  "reading": "diū",
+  "definition": "discard",
+  "cantonese": "diu1",
+  "elements": [
+   {
+    "symbol": "Tm",
+    "z": 69,
+    "name": "Thulium",
+    "char": "铥",
+    "glyph": null,
+    "pinyin": "diū",
+    "matched": 0,
+    "syllables": [
+     "thu",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "意": {
+  "char": "意",
+  "reading": "yì",
+  "definition": "thought, idea, opinion; think",
+  "cantonese": "ji3",
+  "elements": [
+   {
+    "symbol": "Yb",
+    "z": 70,
+    "name": "Ytterbium",
+    "char": "镱",
+    "glyph": null,
+    "pinyin": "yì",
+    "matched": 0,
+    "syllables": [
+     "yt",
+     "ter",
+     "bium"
+    ]
+   }
+  ]
+ },
+ "鲁": {
+  "char": "鲁",
+  "reading": "lǔ",
+  "definition": "foolish, stupid, rash; vulgar",
+  "cantonese": "lou5",
+  "elements": [
+   {
+    "symbol": "Lu",
+    "z": 71,
+    "name": "Lutetium",
+    "char": "镥",
+    "glyph": null,
+    "pinyin": "lǔ",
+    "matched": 0,
+    "syllables": [
+     "lu",
+     "te",
+     "tium"
+    ]
+   }
+  ]
+ },
+ "合": {
+  "char": "合",
+  "reading": "hé",
+  "definition": "combine, unite, join; gather",
+  "cantonese": "hap6",
+  "elements": [
+   {
+    "symbol": "Hf",
+    "z": 72,
+    "name": "Hafnium",
+    "char": "铪",
+    "glyph": null,
+    "pinyin": "hā",
+    "matched": 0,
+    "syllables": [
+     "haf",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "旦": {
+  "char": "旦",
+  "reading": "dàn",
+  "definition": "dawn; morning; day",
+  "cantonese": "daan3",
+  "elements": [
+   {
+    "symbol": "Ta",
+    "z": 73,
+    "name": "Tantalum",
+    "char": "钽",
+    "glyph": null,
+    "pinyin": "tǎn",
+    "matched": 0,
+    "syllables": [
+     "tan",
+     "ta",
+     "lum"
+    ]
+   }
+  ]
+ },
+ "乌": {
+  "char": "乌",
+  "reading": "wū",
+  "definition": "crow, rook, raven; black, dark",
+  "cantonese": "wu1",
+  "elements": [
+   {
+    "symbol": "W",
+    "z": 74,
+    "name": "Tungsten",
+    "char": "钨",
+    "glyph": null,
+    "pinyin": "wū",
+    "matched": null,
+    "syllables": [
+     "wolf",
+     "ra",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "来": {
+  "char": "来",
+  "reading": "lái",
+  "definition": "come, coming; return, returning",
+  "cantonese": "loi4",
+  "elements": [
+   {
+    "symbol": "Re",
+    "z": 75,
+    "name": "Rhenium",
+    "char": "铼",
+    "glyph": null,
+    "pinyin": "lái",
+    "matched": 0,
+    "syllables": [
+     "rhe",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "我": {
+  "char": "我",
+  "reading": "wǒ",
+  "definition": "our, us, i, me, my, we",
+  "cantonese": "ngo5",
+  "elements": [
+   {
+    "symbol": "Os",
+    "z": 76,
+    "name": "Osmium",
+    "char": "锇",
+    "glyph": null,
+    "pinyin": "é",
+    "matched": 0,
+    "syllables": [
+     "os",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "衣": {
+  "char": "衣",
+  "reading": "yī",
+  "definition": "clothes, clothing; cover, skin; Kangxi radical 145",
+  "cantonese": "ji1",
+  "elements": [
+   {
+    "symbol": "Ir",
+    "z": 77,
+    "name": "Iridium",
+    "char": "铱",
+    "glyph": null,
+    "pinyin": "yī",
+    "matched": 0,
+    "syllables": [
+     "i",
+     "ri",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "白": {
+  "char": "白",
+  "reading": "bái",
+  "definition": "white; pure, unblemished; bright",
+  "cantonese": "baak6",
+  "elements": [
+   {
+    "symbol": "Pt",
+    "z": 78,
+    "name": "Platinum",
+    "char": "铂",
+    "glyph": null,
+    "pinyin": "bó",
+    "matched": null,
+    "syllables": [
+     "pla",
+     "ti",
+     "num"
+    ]
+   }
+  ]
+ },
+ "工": {
+  "char": "工",
+  "reading": "gōng",
+  "definition": "labor, work; worker, laborer",
+  "cantonese": "gung1",
+  "elements": [
+   {
+    "symbol": "Hg",
+    "z": 80,
+    "name": "Mercury",
+    "char": "汞",
+    "glyph": null,
+    "pinyin": "gǒng",
+    "matched": null,
+    "syllables": [
+     "mer",
+     "cu",
+     "ry"
+    ]
+   }
+  ]
+ },
+ "它": {
+  "char": "它",
+  "reading": "tā",
+  "definition": "it; other",
+  "cantonese": "taa1",
+  "elements": [
+   {
+    "symbol": "Tl",
+    "z": 81,
+    "name": "Thallium",
+    "char": "铊",
+    "glyph": null,
+    "pinyin": "tā",
+    "matched": 0,
+    "syllables": [
+     "thal",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "㕣": {
+  "char": "㕣",
+  "reading": "yǎn",
+  "definition": "a marsh at the foot of the hills, (interchangeable 湢 沇) name of a river",
+  "cantonese": "jin5",
+  "elements": [
+   {
+    "symbol": "Pb",
+    "z": 82,
+    "name": "Lead",
+    "char": "铅",
+    "glyph": null,
+    "pinyin": "qiān",
+    "matched": null,
+    "syllables": [
+     "lead"
+    ]
+   }
+  ]
+ },
+ "必": {
+  "char": "必",
+  "reading": "bì",
+  "definition": "surely, most certainly; must",
+  "cantonese": "bit1",
+  "elements": [
+   {
+    "symbol": "Bi",
+    "z": 83,
+    "name": "Bismuth",
+    "char": "铋",
+    "glyph": null,
+    "pinyin": "bì",
+    "matched": 0,
+    "syllables": [
+     "bis",
+     "muth"
+    ]
+   }
+  ]
+ },
+ "卜": {
+  "char": "卜",
+  "reading": "bo bǔ",
+  "definition": "fortune telling; prophesy",
+  "cantonese": "baak6",
+  "elements": [
+   {
+    "symbol": "Po",
+    "z": 84,
+    "name": "Polonium",
+    "char": "钋",
+    "glyph": null,
+    "pinyin": "pō",
+    "matched": 0,
+    "syllables": [
+     "po",
+     "lo",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "艾": {
+  "char": "艾",
+  "reading": "ài",
+  "definition": "artemisia, mugwort",
+  "cantonese": "ngaai6",
+  "elements": [
+   {
+    "symbol": "At",
+    "z": 85,
+    "name": "Astatine",
+    "char": "砹",
+    "glyph": null,
+    "pinyin": "ài",
+    "matched": 0,
+    "syllables": [
+     "as",
+     "ta",
+     "ti",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "冬": {
+  "char": "冬",
+  "reading": "dōng",
+  "definition": "winter, 11th lunar month",
+  "cantonese": "dung1",
+  "elements": [
+   {
+    "symbol": "Rn",
+    "z": 86,
+    "name": "Radon",
+    "char": "氡",
+    "glyph": null,
+    "pinyin": "dōng",
+    "matched": 1,
+    "syllables": [
+     "ra",
+     "don"
+    ]
+   }
+  ]
+ },
+ "方": {
+  "char": "方",
+  "reading": "fāng",
+  "definition": "a square, rectangle; a region; local",
+  "cantonese": "fong1",
+  "elements": [
+   {
+    "symbol": "Fr",
+    "z": 87,
+    "name": "Francium",
+    "char": "钫",
+    "glyph": null,
+    "pinyin": "fāng",
+    "matched": 0,
+    "syllables": [
+     "fran",
+     "cium"
+    ]
+   }
+  ]
+ },
+ "雷": {
+  "char": "雷",
+  "reading": "léi",
+  "definition": "thunder",
+  "cantonese": "leoi4",
+  "elements": [
+   {
+    "symbol": "Ra",
+    "z": 88,
+    "name": "Radium",
+    "char": "镭",
+    "glyph": null,
+    "pinyin": "léi",
+    "matched": 0,
+    "syllables": [
+     "ra",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "阿": {
+  "char": "阿",
+  "reading": "ā",
+  "definition": "prefix for people's names; used in transliteration",
+  "cantonese": "aa3",
+  "elements": [
+   {
+    "symbol": "Ac",
+    "z": 89,
+    "name": "Actinium",
+    "char": "锕",
+    "glyph": null,
+    "pinyin": "ā",
+    "matched": 0,
+    "syllables": [
+     "ac",
+     "ti",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "土": {
+  "char": "土",
+  "reading": "tǔ",
+  "definition": "soil, earth; items made of earth",
+  "cantonese": "tou2",
+  "elements": [
+   {
+    "symbol": "Th",
+    "z": 90,
+    "name": "Thorium",
+    "char": "钍",
+    "glyph": null,
+    "pinyin": "tǔ",
+    "matched": 0,
+    "syllables": [
+     "tho",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "菐": {
+  "char": "菐",
+  "reading": "pú",
+  "definition": "a thicket",
+  "cantonese": "duk6",
+  "elements": [
+   {
+    "symbol": "Pa",
+    "z": 91,
+    "name": "Protactinium",
+    "char": "镤",
+    "glyph": null,
+    "pinyin": "pú",
+    "matched": 0,
+    "syllables": [
+     "pro",
+     "tac",
+     "ti",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "由": {
+  "char": "由",
+  "reading": "yóu",
+  "definition": "cause, reason; from",
+  "cantonese": "jau4",
+  "elements": [
+   {
+    "symbol": "U",
+    "z": 92,
+    "name": "Uranium",
+    "char": "铀",
+    "glyph": null,
+    "pinyin": "yóu",
+    "matched": 0,
+    "syllables": [
+     "u",
+     "ra",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "拿": {
+  "char": "拿",
+  "reading": "ná",
+  "definition": "take, hold, grasp; bring; with",
+  "cantonese": "naa4",
+  "elements": [
+   {
+    "symbol": "Np",
+    "z": 93,
+    "name": "Neptunium",
+    "char": "镎",
+    "glyph": null,
+    "pinyin": "ná",
+    "matched": 0,
+    "syllables": [
+     "nep",
+     "tu",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "不": {
+  "char": "不",
+  "reading": "bù",
+  "definition": "no, not; un-; negative prefix",
+  "cantonese": "bat1",
+  "elements": [
+   {
+    "symbol": "Pu",
+    "z": 94,
+    "name": "Plutonium",
+    "char": "钚",
+    "glyph": null,
+    "pinyin": "bù",
+    "matched": 0,
+    "syllables": [
+     "plu",
+     "to",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "眉": {
+  "char": "眉",
+  "reading": "méi",
+  "definition": "eyebrows; upper margin of book",
+  "cantonese": "mei4",
+  "elements": [
+   {
+    "symbol": "Am",
+    "z": 95,
+    "name": "Americium",
+    "char": "镅",
+    "glyph": null,
+    "pinyin": "méi",
+    "matched": 0,
+    "syllables": [
+     "a",
+     "me",
+     "ri",
+     "cium"
+    ]
+   }
+  ]
+ },
+ "局": {
+  "char": "局",
+  "reading": "jú",
+  "definition": "bureau, office; circumstance",
+  "cantonese": "guk6",
+  "elements": [
+   {
+    "symbol": "Cm",
+    "z": 96,
+    "name": "Curium",
+    "char": "锔",
+    "glyph": null,
+    "pinyin": "jú",
+    "matched": 0,
+    "syllables": [
+     "cu",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "咅": {
+  "char": "咅",
+  "reading": "pǒu",
+  "definition": "to spit out",
+  "cantonese": "tau3",
+  "elements": [
+   {
+    "symbol": "Bk",
+    "z": 97,
+    "name": "Berkelium",
+    "char": "锫",
+    "glyph": null,
+    "pinyin": "péi",
+    "matched": 0,
+    "syllables": [
+     "ber",
+     "ke",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "开": {
+  "char": "开",
+  "reading": "kāi",
+  "definition": "open; initiate, begin, start",
+  "cantonese": "hoi1",
+  "elements": [
+   {
+    "symbol": "Cf",
+    "z": 98,
+    "name": "Californium",
+    "char": "锎",
+    "glyph": null,
+    "pinyin": "kāi",
+    "matched": 0,
+    "syllables": [
+     "ca",
+     "li",
+     "for",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "哀": {
+  "char": "哀",
+  "reading": "āi",
+  "definition": "sad, mournful, pitiful; pity",
+  "cantonese": "oi1",
+  "elements": [
+   {
+    "symbol": "Es",
+    "z": 99,
+    "name": "Einsteinium",
+    "char": "锿",
+    "glyph": null,
+    "pinyin": "āi",
+    "matched": 0,
+    "syllables": [
+     "eins",
+     "tei",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "费": {
+  "char": "费",
+  "reading": "fèi",
+  "definition": "expenses, expenditures, fee",
+  "cantonese": "fai3",
+  "elements": [
+   {
+    "symbol": "Fm",
+    "z": 100,
+    "name": "Fermium",
+    "char": "镄",
+    "glyph": null,
+    "pinyin": "fèi",
+    "matched": 0,
+    "syllables": [
+     "fer",
+     "mium"
+    ]
+   }
+  ]
+ },
+ "门": {
+  "char": "门",
+  "reading": "mén",
+  "definition": "gate, door, entrance, opening",
+  "cantonese": "mun4",
+  "elements": [
+   {
+    "symbol": "Md",
+    "z": 101,
+    "name": "Mendelevium",
+    "char": "钔",
+    "glyph": null,
+    "pinyin": "mén",
+    "matched": 0,
+    "syllables": [
+     "men",
+     "de",
+     "le",
+     "vium"
+    ]
+   }
+  ]
+ },
+ "若": {
+  "char": "若",
+  "reading": "ruò",
+  "definition": "if, supposing, assuming; similar",
+  "cantonese": "joek6",
+  "elements": [
+   {
+    "symbol": "No",
+    "z": 102,
+    "name": "Nobelium",
+    "char": "锘",
+    "glyph": null,
+    "pinyin": "nuò",
+    "matched": 0,
+    "syllables": [
+     "no",
+     "be",
+     "lium"
+    ]
+   }
+  ]
+ },
+ "劳": {
+  "char": "劳",
+  "reading": "láo",
+  "definition": "labor, toil, do manual work",
+  "cantonese": "lou4",
+  "elements": [
+   {
+    "symbol": "Lr",
+    "z": 103,
+    "name": "Lawrencium",
+    "char": "铹",
+    "glyph": null,
+    "pinyin": "láo",
+    "matched": 0,
+    "syllables": [
+     "law",
+     "ren",
+     "cium"
+    ]
+   }
+  ]
+ },
+ "卢": {
+  "char": "卢",
+  "reading": "lú",
+  "definition": "cottage, hut; surname; black",
+  "cantonese": "lou4",
+  "elements": [
+   {
+    "symbol": "Rf",
+    "z": 104,
+    "name": "Rutherfordium",
+    "char": "𬬻",
+    "glyph": "rf",
+    "pinyin": "lú",
+    "matched": 0,
+    "syllables": [
+     "rut",
+     "her",
+     "for",
+     "dium"
+    ]
+   }
+  ]
+ },
+ "杜": {
+  "char": "杜",
+  "reading": "dù",
+  "definition": "stop, prevent; restrict; surname",
+  "cantonese": "dou6",
+  "elements": [
+   {
+    "symbol": "Db",
+    "z": 105,
+    "name": "Dubnium",
+    "char": "𬭊",
+    "glyph": "db",
+    "pinyin": "dù",
+    "matched": 0,
+    "syllables": [
+     "dub",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "喜": {
+  "char": "喜",
+  "reading": "xǐ",
+  "definition": "like, love, enjoy; joyful thing",
+  "cantonese": "hei2",
+  "elements": [
+   {
+    "symbol": "Sg",
+    "z": 106,
+    "name": "Seaborgium",
+    "char": "𬭳",
+    "glyph": "sg",
+    "pinyin": "xǐ",
+    "matched": 0,
+    "syllables": [
+     "sea",
+     "bor",
+     "gium"
+    ]
+   }
+  ]
+ },
+ "波": {
+  "char": "波",
+  "reading": "bō",
+  "definition": "waves, breakers; undulations",
+  "cantonese": "bo1",
+  "elements": [
+   {
+    "symbol": "Bh",
+    "z": 107,
+    "name": "Bohrium",
+    "char": "𬭛",
+    "glyph": "bh",
+    "pinyin": "bō",
+    "matched": 0,
+    "syllables": [
+     "boh",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "黑": {
+  "char": "黑",
+  "reading": "hēi",
+  "definition": "black; dark; evil, sinister; Kangxi radical 203",
+  "cantonese": "hak1",
+  "elements": [
+   {
+    "symbol": "Hs",
+    "z": 108,
+    "name": "Hassium",
+    "char": "𬭶",
+    "glyph": "hs",
+    "pinyin": "hēi",
+    "matched": 0,
+    "syllables": [
+     "has",
+     "sium"
+    ]
+   }
+  ]
+ },
+ "麦": {
+  "char": "麦",
+  "reading": "mài",
+  "definition": "wheat, barley, oats; simplified form of Kangxi radical 199",
+  "cantonese": "mak6",
+  "elements": [
+   {
+    "symbol": "Mt",
+    "z": 109,
+    "name": "Meitnerium",
+    "char": "鿏",
+    "glyph": null,
+    "pinyin": "mài",
+    "matched": 0,
+    "syllables": [
+     "meit",
+     "ne",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "达": {
+  "char": "达",
+  "reading": "dá",
+  "definition": "arrive at, reach; intelligent; smooth, slippery",
+  "cantonese": "daat6",
+  "elements": [
+   {
+    "symbol": "Ds",
+    "z": 110,
+    "name": "Darmstadtium",
+    "char": "𫟼",
+    "glyph": "ds",
+    "pinyin": "dá",
+    "matched": 0,
+    "syllables": [
+     "darms",
+     "tad",
+     "tium"
+    ]
+   }
+  ]
+ },
+ "仑": {
+  "char": "仑",
+  "reading": "lún",
+  "definition": "logical reasons, logical order",
+  "cantonese": "leon4",
+  "elements": [
+   {
+    "symbol": "Rg",
+    "z": 111,
+    "name": "Roentgenium",
+    "char": "𬬭",
+    "glyph": "rg",
+    "pinyin": "lún",
+    "matched": 0,
+    "syllables": [
+     "roent",
+     "ge",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "哥": {
+  "char": "哥",
+  "reading": "gē",
+  "definition": "elder brother",
+  "cantonese": "go1",
+  "elements": [
+   {
+    "symbol": "Cn",
+    "z": 112,
+    "name": "Copernicium",
+    "char": "鿔",
+    "glyph": null,
+    "pinyin": "gē",
+    "matched": 0,
+    "syllables": [
+     "co",
+     "per",
+     "ni",
+     "cium"
+    ]
+   }
+  ]
+ },
+ "尔": {
+  "char": "尔",
+  "reading": "ěr",
+  "definition": "you; that, those; final particle",
+  "cantonese": "ji5",
+  "elements": [
+   {
+    "symbol": "Nh",
+    "z": 113,
+    "name": "Nihonium",
+    "char": "鿭",
+    "glyph": null,
+    "pinyin": "nǐ",
+    "matched": 0,
+    "syllables": [
+     "ni",
+     "ho",
+     "nium"
+    ]
+   }
+  ]
+ },
+ "夫": {
+  "char": "夫",
+  "reading": "fū",
+  "definition": "man, male adult, husband; those",
+  "cantonese": "fu1",
+  "elements": [
+   {
+    "symbol": "Fl",
+    "z": 114,
+    "name": "Flerovium",
+    "char": "𫓧",
+    "glyph": "fl",
+    "pinyin": "fū",
+    "matched": 0,
+    "syllables": [
+     "fle",
+     "ro",
+     "vium"
+    ]
+   }
+  ]
+ },
+ "莫": {
+  "char": "莫",
+  "reading": "mò",
+  "definition": "do not, is not, can not; negative",
+  "cantonese": "mok6",
+  "elements": [
+   {
+    "symbol": "Mc",
+    "z": 115,
+    "name": "Moscovium",
+    "char": "镆",
+    "glyph": null,
+    "pinyin": "mò",
+    "matched": 0,
+    "syllables": [
+     "mos",
+     "co",
+     "vium"
+    ]
+   }
+  ]
+ },
+ "立": {
+  "char": "立",
+  "reading": "lì",
+  "definition": "stand; let stand; establish, set",
+  "cantonese": "lap6",
+  "elements": [
+   {
+    "symbol": "Lv",
+    "z": 116,
+    "name": "Livermorium",
+    "char": "𫟷",
+    "glyph": "lv",
+    "pinyin": "lì",
+    "matched": 0,
+    "syllables": [
+     "li",
+     "ver",
+     "mo",
+     "rium"
+    ]
+   }
+  ]
+ },
+ "田": {
+  "char": "田",
+  "reading": "tián",
+  "definition": "field, arable land, cultivated",
+  "cantonese": "tin4",
+  "elements": [
+   {
+    "symbol": "Ts",
+    "z": 117,
+    "name": "Tennessine",
+    "char": "鿬",
+    "glyph": null,
+    "pinyin": "tián",
+    "matched": 0,
+    "syllables": [
+     "ten",
+     "nes",
+     "si",
+     "ne"
+    ]
+   }
+  ]
+ },
+ "奥": {
+  "char": "奥",
+  "reading": "ào",
+  "definition": "mysterious, obscure, profound",
+  "cantonese": "ou3",
+  "elements": [
+   {
+    "symbol": "Og",
+    "z": 118,
+    "name": "Oganesson",
+    "char": "鿫",
+    "glyph": null,
+    "pinyin": "ào",
+    "matched": 0,
+    "syllables": [
+     "o",
+     "ga",
+     "nes",
+     "son"
+    ]
+   }
+  ]
+ }
+}

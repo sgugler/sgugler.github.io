@@ -46,10 +46,11 @@
 				<span class="label">radical <b class="hanzi">{rad.full}</b> <i>{rad.pinyin}</i><br />{rad.meaning} → {rad.state}</span>
 			</div>
 			<span class="op">+</span>
-			<div class="part">
+			<a class="part" href={resolve('/phonetic/[char]', { char: e.phonetic })} title="All about the component {e.phonetic}">
 				<span class="big hanzi">{e.phonetic}</span>
-				<span class="label">{e.origin === 'property' ? 'sound and meaning' : 'phonetic'}</span>
-			</div>
+				<span class="label">{e.origin === 'property' ? 'sound and meaning' : 'phonetic'}{#if data.extras.matched !== null}<br />from
+						{#each data.extras.syllables as s, i}<span class="syl" class:hit={i === data.extras.matched}>{s}</span>{/each}{/if}</span>
+			</a>
 			<span class="op">=</span>
 			<div class="part">
 				<span class="big"><Glyph element={e} size="2.6rem" /></span>
@@ -106,6 +107,21 @@
 		{/if}
 		{#if !data.homophones.same.length && !data.homophones.toneOnly.length}
 			<p class="muted">No other element shares this syllable.</p>
+		{/if}
+	</section>
+
+	<section class="card">
+		<h2>Elsewhere</h2>
+		<p class="langs">
+			{#if data.extras.ja}<span><b>Japanese</b> <span lang="ja">{data.extras.ja}</span></span>{/if}
+			{#if data.extras.ko}<span><b>Korean</b> <span lang="ko">{data.extras.ko}</span></span>{/if}
+			{#if data.extras.vi}<span><b>Vietnamese</b> <span lang="vi">{data.extras.vi}</span></span>{/if}
+		</p>
+		{#if data.extras.etymology}
+			<p class="muted">
+				Western name from {data.extras.etymology.language ? data.extras.etymology.language + ' ' : ''}<i>{data.extras.etymology.word}</i>{#if data.extras.etymology.meaning}, “{data.extras.etymology.meaning}”{/if}.
+				<a href={resolve('/languages')}>Compare all</a>
+			</p>
 		{/if}
 	</section>
 
@@ -178,6 +194,33 @@
 		flex-wrap: wrap;
 		gap: 0.75rem;
 		margin-bottom: 1rem;
+	}
+	a.part {
+		text-decoration: none;
+		color: inherit;
+	}
+	a.part:hover {
+		border-color: var(--accent);
+	}
+	.syl {
+		color: var(--muted);
+	}
+	.syl.hit {
+		color: var(--accent);
+		font-weight: 700;
+		text-decoration: underline;
+	}
+	.langs {
+		display: flex;
+		flex-direction: column;
+		gap: 0.15rem;
+		margin: 0 0 0.5rem;
+	}
+	.langs b {
+		font-weight: 600;
+		color: var(--muted);
+		display: inline-block;
+		width: 6.5rem;
 	}
 	.part {
 		display: flex;
