@@ -4,8 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 export default {
 	kit: {
 		adapter: adapter({ pages: 'build', assets: 'build', strict: true }),
-		// Served at https://sgugler.ch/yanzi/ next to the Hugo site.
-		paths: { base: '/yanzi' },
+		// Served at https://sgugler.ch/yuanzi/ next to the Hugo site.
+		paths: { base: '/yuanzi' },
 		prerender: { entries: ['*'] }
 	}
 };

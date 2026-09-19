@@ -13,7 +13,7 @@
 		theme = current === 'dark' ? 'light' : 'dark';
 		document.documentElement.dataset.theme = theme;
 		try {
-			localStorage.setItem('yanzi:theme', theme);
+			localStorage.setItem('yuanzi:theme', theme);
 		} catch {}
 	}
 </script>

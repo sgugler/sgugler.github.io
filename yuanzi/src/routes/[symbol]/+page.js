@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 import { elements, bySymbol, homophones } from '$lib/data.js';
 import history from '$lib/history.json';
 
-/** One prerendered page per element, e.g. /yanzi/fe/ */
+/** One prerendered page per element, e.g. /yuanzi/fe/ */
 export function entries() {
 	return elements.map((e) => ({ symbol: e.symbol.toLowerCase() }));
 }

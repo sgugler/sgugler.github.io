@@ -5,7 +5,7 @@
 hugo_stats.json
 go.sum
 
-# yanzi (SvelteKit app)
-/yanzi/node_modules/
-/yanzi/build/
-/yanzi/.svelte-kit/
+# yuanzi (SvelteKit app)
+/yuanzi/node_modules/
+/yuanzi/build/
+/yuanzi/.svelte-kit/

@@ -58,12 +58,12 @@ jobs:
       with:
         node-version: 22
         cache: npm
-        cache-dependency-path: yanzi/package-lock.json
-    - name: Build 元字 (yanzi) app
+        cache-dependency-path: yuanzi/package-lock.json
+    - name: Build 元字 (yuanzi) app
       run: |
-        npm ci --prefix yanzi
-        npm run build --prefix yanzi
-        cp -r yanzi/build public/yanzi
+        npm ci --prefix yuanzi
+        npm run build --prefix yuanzi
+        cp -r yuanzi/build public/yuanzi
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:

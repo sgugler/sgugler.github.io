@@ -1,9 +1,9 @@
 # 元字 yuánzì
 
 A small SvelteKit app that lets you search and explore the Chinese characters of
-the 118 chemical elements. It is served at <https://sgugler.ch/yanzi/> next to
+the 118 chemical elements. It is served at <https://sgugler.ch/yuanzi/> next to
 the Hugo site: the publish workflow builds it and copies `build/` into
-`public/yanzi/`.
+`public/yuanzi/`.
 
 The data comes from the element table of
 
@@ -14,7 +14,7 @@ The data comes from the element table of
 
 ```sh
 npm install
-npm run dev        # http://localhost:5173/yanzi/
+npm run dev        # http://localhost:5173/yuanzi/
 npm run build      # static output in build/
 ```
 
@@ -54,7 +54,7 @@ characters most fonts lack) and `year` (for undated proposals).
 
 - `src/routes/+page.svelte` – explorer: search, radical and origin filters,
   periodic table or list view
-- `src/routes/[symbol]/` – one prerendered page per element (`/yanzi/fe/`)
+- `src/routes/[symbol]/` – one prerendered page per element (`/yuanzi/fe/`)
 - `src/lib/data.js` – search, tone-insensitive pinyin matching, homophones
 - `src/service-worker.js`, `static/manifest.webmanifest` – installable, works
   offline

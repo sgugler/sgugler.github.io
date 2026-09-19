@@ -3,7 +3,7 @@ import { build, files, prerendered, version } from '$service-worker';
 
 // Everything the app needs is known at build time, so cache it all on install
 // and the explorer keeps working offline.
-const CACHE = `yanzi-${version}`;
+const CACHE = `yuanzi-${version}`;
 const ASSETS = [...build, ...files, ...prerendered];
 
 self.addEventListener('install', (event) => {
