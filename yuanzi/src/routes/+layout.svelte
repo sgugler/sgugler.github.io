@@ -8,10 +8,14 @@
 
 	let theme = $state(browser ? (document.documentElement.dataset.theme ?? 'system') : 'system');
 
+	// light → dark → sakura → light
+	const order = ['light', 'dark', 'sakura'];
+	const icons = { light: '☀', dark: '☾', sakura: '🌸', system: '◐' };
+
 	function toggleTheme() {
 		const dark = matchMedia('(prefers-color-scheme: dark)').matches;
 		const current = theme === 'system' ? (dark ? 'dark' : 'light') : theme;
-		theme = current === 'dark' ? 'light' : 'dark';
+		theme = order[(order.indexOf(current) + 1) % order.length];
 		document.documentElement.dataset.theme = theme;
 		try {
 			localStorage.setItem('yuanzi:theme', theme);
@@ -56,7 +60,7 @@
 			<a href={resolve(path)} class:active={active(path)}>{label}</a>
 		{/each}
 	</nav>
-	<button class="chip theme" onclick={toggleTheme} aria-label="Toggle light or dark theme" title="Light / dark">◐</button>
+	<button class="chip theme" onclick={toggleTheme} aria-label="Switch theme: light, dark or sakura" title="Theme: light → dark → sakura">{icons[theme]}</button>
 </header>
 
 <main>

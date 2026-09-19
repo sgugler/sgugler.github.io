@@ -30,6 +30,36 @@
 	--water: #1f5c3a;
 }
 
+/* 🌸 sakura: rose, lilac and lavender */
+[data-theme='sakura'] {
+	color-scheme: light;
+	--bg: #fff3f8;
+	--fg: #4b1f3f;
+	--muted: #9a6588;
+	--card: #fffafd;
+	--line: #f2c9dd;
+	--accent: #c72c86;
+	--accent-fg: #ffffff;
+	--metal: #ffc2d9;
+	--stone: #e4d3f0;
+	--gas: #cdbbf7;
+	--water: #ffdff0;
+}
+[data-theme='sakura'] body {
+	background:
+		radial-gradient(60rem 30rem at 110% -10%, #ffd6ea 0%, transparent 60%),
+		radial-gradient(50rem 30rem at -10% 110%, #e9d8ff 0%, transparent 60%),
+		var(--bg);
+	background-attachment: fixed;
+}
+[data-theme='sakura'] .card {
+	border-radius: 1.1rem;
+	box-shadow: 0 6px 18px -12px rgba(199, 44, 134, 0.35);
+}
+[data-theme='sakura'] .chip {
+	border-radius: 999px;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root:not([data-theme='light']) {
 		color-scheme: dark;
