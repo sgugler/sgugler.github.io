@@ -120,7 +120,7 @@
 			<!-- attestations -->
 			{#each r.attestations as a}
 				<g class="dot" tabindex="0">
-					<circle cx={x(a.year)} cy={y} r="6" class="pt kind-{sources[a.source].kind}" />
+					<circle cx={x(a.year)} cy={y} r="6" class="pt kind-{sources[a.source].kind}" class:inferred={a.inferred} />
 					<title>{yearText(a.year)} · {label(a)}</title>
 				</g>
 			{/each}
@@ -138,7 +138,7 @@
 			<span class="when">{yearText(a.year)}</span>
 			<span class="hanzi big" title={a.ids ? `composition ${a.ids}` : ''}>{a.form}{#if a.ids}<span class="ids"> ({composition(a.ids)})</span>{/if}</span>
 			{#if a.reading}<i>{a.reading}</i>{/if}
-			<span class="src">{s.zh} <span class="muted">{s.label}, {s.who}</span></span>
+			<span class="src">{s.zh} <span class="muted">{s.label}, {s.who}</span>{#if a.inferred}<span class="inf"> inferred</span>{/if}</span>
 			{#if a.note}<span class="note">{a.note}</span>{/if}
 		</li>
 	{/each}
@@ -189,6 +189,17 @@
 	.pt.kind-proposal,
 	.pt.kind-variant {
 		stroke-dasharray: 2 2;
+	}
+	.pt.inferred {
+		fill: var(--card);
+		stroke-dasharray: 2 2;
+	}
+	.inf {
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--muted);
+		margin-left: 0.4rem;
 	}
 	.pt.now {
 		fill: var(--accent);

@@ -394,7 +394,16 @@
   }
  },
  "Ne": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "氖",
+    "source": "moe1933",
+    "reading": "nǎi",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "氖",
    "hant": "氖",
@@ -1391,7 +1400,16 @@
   }
  },
  "Kr": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "氪",
+    "source": "moe1933",
+    "reading": "kè",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "氪",
    "hant": "氪",
@@ -1649,6 +1667,14 @@
     "reading": "báiyín",
     "note": "to keep it apart from 水銀 mercury",
     "year": 1868
+   },
+   {
+    "form": "銀",
+    "source": "moe1933",
+    "reading": "yín",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
    }
   ],
   "current": {
@@ -1701,6 +1727,14 @@
     "reading": "xī",
     "note": "one of the Five Metals; phonetic 易 reflects an old pronunciation",
     "year": 0
+   },
+   {
+    "form": "錫",
+    "source": "moe1933",
+    "reading": "xī",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
    }
   ],
   "current": {
@@ -1771,7 +1805,16 @@
   }
  },
  "Xe": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "氙",
+    "source": "moe1933",
+    "reading": "xiān",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "氙",
    "hant": "氙",
@@ -1914,7 +1957,15 @@
   }
  },
  "Pm": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鉕",
+    "source": "prc1991",
+    "reading": "pǒ",
+    "note": "Named in Chemical Terms (1991), which gave technetium, promethium, astatine and francium their final characters.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "钷",
    "hant": "鉕",
@@ -1949,7 +2000,16 @@
   }
  },
  "Eu": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "銪",
+    "source": "moe1933",
+    "reading": "yǒu",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "铕",
    "hant": "銪",
@@ -1984,7 +2044,16 @@
   }
  },
  "Tb": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鋱",
+    "source": "moe1933",
+    "reading": "tè",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "铽",
    "hant": "鋱",
@@ -1994,7 +2063,16 @@
   }
  },
  "Dy": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鏑",
+    "source": "moe1933",
+    "reading": "dī",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "镝",
    "hant": "鏑",
@@ -2004,7 +2082,16 @@
   }
  },
  "Ho": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鈥",
+    "source": "moe1933",
+    "reading": "huǒ",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "钬",
    "hant": "鈥",
@@ -2014,7 +2101,16 @@
   }
  },
  "Er": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鉺",
+    "source": "moe1933",
+    "reading": "ěr",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "铒",
    "hant": "鉺",
@@ -2091,7 +2187,16 @@
   }
  },
  "Hf": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鉿",
+    "source": "moe1933",
+    "reading": "hā",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "铪",
    "hant": "鉿",
@@ -2142,7 +2247,16 @@
   }
  },
  "Re": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "錸",
+    "source": "moe1933",
+    "reading": "lái",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "铼",
    "hant": "錸",
@@ -2245,6 +2359,14 @@
     "reading": "huángjīn",
     "note": "“yellow gold”, since platinum was 白金",
     "year": 1868
+   },
+   {
+    "form": "金",
+    "source": "moe1933",
+    "reading": "jīn",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
    }
   ],
   "current": {
@@ -2275,6 +2397,14 @@
     "source": "du1905",
     "reading": "hóng",
     "year": 1905
+   },
+   {
+    "form": "汞",
+    "source": "moe1933",
+    "reading": "gǒng",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
    }
   ],
   "current": {
@@ -2323,6 +2453,14 @@
     "reading": "hēiqiān",
     "note": "since zinc was 白鉛 “white lead”",
     "year": 1868
+   },
+   {
+    "form": "鉛",
+    "source": "moe1933",
+    "reading": "qiān",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
    }
   ],
   "current": {
@@ -2351,7 +2489,16 @@
   }
  },
  "Po": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "釙",
+    "source": "moe1933",
+    "reading": "pō",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "钋",
    "hant": "釙",
@@ -2457,7 +2604,16 @@
   }
  },
  "Ac": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "錒",
+    "source": "moe1933",
+    "reading": "ā",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "锕",
    "hant": "錒",
@@ -2484,7 +2640,16 @@
   }
  },
  "Pa": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鏷",
+    "source": "moe1933",
+    "reading": "pú",
+    "inferred": true,
+    "note": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "year": 1933
+   }
+  ],
   "current": {
    "hans": "镤",
    "hant": "鏷",
@@ -2596,7 +2761,16 @@
   }
  },
  "Cm": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鋦",
+    "source": "prc1991",
+    "reading": "jú",
+    "inferred": true,
+    "note": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "锔",
    "hant": "鋦",
@@ -2676,7 +2850,16 @@
   }
  },
  "Fm": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鐨",
+    "source": "prc1991",
+    "reading": "fèi",
+    "inferred": true,
+    "note": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "镄",
    "hant": "鐨",
@@ -2686,7 +2869,16 @@
   }
  },
  "Md": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鍆",
+    "source": "prc1991",
+    "reading": "mén",
+    "inferred": true,
+    "note": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "钔",
    "hant": "鍆",
@@ -2696,7 +2888,16 @@
   }
  },
  "No": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鍩",
+    "source": "prc1991",
+    "reading": "nuò",
+    "inferred": true,
+    "note": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "锘",
    "hant": "鍩",
@@ -2706,7 +2907,16 @@
   }
  },
  "Lr": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鐒",
+    "source": "prc1991",
+    "reading": "láo",
+    "inferred": true,
+    "note": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+    "year": 1991
+   }
+  ],
   "current": {
    "hans": "铹",
    "hant": "鐒",
@@ -2991,7 +3201,23 @@
   }
  },
  "Lv": {
-  "forms": [],
+  "forms": [
+   {
+    "form": "鉝",
+    "source": "tw2012",
+    "reading": "lì",
+    "note": "Taiwan's provisional name, set together with 鈇 for flerovium",
+    "year": 2012
+   },
+   {
+    "form": "𫟷",
+    "source": "prc2013",
+    "reading": "lì",
+    "ids": "⿰钅立",
+    "note": "named together with flerovium in July 2013",
+    "year": 2013
+   }
+  ],
   "current": {
    "hans": "𫟷",
    "hant": "鉝",

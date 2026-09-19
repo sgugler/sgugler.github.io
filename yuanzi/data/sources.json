@@ -203,11 +203,11 @@
   },
   "prc2013": {
     "year": 2013,
-    "label": "Name of element 114",
-    "zh": "114號元素中文定名",
+    "label": "Names of elements 114 and 116",
+    "zh": "114、116號元素中文定名",
     "who": "CNCTST",
     "kind": "standard",
-    "about": "A new character for flerovium."
+    "about": "New characters for flerovium and livermorium."
   },
   "prc2017": {
     "year": 2017,
@@ -227,7 +227,7 @@
   },
   "tw2012": {
     "year": 2012,
-    "label": "Name of element 114, Taiwan (provisional)",
+    "label": "Names of elements 114 and 116, Taiwan (provisional)",
     "zh": "國家教育研究院化學名詞審譯委員會",
     "who": "National Academy for Educational Research, Taiwan",
     "kind": "standard",

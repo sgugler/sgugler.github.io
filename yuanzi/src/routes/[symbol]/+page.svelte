@@ -32,7 +32,8 @@
 		<h1>{e.name} <span class="muted">{e.symbol} · {e.z}</span></h1>
 		<p class="pinyin">{e.pinyin}</p>
 		<p class="muted">
-			{rad.state} · period {e.period}{#if e.group !== null}, group {e.group}{/if} · {e.block}-block
+			{rad.state} · period {e.period}{#if e.group !== null}, group {e.group}{/if} · {e.block}-block{#if e.block === 'f'}
+				· {e.period === 6 ? 'lanthanide' : 'actinide'}{/if}
 		</p>
 	</div>
 </article>

@@ -67,6 +67,37 @@ def year_of(entry, entries):
     return 1900
 
 
+# Standards that fixed a name without a per-element citation available:
+# the 1933 Principles covered every element known then, and the paper records
+# only three later changes; the 1991 Chemical Terms finalised all elements to
+# 109. Where no dated attestation of the current form exists, add one from
+# the relevant standard and flag it as inferred.
+NAMED_LATER = {"Tc": "prc1991", "Pm": "prc1991", "At": "prc1991", "Fr": "prc1991"}
+INFERRED_NOTE = {
+    "moe1933": "Inferred: known by 1933, when the Principles fixed one character per element, and no later change is recorded.",
+    "prc1991": "Inferred: finalised at the latest in Chemical Terms (1991), which settled every element up to 109.",
+}
+for e in elements:
+    sym = e["symbol"]
+    v = variants.get(sym, {})
+    hant = v.get("hant") or e["char"]
+    dated = any(a["form"] == hant and sources[a["source"]]["year"] for a in attest[sym])
+    if dated or e["z"] > 109:
+        continue
+    if sym in NAMED_LATER:
+        src, inferred = NAMED_LATER[sym], sym not in ("Tc", "Pm", "At", "Fr")
+    elif e["z"] <= 92:
+        src, inferred = "moe1933", True
+    else:
+        src, inferred = "prc1991", True
+    entry = {"form": hant, "source": src, "reading": e["pinyin"]}
+    if inferred:
+        entry["inferred"] = True
+        entry["note"] = INFERRED_NOTE[src]
+    else:
+        entry["note"] = "Named in Chemical Terms (1991), which gave technetium, promethium, astatine and francium their final characters."
+    attest[sym].append(entry)
+
 out = {}
 for e in elements:
     sym = e["symbol"]

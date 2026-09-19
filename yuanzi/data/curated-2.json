@@ -775,5 +775,20 @@
   "form": "鿫",
   "source": "prc2017",
   "reading": "ào"
+ },
+ {
+  "symbol": "Lv",
+  "form": "鉝",
+  "source": "tw2012",
+  "reading": "lì",
+  "note": "Taiwan's provisional name, set together with 鈇 for flerovium"
+ },
+ {
+  "symbol": "Lv",
+  "form": "𫟷",
+  "source": "prc2013",
+  "reading": "lì",
+  "ids": "⿰钅立",
+  "note": "named together with flerovium in July 2013"
  }
 ]
