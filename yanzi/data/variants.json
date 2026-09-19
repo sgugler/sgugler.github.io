@@ -1,0 +1,1028 @@
+[
+{
+"z": 1,
+"symbol": "H",
+"hans": "氢",
+"hant": "氫",
+"pinyin": "qīng",
+"tw": "氫",
+"tw_pinyin": "qīng"
+},
+{
+"z": 2,
+"symbol": "He",
+"hans": "氦",
+"hant": "氦",
+"pinyin": "hài",
+"tw": "氦",
+"tw_pinyin": "hài"
+},
+{
+"z": 3,
+"symbol": "Li",
+"hans": "锂",
+"hant": "鋰",
+"pinyin": "lǐ",
+"tw": "鋰",
+"tw_pinyin": "lǐ"
+},
+{
+"z": 4,
+"symbol": "Be",
+"hans": "铍",
+"hant": "鈹",
+"pinyin": "pí",
+"tw": "鈹",
+"tw_pinyin": "pī"
+},
+{
+"z": 5,
+"symbol": "B",
+"hans": "硼",
+"hant": "硼",
+"pinyin": "péng",
+"tw": "硼",
+"tw_pinyin": "péng"
+},
+{
+"z": 6,
+"symbol": "C",
+"hans": "碳",
+"hant": "碳",
+"pinyin": "tàn",
+"tw": "碳",
+"tw_pinyin": "tàn"
+},
+{
+"z": 7,
+"symbol": "N",
+"hans": "氮",
+"hant": "氮",
+"pinyin": "dàn",
+"tw": "氮",
+"tw_pinyin": "dàn"
+},
+{
+"z": 8,
+"symbol": "O",
+"hans": "氧",
+"hant": "氧",
+"pinyin": "yǎng",
+"tw": "氧",
+"tw_pinyin": "yǎng"
+},
+{
+"z": 9,
+"symbol": "F",
+"hans": "氟",
+"hant": "氟",
+"pinyin": "fú",
+"tw": "氟",
+"tw_pinyin": "fú"
+},
+{
+"z": 10,
+"symbol": "Ne",
+"hans": "氖",
+"hant": "氖",
+"pinyin": "nǎi",
+"tw": "氖",
+"tw_pinyin": "nǎi"
+},
+{
+"z": 11,
+"symbol": "Na",
+"hans": "钠",
+"hant": "鈉",
+"pinyin": "nà",
+"tw": "鈉",
+"tw_pinyin": "nà"
+},
+{
+"z": 12,
+"symbol": "Mg",
+"hans": "镁",
+"hant": "鎂",
+"pinyin": "měi",
+"tw": "鎂",
+"tw_pinyin": "měi"
+},
+{
+"z": 13,
+"symbol": "Al",
+"hans": "铝",
+"hant": "鋁",
+"pinyin": "lǚ",
+"tw": "鋁",
+"tw_pinyin": "lǚ"
+},
+{
+"z": 14,
+"symbol": "Si",
+"hans": "硅",
+"hant": "硅",
+"pinyin": "guī",
+"tw": "矽",
+"tw_pinyin": "xì"
+},
+{
+"z": 15,
+"symbol": "P",
+"hans": "磷",
+"hant": "磷",
+"pinyin": "lín",
+"tw": "磷",
+"tw_pinyin": "lín"
+},
+{
+"z": 16,
+"symbol": "S",
+"hans": "硫",
+"hant": "硫",
+"pinyin": "liú",
+"tw": "硫",
+"tw_pinyin": "liú"
+},
+{
+"z": 17,
+"symbol": "Cl",
+"hans": "氯",
+"hant": "氯",
+"pinyin": "lǜ",
+"tw": "氯",
+"tw_pinyin": "lǜ"
+},
+{
+"z": 18,
+"symbol": "Ar",
+"hans": "氩",
+"hant": "氬",
+"pinyin": "yà",
+"tw": "氬",
+"tw_pinyin": "yà"
+},
+{
+"z": 19,
+"symbol": "K",
+"hans": "钾",
+"hant": "鉀",
+"pinyin": "jiǎ",
+"tw": "鉀",
+"tw_pinyin": "jiǎ"
+},
+{
+"z": 20,
+"symbol": "Ca",
+"hans": "钙",
+"hant": "鈣",
+"pinyin": "gài",
+"tw": "鈣",
+"tw_pinyin": "gài"
+},
+{
+"z": 21,
+"symbol": "Sc",
+"hans": "钪",
+"hant": "鈧",
+"pinyin": "kàng",
+"tw": "鈧",
+"tw_pinyin": "kàng"
+},
+{
+"z": 22,
+"symbol": "Ti",
+"hans": "钛",
+"hant": "鈦",
+"pinyin": "tài",
+"tw": "鈦",
+"tw_pinyin": "tài"
+},
+{
+"z": 23,
+"symbol": "V",
+"hans": "钒",
+"hant": "釩",
+"pinyin": "fán",
+"tw": "釩",
+"tw_pinyin": "fán"
+},
+{
+"z": 24,
+"symbol": "Cr",
+"hans": "铬",
+"hant": "鉻",
+"pinyin": "gè",
+"tw": "鉻",
+"tw_pinyin": "gè"
+},
+{
+"z": 25,
+"symbol": "Mn",
+"hans": "锰",
+"hant": "錳",
+"pinyin": "měng",
+"tw": "錳",
+"tw_pinyin": "měng"
+},
+{
+"z": 26,
+"symbol": "Fe",
+"hans": "铁",
+"hant": "鐵",
+"pinyin": "tiě",
+"tw": "鐵",
+"tw_pinyin": "tiě"
+},
+{
+"z": 27,
+"symbol": "Co",
+"hans": "钴",
+"hant": "鈷",
+"pinyin": "gǔ",
+"tw": "鈷",
+"tw_pinyin": "gǔ"
+},
+{
+"z": 28,
+"symbol": "Ni",
+"hans": "镍",
+"hant": "鎳",
+"pinyin": "niè",
+"tw": "鎳",
+"tw_pinyin": "niè"
+},
+{
+"z": 29,
+"symbol": "Cu",
+"hans": "铜",
+"hant": "銅",
+"pinyin": "tóng",
+"tw": "銅",
+"tw_pinyin": "tóng"
+},
+{
+"z": 30,
+"symbol": "Zn",
+"hans": "锌",
+"hant": "鋅",
+"pinyin": "xīn",
+"tw": "鋅",
+"tw_pinyin": "xīn"
+},
+{
+"z": 31,
+"symbol": "Ga",
+"hans": "镓",
+"hant": "鎵",
+"pinyin": "jiā",
+"tw": "鎵",
+"tw_pinyin": "jiā"
+},
+{
+"z": 32,
+"symbol": "Ge",
+"hans": "锗",
+"hant": "鍺",
+"pinyin": "zhě",
+"tw": "鍺",
+"tw_pinyin": "zhě"
+},
+{
+"z": 33,
+"symbol": "As",
+"hans": "砷",
+"hant": "砷",
+"pinyin": "shēn",
+"tw": "砷",
+"tw_pinyin": "shēn"
+},
+{
+"z": 34,
+"symbol": "Se",
+"hans": "硒",
+"hant": "硒",
+"pinyin": "xī",
+"tw": "硒",
+"tw_pinyin": "xī"
+},
+{
+"z": 35,
+"symbol": "Br",
+"hans": "溴",
+"hant": "溴",
+"pinyin": "xiù",
+"tw": "溴",
+"tw_pinyin": "xiù"
+},
+{
+"z": 36,
+"symbol": "Kr",
+"hans": "氪",
+"hant": "氪",
+"pinyin": "kè",
+"tw": "氪",
+"tw_pinyin": "kè"
+},
+{
+"z": 37,
+"symbol": "Rb",
+"hans": "铷",
+"hant": "銣",
+"pinyin": "rú",
+"tw": "銣",
+"tw_pinyin": "rú"
+},
+{
+"z": 38,
+"symbol": "Sr",
+"hans": "锶",
+"hant": "鍶",
+"pinyin": "sī",
+"tw": "鍶",
+"tw_pinyin": "sī"
+},
+{
+"z": 39,
+"symbol": "Y",
+"hans": "钇",
+"hant": "釔",
+"pinyin": "yǐ",
+"tw": "釔",
+"tw_pinyin": "yǐ"
+},
+{
+"z": 40,
+"symbol": "Zr",
+"hans": "锆",
+"hant": "鋯",
+"pinyin": "gào",
+"tw": "鋯",
+"tw_pinyin": "gào"
+},
+{
+"z": 41,
+"symbol": "Nb",
+"hans": "铌",
+"hant": "鈮",
+"pinyin": "ní",
+"tw": "鈮",
+"tw_pinyin": "ní"
+},
+{
+"z": 42,
+"symbol": "Mo",
+"hans": "钼",
+"hant": "鉬",
+"pinyin": "mù",
+"tw": "鉬",
+"tw_pinyin": "mù"
+},
+{
+"z": 43,
+"symbol": "Tc",
+"hans": "锝",
+"hant": "鍀",
+"pinyin": "dé",
+"tw": "鎝",
+"tw_pinyin": "dā"
+},
+{
+"z": 44,
+"symbol": "Ru",
+"hans": "钌",
+"hant": "釕",
+"pinyin": "liǎo",
+"tw": "釕",
+"tw_pinyin": "liǎo"
+},
+{
+"z": 45,
+"symbol": "Rh",
+"hans": "铑",
+"hant": "銠",
+"pinyin": "lǎo",
+"tw": "銠",
+"tw_pinyin": "lǎo"
+},
+{
+"z": 46,
+"symbol": "Pd",
+"hans": "钯",
+"hant": "鈀",
+"pinyin": "bǎ",
+"tw": "鈀",
+"tw_pinyin": "bǎ"
+},
+{
+"z": 47,
+"symbol": "Ag",
+"hans": "银",
+"hant": "銀",
+"pinyin": "yín",
+"tw": "銀",
+"tw_pinyin": "yín"
+},
+{
+"z": 48,
+"symbol": "Cd",
+"hans": "镉",
+"hant": "鎘",
+"pinyin": "gé",
+"tw": "鎘",
+"tw_pinyin": "gé"
+},
+{
+"z": 49,
+"symbol": "In",
+"hans": "铟",
+"hant": "銦",
+"pinyin": "yīn",
+"tw": "銦",
+"tw_pinyin": "yīn"
+},
+{
+"z": 50,
+"symbol": "Sn",
+"hans": "锡",
+"hant": "錫",
+"pinyin": "xī",
+"tw": "錫",
+"tw_pinyin": "xí"
+},
+{
+"z": 51,
+"symbol": "Sb",
+"hans": "锑",
+"hant": "銻",
+"pinyin": "tī",
+"tw": "銻",
+"tw_pinyin": "tì"
+},
+{
+"z": 52,
+"symbol": "Te",
+"hans": "碲",
+"hant": "碲",
+"pinyin": "dì",
+"tw": "碲",
+"tw_pinyin": "dì"
+},
+{
+"z": 53,
+"symbol": "I",
+"hans": "碘",
+"hant": "碘",
+"pinyin": "diǎn",
+"tw": "碘",
+"tw_pinyin": "diǎn"
+},
+{
+"z": 54,
+"symbol": "Xe",
+"hans": "氙",
+"hant": "氙",
+"pinyin": "xiān",
+"tw": "氙",
+"tw_pinyin": "xiān"
+},
+{
+"z": 55,
+"symbol": "Cs",
+"hans": "铯",
+"hant": "銫",
+"pinyin": "sè",
+"tw": "銫",
+"tw_pinyin": "sè"
+},
+{
+"z": 56,
+"symbol": "Ba",
+"hans": "钡",
+"hant": "鋇",
+"pinyin": "bèi",
+"tw": "鋇",
+"tw_pinyin": "bèi"
+},
+{
+"z": 57,
+"symbol": "La",
+"hans": "镧",
+"hant": "鑭",
+"pinyin": "lán",
+"tw": "鑭",
+"tw_pinyin": "lán"
+},
+{
+"z": 58,
+"symbol": "Ce",
+"hans": "铈",
+"hant": "鈰",
+"pinyin": "shì",
+"tw": "鈰",
+"tw_pinyin": "shì"
+},
+{
+"z": 59,
+"symbol": "Pr",
+"hans": "镨",
+"hant": "鐠",
+"pinyin": "pǔ",
+"tw": "鐠",
+"tw_pinyin": "pǔ"
+},
+{
+"z": 60,
+"symbol": "Nd",
+"hans": "钕",
+"hant": "釹",
+"pinyin": "nǚ",
+"tw": "釹",
+"tw_pinyin": "nǚ"
+},
+{
+"z": 61,
+"symbol": "Pm",
+"hans": "钷",
+"hant": "鉕",
+"pinyin": "pǒ",
+"tw": "鉕",
+"tw_pinyin": "pǒ"
+},
+{
+"z": 62,
+"symbol": "Sm",
+"hans": "钐",
+"hant": "釤",
+"pinyin": "shān",
+"tw": "釤",
+"tw_pinyin": "shān"
+},
+{
+"z": 63,
+"symbol": "Eu",
+"hans": "铕",
+"hant": "銪",
+"pinyin": "yǒu",
+"tw": "銪",
+"tw_pinyin": "yǒu"
+},
+{
+"z": 64,
+"symbol": "Gd",
+"hans": "钆",
+"hant": "釓",
+"pinyin": "gá",
+"tw": "釓",
+"tw_pinyin": "gá"
+},
+{
+"z": 65,
+"symbol": "Tb",
+"hans": "铽",
+"hant": "鋱",
+"pinyin": "tè",
+"tw": "鋱",
+"tw_pinyin": "tè"
+},
+{
+"z": 66,
+"symbol": "Dy",
+"hans": "镝",
+"hant": "鏑",
+"pinyin": "dī",
+"tw": "鏑",
+"tw_pinyin": "dī"
+},
+{
+"z": 67,
+"symbol": "Ho",
+"hans": "钬",
+"hant": "鈥",
+"pinyin": "huǒ",
+"tw": "鈥",
+"tw_pinyin": "huǒ"
+},
+{
+"z": 68,
+"symbol": "Er",
+"hans": "铒",
+"hant": "鉺",
+"pinyin": "ěr",
+"tw": "鉺",
+"tw_pinyin": "ěr"
+},
+{
+"z": 69,
+"symbol": "Tm",
+"hans": "铥",
+"hant": "銩",
+"pinyin": "diū",
+"tw": "銩",
+"tw_pinyin": "diū"
+},
+{
+"z": 70,
+"symbol": "Yb",
+"hans": "镱",
+"hant": "鐿",
+"pinyin": "yì",
+"tw": "鐿",
+"tw_pinyin": "yì"
+},
+{
+"z": 71,
+"symbol": "Lu",
+"hans": "镥",
+"hant": "鑥",
+"pinyin": "lǔ",
+"tw": "鎦",
+"tw_pinyin": "liú"
+},
+{
+"z": 72,
+"symbol": "Hf",
+"hans": "铪",
+"hant": "鉿",
+"pinyin": "hā",
+"tw": "鉿",
+"tw_pinyin": "hā"
+},
+{
+"z": 73,
+"symbol": "Ta",
+"hans": "钽",
+"hant": "鉭",
+"pinyin": "tǎn",
+"tw": "鉭",
+"tw_pinyin": "tǎn"
+},
+{
+"z": 74,
+"symbol": "W",
+"hans": "钨",
+"hant": "鎢",
+"pinyin": "wū",
+"tw": "鎢",
+"tw_pinyin": "wū"
+},
+{
+"z": 75,
+"symbol": "Re",
+"hans": "铼",
+"hant": "錸",
+"pinyin": "lái",
+"tw": "錸",
+"tw_pinyin": "lái"
+},
+{
+"z": 76,
+"symbol": "Os",
+"hans": "锇",
+"hant": "鋨",
+"pinyin": "é",
+"tw": "鋨",
+"tw_pinyin": "é"
+},
+{
+"z": 77,
+"symbol": "Ir",
+"hans": "铱",
+"hant": "銥",
+"pinyin": "yī",
+"tw": "銥",
+"tw_pinyin": "yī"
+},
+{
+"z": 78,
+"symbol": "Pt",
+"hans": "铂",
+"hant": "鉑",
+"pinyin": "bó",
+"tw": "鉑",
+"tw_pinyin": "bó"
+},
+{
+"z": 79,
+"symbol": "Au",
+"hans": "金",
+"hant": "金",
+"pinyin": "jīn",
+"tw": "金",
+"tw_pinyin": "jīn"
+},
+{
+"z": 80,
+"symbol": "Hg",
+"hans": "汞",
+"hant": "汞",
+"pinyin": "gǒng",
+"tw": "汞",
+"tw_pinyin": "gǒng"
+},
+{
+"z": 81,
+"symbol": "Tl",
+"hans": "铊",
+"hant": "鉈",
+"pinyin": "tā",
+"tw": "鉈",
+"tw_pinyin": "tā"
+},
+{
+"z": 82,
+"symbol": "Pb",
+"hans": "铅",
+"hant": "鉛",
+"pinyin": "qiān",
+"tw": "鉛",
+"tw_pinyin": "qiān"
+},
+{
+"z": 83,
+"symbol": "Bi",
+"hans": "铋",
+"hant": "鉍",
+"pinyin": "bì",
+"tw": "鉍",
+"tw_pinyin": "bì"
+},
+{
+"z": 84,
+"symbol": "Po",
+"hans": "钋",
+"hant": "釙",
+"pinyin": "pō",
+"tw": "釙",
+"tw_pinyin": "pō"
+},
+{
+"z": 85,
+"symbol": "At",
+"hans": "砹",
+"hant": "砹",
+"pinyin": "ài",
+"tw": "砈",
+"tw_pinyin": "ài"
+},
+{
+"z": 86,
+"symbol": "Rn",
+"hans": "氡",
+"hant": "氡",
+"pinyin": "dōng",
+"tw": "氡",
+"tw_pinyin": "dōng"
+},
+{
+"z": 87,
+"symbol": "Fr",
+"hans": "钫",
+"hant": "鈁",
+"pinyin": "fāng",
+"tw": "鍅",
+"tw_pinyin": "fǎ"
+},
+{
+"z": 88,
+"symbol": "Ra",
+"hans": "镭",
+"hant": "鐳",
+"pinyin": "léi",
+"tw": "鐳",
+"tw_pinyin": "léi"
+},
+{
+"z": 89,
+"symbol": "Ac",
+"hans": "锕",
+"hant": "錒",
+"pinyin": "ā",
+"tw": "錒",
+"tw_pinyin": "ā"
+},
+{
+"z": 90,
+"symbol": "Th",
+"hans": "钍",
+"hant": "釷",
+"pinyin": "tǔ",
+"tw": "釷",
+"tw_pinyin": "tǔ"
+},
+{
+"z": 91,
+"symbol": "Pa",
+"hans": "镤",
+"hant": "鏷",
+"pinyin": "pú",
+"tw": "鏷",
+"tw_pinyin": "pú"
+},
+{
+"z": 92,
+"symbol": "U",
+"hans": "铀",
+"hant": "鈾",
+"pinyin": "yóu",
+"tw": "鈾",
+"tw_pinyin": "yóu"
+},
+{
+"z": 93,
+"symbol": "Np",
+"hans": "镎",
+"hant": "鎿",
+"pinyin": "ná",
+"tw": "錼",
+"tw_pinyin": "nài"
+},
+{
+"z": 94,
+"symbol": "Pu",
+"hans": "钚",
+"hant": "鈈",
+"pinyin": "bù",
+"tw": "鈽",
+"tw_pinyin": "bù"
+},
+{
+"z": 95,
+"symbol": "Am",
+"hans": "镅",
+"hant": "鎇",
+"pinyin": "méi",
+"tw": "鋂",
+"tw_pinyin": "měi"
+},
+{
+"z": 96,
+"symbol": "Cm",
+"hans": "锔",
+"hant": "鋦",
+"pinyin": "jú",
+"tw": "鋦",
+"tw_pinyin": "jū"
+},
+{
+"z": 97,
+"symbol": "Bk",
+"hans": "锫",
+"hant": "錇",
+"pinyin": "péi",
+"tw": "鉳",
+"tw_pinyin": "běi"
+},
+{
+"z": 98,
+"symbol": "Cf",
+"hans": "锎",
+"hant": "鐦",
+"pinyin": "kāi",
+"tw": "鉲",
+"tw_pinyin": "kǎ"
+},
+{
+"z": 99,
+"symbol": "Es",
+"hans": "锿",
+"hant": "鎄",
+"pinyin": "āi",
+"tw": "鑀",
+"tw_pinyin": "ài"
+},
+{
+"z": 100,
+"symbol": "Fm",
+"hans": "镄",
+"hant": "鐨",
+"pinyin": "fèi",
+"tw": "鐨",
+"tw_pinyin": "fèi"
+},
+{
+"z": 101,
+"symbol": "Md",
+"hans": "钔",
+"hant": "鍆",
+"pinyin": "mén",
+"tw": "鍆",
+"tw_pinyin": "mén"
+},
+{
+"z": 102,
+"symbol": "No",
+"hans": "锘",
+"hant": "鍩",
+"pinyin": "nuò",
+"tw": "鍩",
+"tw_pinyin": "nuò"
+},
+{
+"z": 103,
+"symbol": "Lr",
+"hans": "铹",
+"hant": "鐒",
+"pinyin": "láo",
+"tw": "鐒",
+"tw_pinyin": "láo"
+},
+{
+"z": 104,
+"symbol": "Rf",
+"hans": "𬬻",
+"hant": "鑪",
+"pinyin": "lú",
+"tw": "鑪",
+"tw_pinyin": "lú"
+},
+{
+"z": 105,
+"symbol": "Db",
+"hans": "𬭊",
+"hant": "𨧀",
+"pinyin": "dù",
+"tw": "𨧀",
+"tw_pinyin": "dú"
+},
+{
+"z": 106,
+"symbol": "Sg",
+"hans": "𬭳",
+"hant": "𨭎",
+"pinyin": "xǐ",
+"tw": "𨭎",
+"tw_pinyin": "xǐ"
+},
+{
+"z": 107,
+"symbol": "Bh",
+"hans": "𬭛",
+"hant": "𨨏",
+"pinyin": "bō",
+"tw": "𨨏",
+"tw_pinyin": "bō"
+},
+{
+"z": 108,
+"symbol": "Hs",
+"hans": "𬭶",
+"hant": "𨭆",
+"pinyin": "hēi",
+"tw": "𨭆",
+"tw_pinyin": "hēi"
+},
+{
+"z": 109,
+"symbol": "Mt",
+"hans": "鿏",
+"hant": "䥑",
+"pinyin": "mài",
+"tw": "䥑",
+"tw_pinyin": "mài"
+},
+{
+"z": 110,
+"symbol": "Ds",
+"hans": "𫟼",
+"hant": "鐽",
+"pinyin": "dá",
+"tw": "鐽",
+"tw_pinyin": "dá"
+},
+{
+"z": 111,
+"symbol": "Rg",
+"hans": "𬬭",
+"hant": "錀",
+"pinyin": "lún",
+"tw": "錀",
+"tw_pinyin": "lún"
+},
+{
+"z": 112,
+"symbol": "Cn",
+"hans": "鿔",
+"hant": "鎶",
+"pinyin": "gē",
+"tw": "鎶",
+"tw_pinyin": "gē"
+},
+{
+"z": 114,
+"symbol": "Fl",
+"hans": "𫓧",
+"hant": "鈇",
+"pinyin": "fū",
+"tw": "鈇",
+"tw_pinyin": "fū"
+},
+{
+"z": 116,
+"symbol": "Lv",
+"hans": "𫟷",
+"hant": "鉝",
+"pinyin": "lì",
+"tw": "鉝",
+"tw_pinyin": "lì"
+}
+]

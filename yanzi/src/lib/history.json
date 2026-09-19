@@ -1,0 +1,3037 @@
+{
+ "H": {
+  "forms": [
+   {
+    "form": "水母氣",
+    "source": "hobson1855",
+    "reading": "shuǐmǔqì",
+    "note": "“water-mother gas”, a calque of hydro-gen",
+    "year": 1855
+   },
+   {
+    "form": "輕氣",
+    "source": "hobson1855",
+    "reading": "qīngqì",
+    "note": "“light gas”; the lightest element",
+    "year": 1855
+   },
+   {
+    "form": "淡氣",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "輕氣",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "輕氣",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "輕氣",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "輕",
+    "source": "du1905",
+    "reading": "qīng",
+    "year": 1905
+   },
+   {
+    "form": "氫",
+    "source": "moe1933",
+    "reading": "qīng",
+    "succeeds": "輕氣",
+    "note": "气 + the phonetic 巠 taken from 輕. A form with the whole 輕 under 气 was used briefly.",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "氢",
+   "hant": "氫",
+   "pinyin": "qīng",
+   "tw": "氫",
+   "twPinyin": "qīng"
+  }
+ },
+ "He": {
+  "forms": [
+   {
+    "form": "氜",
+    "source": "ea1898",
+    "reading": "rì",
+    "note": "气 + 日 “sun”: the gas found in the solar spectrum",
+    "year": 1898
+   },
+   {
+    "form": "氦",
+    "source": "moe1915",
+    "reading": "hài",
+    "succeeds": "氜",
+    "note": "phonetic 亥 to follow the international name",
+    "year": 1915
+   }
+  ],
+  "current": {
+   "hans": "氦",
+   "hant": "氦",
+   "pinyin": "hài",
+   "tw": "氦",
+   "twPinyin": "hài"
+  }
+ },
+ "Li": {
+  "forms": [
+   {
+    "form": "鋰",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "劣非地恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "鋰",
+    "source": "xu1871",
+    "year": 1871
+   }
+  ],
+  "current": {
+   "hans": "锂",
+   "hant": "鋰",
+   "pinyin": "lǐ",
+   "tw": "鋰",
+   "twPinyin": "lǐ"
+  }
+ },
+ "Be": {
+  "forms": [
+   {
+    "form": "鈹",
+    "source": "du1900",
+    "reading": "pí",
+    "succeeds": "鋊",
+    "note": "proposed by Dù Yàquán and kept",
+    "year": 1900
+   },
+   {
+    "form": "鋊",
+    "source": "du1905",
+    "reading": "yù",
+    "note": "for the older name glucinium (Gl); 鑉 was also used",
+    "year": 1905
+   },
+   {
+    "form": "鑉",
+    "source": "japanese",
+    "reading": "hé",
+    "note": "another rendering of glucinium",
+    "year": 1920
+   }
+  ],
+  "current": {
+   "hans": "铍",
+   "hant": "鈹",
+   "pinyin": "pí",
+   "tw": "鈹",
+   "twPinyin": "pī"
+  }
+ },
+ "B": {
+  "forms": [
+   {
+    "form": "硼精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "硼",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "布而倫",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "𥑢",
+    "source": "xu1871",
+    "ids": "⿰石布",
+    "year": 1871
+   },
+   {
+    "form": "𥑢",
+    "source": "du1905",
+    "reading": "bù",
+    "ids": "⿰石布",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "硼",
+   "hant": "硼",
+   "pinyin": "péng",
+   "tw": "硼",
+   "twPinyin": "péng"
+  }
+ },
+ "C": {
+  "forms": [
+   {
+    "form": "炭精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "炭精",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "炭",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "炭",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "碳",
+    "source": "ea1901",
+    "reading": "tàn",
+    "succeeds": "炭",
+    "note": "炭 “charcoal” given the stone radical",
+    "year": 1901
+   },
+   {
+    "form": "炭",
+    "source": "du1905",
+    "reading": "tàn",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "碳",
+   "hant": "碳",
+   "pinyin": "tàn",
+   "tw": "碳",
+   "twPinyin": "tàn"
+  }
+ },
+ "N": {
+  "forms": [
+   {
+    "form": "淡氣",
+    "source": "hobson1849",
+    "reading": "dànqì",
+    "note": "“diluting gas”: it dilutes the air",
+    "year": 1849
+   },
+   {
+    "form": "硝氣",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "淡氣",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "淡氣",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "硝氣",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "硝氣",
+    "source": "billequin1873",
+    "reading": "xiāoqì",
+    "note": "“nitre gas”",
+    "year": 1873
+   },
+   {
+    "form": "育",
+    "source": "du1905",
+    "reading": "yù",
+    "note": "the Educational Association wrote 气 over 育",
+    "year": 1905
+   },
+   {
+    "form": "氮",
+    "source": "moe1933",
+    "reading": "dàn",
+    "succeeds": "淡氣",
+    "note": "气 + 炎 from 淡",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "氮",
+   "hant": "氮",
+   "pinyin": "dàn",
+   "tw": "氮",
+   "twPinyin": "dàn"
+  }
+ },
+ "O": {
+  "forms": [
+   {
+    "form": "養氣",
+    "source": "hobson1849",
+    "reading": "yǎngqì",
+    "note": "“nourishing gas”",
+    "year": 1849
+   },
+   {
+    "form": "生氣",
+    "source": "hobson1855",
+    "reading": "shēngqì",
+    "note": "“life gas”, also used for air",
+    "year": 1855
+   },
+   {
+    "form": "養氣",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "養氣",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "養氣",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "養氣",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "養",
+    "source": "du1905",
+    "reading": "yǎng",
+    "note": "the Educational Association wrote 气 over 養",
+    "year": 1905
+   },
+   {
+    "form": "氱",
+    "source": "proposal",
+    "reading": "yǎng",
+    "note": "interim form with the full 養 under 气",
+    "year": 1920
+   },
+   {
+    "form": "氧",
+    "source": "moe1933",
+    "reading": "yǎng",
+    "succeeds": "養氣",
+    "note": "气 + 羊 from 養",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "氧",
+   "hant": "氧",
+   "pinyin": "yǎng",
+   "tw": "氧",
+   "twPinyin": "yǎng"
+  }
+ },
+ "F": {
+  "forms": [
+   {
+    "form": "弗氣",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "夫羅而林",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "弗氣",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "弗",
+    "source": "du1905",
+    "reading": "fú",
+    "year": 1905
+   },
+   {
+    "form": "氟",
+    "source": "moe1933",
+    "reading": "fú",
+    "succeeds": "弗氣",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "氟",
+   "hant": "氟",
+   "pinyin": "fú",
+   "tw": "氟",
+   "twPinyin": "fú"
+  }
+ },
+ "Ne": {
+  "forms": [],
+  "current": {
+   "hans": "氖",
+   "hant": "氖",
+   "pinyin": "nǎi",
+   "tw": "氖",
+   "twPinyin": "nǎi"
+  }
+ },
+ "Na": {
+  "forms": [
+   {
+    "form": "鹻精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "鏀",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "素地恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "钠",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鈉",
+    "source": "du1905",
+    "reading": "nà",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钠",
+   "hant": "鈉",
+   "pinyin": "nà",
+   "tw": "鈉",
+   "twPinyin": "nà"
+  }
+ },
+ "Mg": {
+  "forms": [
+   {
+    "form": "镁",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "美合尼西恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "镁",
+    "source": "xu1871",
+    "year": 1871
+   }
+  ],
+  "current": {
+   "hans": "镁",
+   "hant": "鎂",
+   "pinyin": "měi",
+   "tw": "鎂",
+   "twPinyin": "měi"
+  }
+ },
+ "Al": {
+  "forms": [
+   {
+    "form": "礬精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "钒",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "哀盧彌尼恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "铝",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鋁",
+    "source": "du1905",
+    "reading": "lǚ",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铝",
+   "hant": "鋁",
+   "pinyin": "lǚ",
+   "tw": "鋁",
+   "twPinyin": "lǚ"
+  }
+ },
+ "Si": {
+  "forms": [
+   {
+    "form": "玻精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "玻",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "夕里西恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "矽",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "砂精",
+    "source": "billequin1873",
+    "reading": "shājīng",
+    "note": "“essence of sand”",
+    "year": 1873
+   },
+   {
+    "form": "矽",
+    "source": "du1905",
+    "reading": "xī",
+    "year": 1905
+   },
+   {
+    "form": "矽",
+    "source": "moe1933",
+    "reading": "xī",
+    "note": "adopted over 硅, which came from the Japanese 珪素",
+    "year": 1933
+   },
+   {
+    "form": "硅",
+    "source": "prc1955",
+    "reading": "guī",
+    "succeeds": "矽",
+    "note": "changed on the mainland because 矽 xī was a homophone of 硒 selenium and 錫 tin",
+    "year": 1955
+   },
+   {
+    "form": "矽",
+    "source": "tw",
+    "reading": "xì",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "硅",
+   "hant": "硅",
+   "pinyin": "guī",
+   "tw": "矽",
+   "twPinyin": "xì"
+  }
+ },
+ "P": {
+  "forms": [
+   {
+    "form": "燐",
+    "source": "ancient",
+    "reading": "lín",
+    "note": "“ghost fire”, with the fire radical, in the Shuōwén Jiězì",
+    "year": 0
+   },
+   {
+    "form": "光藥",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "燐",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "燐",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "燐",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "硄",
+    "source": "ea1901",
+    "reading": "guāng",
+    "year": 1901
+   },
+   {
+    "form": "燐",
+    "source": "du1905",
+    "reading": "lín",
+    "year": 1905
+   },
+   {
+    "form": "磷",
+    "source": "moe1933",
+    "reading": "lín",
+    "succeeds": "燐",
+    "note": "fire radical replaced by stone for a solid non-metal",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "磷",
+   "hant": "磷",
+   "pinyin": "lín",
+   "tw": "磷",
+   "twPinyin": "lín"
+  }
+ },
+ "S": {
+  "forms": [
+   {
+    "form": "硫磺",
+    "source": "ancient",
+    "reading": "liúhuáng",
+    "note": "brimstone",
+    "year": 0
+   },
+   {
+    "form": "硫磺",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "硫磺",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "硫",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "硫磺",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "硫",
+    "source": "du1905",
+    "reading": "liú",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "硫",
+   "hant": "硫",
+   "pinyin": "liú",
+   "tw": "硫",
+   "twPinyin": "liú"
+  }
+ },
+ "Cl": {
+  "forms": [
+   {
+    "form": "緑氣",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "鹽氣",
+    "source": "martin1868",
+    "reading": "yánqì",
+    "note": "“salt gas”, an alternative in the same book",
+    "year": 1868
+   },
+   {
+    "form": "緑氣",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "緑氣",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "緑氣",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "綠",
+    "source": "du1905",
+    "reading": "lǜ",
+    "note": "the Educational Association wrote 气 over 綠",
+    "year": 1905
+   },
+   {
+    "form": "氯",
+    "source": "moe1933",
+    "reading": "lǜ",
+    "succeeds": "綠氣",
+    "note": "气 + 彔 from 綠 “green”",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "氯",
+   "hant": "氯",
+   "pinyin": "lǜ",
+   "tw": "氯",
+   "twPinyin": "lǜ"
+  }
+ },
+ "Ar": {
+  "forms": [
+   {
+    "form": "亞爾艮",
+    "source": "japanese",
+    "reading": "yà'ěrgěn",
+    "note": "from Japanese arugon",
+    "year": 1898
+   },
+   {
+    "form": "氬",
+    "source": "du1900",
+    "reading": "yà",
+    "succeeds": "亞爾艮",
+    "note": "Dù Yàquán's first 气-radical coinage; he later took his own name from 氬線",
+    "year": 1900
+   }
+  ],
+  "current": {
+   "hans": "氩",
+   "hant": "氬",
+   "pinyin": "yà",
+   "tw": "氬",
+   "twPinyin": "yà"
+  }
+ },
+ "K": {
+  "forms": [
+   {
+    "form": "灰精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "𨦗",
+    "source": "kerr1870",
+    "ids": "⿰金卜",
+    "year": 1870
+   },
+   {
+    "form": "卜對斯恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "钾",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鉀",
+    "source": "du1905",
+    "reading": "jiǎ",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钾",
+   "hant": "鉀",
+   "pinyin": "jiǎ",
+   "tw": "鉀",
+   "twPinyin": "jiǎ"
+  }
+ },
+ "Ca": {
+  "forms": [
+   {
+    "form": "丐而西黑",
+    "source": "martin1868",
+    "reading": "gài'érxīhēi",
+    "note": "full transliteration also used",
+    "year": 1868
+   },
+   {
+    "form": "石精",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "鉐",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "丐而西恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "钙",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鈣",
+    "source": "du1905",
+    "reading": "gài",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钙",
+   "hant": "鈣",
+   "pinyin": "gài",
+   "tw": "鈣",
+   "twPinyin": "gài"
+  }
+ },
+ "Sc": {
+  "forms": [
+   {
+    "form": "鍶",
+    "source": "du1905",
+    "reading": "sī",
+    "note": "the character now used for strontium",
+    "year": 1905
+   },
+   {
+    "form": "鈧",
+    "source": "moe1933",
+    "reading": "kàng",
+    "succeeds": "鍶",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "钪",
+   "hant": "鈧",
+   "pinyin": "kàng",
+   "tw": "鈧",
+   "twPinyin": "kàng"
+  }
+ },
+ "Ti": {
+  "forms": [
+   {
+    "form": "釱",
+    "source": "kerr1870",
+    "reading": "dì",
+    "note": "an existing character borrowed for the metal",
+    "year": 1870
+   },
+   {
+    "form": "鐟",
+    "source": "du1905",
+    "reading": "zān",
+    "year": 1905
+   },
+   {
+    "form": "鈦",
+    "source": "moe1933",
+    "reading": "tài",
+    "succeeds": "鐟",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "钛",
+   "hant": "鈦",
+   "pinyin": "tài",
+   "tw": "鈦",
+   "twPinyin": "tài"
+  }
+ },
+ "V": {
+  "forms": [
+   {
+    "form": "鐇",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "凡奈地恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "钒",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "釩",
+    "source": "du1905",
+    "reading": "fán",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钒",
+   "hant": "釩",
+   "pinyin": "fán",
+   "tw": "釩",
+   "twPinyin": "fán"
+  }
+ },
+ "Cr": {
+  "forms": [
+   {
+    "form": "鏴",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "客羅彌恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "铬",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "生色",
+    "source": "billequin1873",
+    "reading": "shēngsè",
+    "note": "“colour-generating”, Billequin's property-based name",
+    "year": 1873
+   },
+   {
+    "form": "鉻",
+    "source": "du1905",
+    "reading": "gè",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铬",
+   "hant": "鉻",
+   "pinyin": "gè",
+   "tw": "鉻",
+   "twPinyin": "gè"
+  }
+ },
+ "Mn": {
+  "forms": [
+   {
+    "form": "蒙石",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "锰",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "孟葛尼斯",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "锰",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "無名異",
+    "source": "billequin1873",
+    "reading": "wúmíngyì",
+    "note": "the mineral pyrolusite; Billequin merged it into one character",
+    "year": 1873
+   },
+   {
+    "form": "錳",
+    "source": "du1905",
+    "reading": "měng",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "锰",
+   "hant": "錳",
+   "pinyin": "měng",
+   "tw": "錳",
+   "twPinyin": "měng"
+  }
+ },
+ "Fe": {
+  "forms": [
+   {
+    "form": "鐵",
+    "source": "ancient",
+    "reading": "tiě",
+    "year": 0
+   },
+   {
+    "form": "黑金",
+    "source": "ancient",
+    "reading": "hēijīn",
+    "note": "“black metal” in the Shuōwén Jiězì",
+    "year": 0
+   },
+   {
+    "form": "鐵",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "鐵",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "鐵",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "鐵",
+    "source": "xu1871",
+    "year": 1871
+   }
+  ],
+  "current": {
+   "hans": "铁",
+   "hant": "鐵",
+   "pinyin": "tiě",
+   "tw": "鐵",
+   "twPinyin": "tiě"
+  }
+ },
+ "Co": {
+  "forms": [
+   {
+    "form": "鎬",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "苦抱爾",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "鈷",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "錆",
+    "source": "billequin1873",
+    "reading": "qiāng",
+    "note": "after the sky-blue colour of its salts",
+    "year": 1873
+   },
+   {
+    "form": "釦",
+    "source": "ea1901",
+    "reading": "kòu",
+    "year": 1901
+   },
+   {
+    "form": "鈷",
+    "source": "du1905",
+    "reading": "gǔ",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钴",
+   "hant": "鈷",
+   "pinyin": "gǔ",
+   "tw": "鈷",
+   "twPinyin": "gǔ"
+  }
+ },
+ "Ni": {
+  "forms": [
+   {
+    "form": "尼愛",
+    "source": "martin1868",
+    "reading": "ní'ài",
+    "note": "transliteration of ni-ckel",
+    "year": 1868
+   },
+   {
+    "form": "镉",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "臬客爾",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "镍",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鎳",
+    "source": "du1905",
+    "reading": "niè",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "镍",
+   "hant": "鎳",
+   "pinyin": "niè",
+   "tw": "鎳",
+   "twPinyin": "niè"
+  }
+ },
+ "Cu": {
+  "forms": [
+   {
+    "form": "赤金",
+    "source": "ancient",
+    "reading": "chìjīn",
+    "note": "“red metal”",
+    "year": 0
+   },
+   {
+    "form": "銅",
+    "source": "ancient",
+    "reading": "tóng",
+    "year": 0
+   },
+   {
+    "form": "銅",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "銅",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "銅",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "銅",
+    "source": "xu1871",
+    "year": 1871
+   }
+  ],
+  "current": {
+   "hans": "铜",
+   "hant": "銅",
+   "pinyin": "tóng",
+   "tw": "銅",
+   "twPinyin": "tóng"
+  }
+ },
+ "Zn": {
+  "forms": [
+   {
+    "form": "倭鉛",
+    "source": "ancient",
+    "reading": "wōqiān",
+    "note": "“Japanese lead”",
+    "year": 0
+   },
+   {
+    "form": "白鉛",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "鍟",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "白鉛",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "锌",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "鋅",
+    "source": "du1905",
+    "reading": "xīn",
+    "note": "old reading zǐ changed to xīn after zinc",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "锌",
+   "hant": "鋅",
+   "pinyin": "xīn",
+   "tw": "鋅",
+   "twPinyin": "xīn"
+  }
+ },
+ "Ga": {
+  "forms": [
+   {
+    "form": "鋏",
+    "source": "du1905",
+    "reading": "jiá",
+    "year": 1905
+   },
+   {
+    "form": "鎵",
+    "source": "moe1933",
+    "reading": "jiā",
+    "succeeds": "鋏",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "镓",
+   "hant": "鎵",
+   "pinyin": "jiā",
+   "tw": "鎵",
+   "twPinyin": "jiā"
+  }
+ },
+ "Ge": {
+  "forms": [
+   {
+    "form": "鍺",
+    "source": "du1905",
+    "reading": "zhě",
+    "year": 1905
+   },
+   {
+    "form": "鈤",
+    "source": "proposal",
+    "reading": "rì",
+    "note": "clashed with the same character used for radium",
+    "year": 1920
+   }
+  ],
+  "current": {
+   "hans": "锗",
+   "hant": "鍺",
+   "pinyin": "zhě",
+   "tw": "鍺",
+   "twPinyin": "zhě"
+  }
+ },
+ "As": {
+  "forms": [
+   {
+    "form": "信石",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "𳆗",
+    "source": "kerr1870",
+    "ids": "⿱信金",
+    "year": 1870
+   },
+   {
+    "form": "砒",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "鉮",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "砒",
+    "source": "ea1901",
+    "reading": "pī",
+    "note": "from 砒霜 arsenic trioxide",
+    "year": 1901
+   },
+   {
+    "form": "砷",
+    "source": "du1905",
+    "reading": "shēn",
+    "succeeds": "鉮",
+    "note": "stone radical once arsenic was no longer counted as a metal",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "砷",
+   "hant": "砷",
+   "pinyin": "shēn",
+   "tw": "砷",
+   "twPinyin": "shēn"
+  }
+ },
+ "Se": {
+  "forms": [
+   {
+    "form": "硒",
+    "source": "martin1868",
+    "year": 1868
+   },
+   {
+    "form": "硒",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "硒",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "西里尼恩",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "硒",
+    "source": "du1905",
+    "reading": "xī",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "硒",
+   "hant": "硒",
+   "pinyin": "xī",
+   "tw": "硒",
+   "twPinyin": "xī"
+  }
+ },
+ "Br": {
+  "forms": [
+   {
+    "form": "溴",
+    "source": "kerr1870",
+    "year": 1870
+   },
+   {
+    "form": "孛羅名",
+    "source": "macgowan1871",
+    "year": 1871
+   },
+   {
+    "form": "波羅明",
+    "source": "macgowan1871",
+    "reading": "bōluómíng",
+    "note": "míng 明 instead of mín, avoiding the Daoguang Emperor's tabooed name",
+    "year": 1871
+   },
+   {
+    "form": "溴",
+    "source": "xu1871",
+    "year": 1871
+   },
+   {
+    "form": "溴",
+    "source": "du1905",
+    "reading": "xiù",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "溴",
+   "hant": "溴",
+   "pinyin": "xiù",
+   "tw": "溴",
+   "twPinyin": "xiù"
+  }
+ },
+ "Kr": {
+  "forms": [],
+  "current": {
+   "hans": "氪",
+   "hant": "氪",
+   "pinyin": "kè",
+   "tw": "氪",
+   "twPinyin": "kè"
+  }
+ },
+ "Rb": {
+  "forms": [
+   {
+    "form": "銣",
+    "source": "du1905",
+    "reading": "rú",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铷",
+   "hant": "銣",
+   "pinyin": "rú",
+   "tw": "銣",
+   "twPinyin": "rú"
+  }
+ },
+ "Sr": {
+  "forms": [
+   {
+    "form": "鎴",
+    "source": "du1905",
+    "reading": "xī",
+    "year": 1905
+   },
+   {
+    "form": "鍶",
+    "source": "moe1933",
+    "reading": "sī",
+    "succeeds": "鎴",
+    "note": "the character Dù had used for scandium",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "锶",
+   "hant": "鍶",
+   "pinyin": "sī",
+   "tw": "鍶",
+   "twPinyin": "sī"
+  }
+ },
+ "Y": {
+  "forms": [
+   {
+    "form": "釱",
+    "source": "du1905",
+    "reading": "dì",
+    "year": 1905
+   },
+   {
+    "form": "釔",
+    "source": "moe1933",
+    "reading": "yǐ",
+    "succeeds": "釱",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "钇",
+   "hant": "釔",
+   "pinyin": "yǐ",
+   "tw": "釔",
+   "twPinyin": "yǐ"
+  }
+ },
+ "Zr": {
+  "forms": [
+   {
+    "form": "鋯",
+    "source": "du1905",
+    "reading": "gào",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "锆",
+   "hant": "鋯",
+   "pinyin": "gào",
+   "tw": "鋯",
+   "twPinyin": "gào"
+  }
+ },
+ "Nb": {
+  "forms": [
+   {
+    "form": "鈮",
+    "source": "du1905",
+    "reading": "ní",
+    "year": 1905
+   },
+   {
+    "form": "鎶",
+    "source": "proposal",
+    "reading": "gē",
+    "note": "an early 20th-century character for columbium, reused for copernicium in 2010",
+    "year": 1915
+   },
+   {
+    "form": "鈳",
+    "source": "moe1933",
+    "reading": "kē",
+    "note": "for columbium, the name used in America until 1949",
+    "year": 1933
+   },
+   {
+    "form": "鈮",
+    "source": "moe1945",
+    "reading": "ní",
+    "succeeds": "鈳",
+    "note": "niobium replaced columbium",
+    "year": 1945
+   }
+  ],
+  "current": {
+   "hans": "铌",
+   "hant": "鈮",
+   "pinyin": "ní",
+   "tw": "鈮",
+   "twPinyin": "ní"
+  }
+ },
+ "Mo": {
+  "forms": [
+   {
+    "form": "鉬",
+    "source": "du1905",
+    "reading": "mù",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钼",
+   "hant": "鉬",
+   "pinyin": "mù",
+   "tw": "鉬",
+   "twPinyin": "mù"
+  }
+ },
+ "Tc": {
+  "forms": [
+   {
+    "form": "鎷",
+    "source": "xinhua1980",
+    "reading": "mǎ",
+    "note": "for masurium, the disputed 1925 claim; 鎷 had earlier meant samarium",
+    "year": 1980
+   },
+   {
+    "form": "鍀",
+    "source": "prc1991",
+    "reading": "dé",
+    "succeeds": "鎷",
+    "year": 1991
+   },
+   {
+    "form": "鎝",
+    "source": "tw",
+    "reading": "dā",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "锝",
+   "hant": "鍀",
+   "pinyin": "dé",
+   "tw": "鎝",
+   "twPinyin": "dā"
+  }
+ },
+ "Ru": {
+  "forms": [
+   {
+    "form": "釕",
+    "source": "du1905",
+    "reading": "liǎo",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钌",
+   "hant": "釕",
+   "pinyin": "liǎo",
+   "tw": "釕",
+   "twPinyin": "liǎo"
+  }
+ },
+ "Rh": {
+  "forms": [
+   {
+    "form": "錴",
+    "source": "du1905",
+    "reading": "lù",
+    "year": 1905
+   },
+   {
+    "form": "銠",
+    "source": "moe1933",
+    "reading": "lǎo",
+    "succeeds": "錴",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "铑",
+   "hant": "銠",
+   "pinyin": "lǎo",
+   "tw": "銠",
+   "twPinyin": "lǎo"
+  }
+ },
+ "Pd": {
+  "forms": [
+   {
+    "form": "鈀",
+    "source": "du1905",
+    "reading": "bǎ",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钯",
+   "hant": "鈀",
+   "pinyin": "bǎ",
+   "tw": "鈀",
+   "twPinyin": "bǎ"
+  }
+ },
+ "Ag": {
+  "forms": [
+   {
+    "form": "白金",
+    "source": "ancient",
+    "reading": "báijīn",
+    "note": "“white metal” in the Shuōwén Jiězì",
+    "year": 0
+   },
+   {
+    "form": "銀",
+    "source": "ancient",
+    "reading": "yín",
+    "year": 0
+   },
+   {
+    "form": "白銀",
+    "source": "martin1868",
+    "reading": "báiyín",
+    "note": "to keep it apart from 水銀 mercury",
+    "year": 1868
+   }
+  ],
+  "current": {
+   "hans": "银",
+   "hant": "銀",
+   "pinyin": "yín",
+   "tw": "銀",
+   "twPinyin": "yín"
+  }
+ },
+ "Cd": {
+  "forms": [
+   {
+    "form": "鎘",
+    "source": "du1905",
+    "reading": "gé",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "镉",
+   "hant": "鎘",
+   "pinyin": "gé",
+   "tw": "鎘",
+   "twPinyin": "gé"
+  }
+ },
+ "In": {
+  "forms": [
+   {
+    "form": "銦",
+    "source": "du1905",
+    "reading": "yīn",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铟",
+   "hant": "銦",
+   "pinyin": "yīn",
+   "tw": "銦",
+   "twPinyin": "yīn"
+  }
+ },
+ "Sn": {
+  "forms": [
+   {
+    "form": "錫",
+    "source": "ancient",
+    "reading": "xī",
+    "note": "one of the Five Metals; phonetic 易 reflects an old pronunciation",
+    "year": 0
+   }
+  ],
+  "current": {
+   "hans": "锡",
+   "hant": "錫",
+   "pinyin": "xī",
+   "tw": "錫",
+   "twPinyin": "xí"
+  }
+ },
+ "Sb": {
+  "forms": [
+   {
+    "form": "銻",
+    "source": "du1905",
+    "reading": "tì",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "锑",
+   "hant": "銻",
+   "pinyin": "tī",
+   "tw": "銻",
+   "twPinyin": "tì"
+  }
+ },
+ "Te": {
+  "forms": [
+   {
+    "form": "碲",
+    "source": "du1905",
+    "reading": "dì",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "碲",
+   "hant": "碲",
+   "pinyin": "dì",
+   "tw": "碲",
+   "twPinyin": "dì"
+  }
+ },
+ "I": {
+  "forms": [
+   {
+    "form": "愛阿靛",
+    "source": "martin1868",
+    "reading": "ài'ādiàn",
+    "note": "three-character transliteration",
+    "year": 1868
+   },
+   {
+    "form": "碘",
+    "source": "du1905",
+    "reading": "diǎn",
+    "note": "the Educational Association wrote 气 over 紫 “purple”, for the vapour",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "碘",
+   "hant": "碘",
+   "pinyin": "diǎn",
+   "tw": "碘",
+   "twPinyin": "diǎn"
+  }
+ },
+ "Xe": {
+  "forms": [],
+  "current": {
+   "hans": "氙",
+   "hant": "氙",
+   "pinyin": "xiān",
+   "tw": "氙",
+   "twPinyin": "xiān"
+  }
+ },
+ "Cs": {
+  "forms": [
+   {
+    "form": "鏭",
+    "source": "du1905",
+    "reading": "xī",
+    "year": 1905
+   },
+   {
+    "form": "銫",
+    "source": "moe1933",
+    "reading": "sè",
+    "succeeds": "鏭",
+    "note": "色 “colour”, after the spectral lines it was named for",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "铯",
+   "hant": "銫",
+   "pinyin": "sè",
+   "tw": "銫",
+   "twPinyin": "sè"
+  }
+ },
+ "Ba": {
+  "forms": [
+   {
+    "form": "鋇",
+    "source": "du1905",
+    "reading": "bèi",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钡",
+   "hant": "鋇",
+   "pinyin": "bèi",
+   "tw": "鋇",
+   "twPinyin": "bèi"
+  }
+ },
+ "La": {
+  "forms": [
+   {
+    "form": "鋃",
+    "source": "du1905",
+    "reading": "láng",
+    "year": 1905
+   },
+   {
+    "form": "鑭",
+    "source": "moe1933",
+    "reading": "lán",
+    "succeeds": "鋃",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "镧",
+   "hant": "鑭",
+   "pinyin": "lán",
+   "tw": "鑭",
+   "twPinyin": "lán"
+  }
+ },
+ "Ce": {
+  "forms": [
+   {
+    "form": "錯",
+    "source": "du1905",
+    "reading": "cuò",
+    "year": 1905
+   },
+   {
+    "form": "鈰",
+    "source": "moe1933",
+    "reading": "shì",
+    "succeeds": "錯",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "铈",
+   "hant": "鈰",
+   "pinyin": "shì",
+   "tw": "鈰",
+   "twPinyin": "shì"
+  }
+ },
+ "Pr": {
+  "forms": [
+   {
+    "form": "鐠",
+    "source": "du1900",
+    "reading": "pǔ",
+    "note": "proposed by Dù Yàquán and kept",
+    "year": 1900
+   }
+  ],
+  "current": {
+   "hans": "镨",
+   "hant": "鐠",
+   "pinyin": "pǔ",
+   "tw": "鐠",
+   "twPinyin": "pǔ"
+  }
+ },
+ "Nd": {
+  "forms": [
+   {
+    "form": "釢",
+    "source": "proposal",
+    "reading": "nǎi",
+    "note": "later reused for neptunium, then dropped for both",
+    "year": 1920
+   },
+   {
+    "form": "釹",
+    "source": "moe1933",
+    "reading": "nǚ",
+    "succeeds": "釢",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "钕",
+   "hant": "釹",
+   "pinyin": "nǚ",
+   "tw": "釹",
+   "twPinyin": "nǚ"
+  }
+ },
+ "Pm": {
+  "forms": [],
+  "current": {
+   "hans": "钷",
+   "hant": "鉕",
+   "pinyin": "pǒ",
+   "tw": "鉕",
+   "twPinyin": "pǒ"
+  }
+ },
+ "Sm": {
+  "forms": [
+   {
+    "form": "鎷",
+    "source": "proposal",
+    "reading": "mǎ",
+    "note": "later reused for masurium",
+    "year": 1920
+   },
+   {
+    "form": "釤",
+    "source": "moe1933",
+    "reading": "shān",
+    "succeeds": "鎷",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "钐",
+   "hant": "釤",
+   "pinyin": "shān",
+   "tw": "釤",
+   "twPinyin": "shān"
+  }
+ },
+ "Eu": {
+  "forms": [],
+  "current": {
+   "hans": "铕",
+   "hant": "銪",
+   "pinyin": "yǒu",
+   "tw": "銪",
+   "twPinyin": "yǒu"
+  }
+ },
+ "Gd": {
+  "forms": [
+   {
+    "form": "釓",
+    "source": "du1900",
+    "reading": "gá",
+    "note": "proposed by Dù Yàquán",
+    "year": 1900
+   },
+   {
+    "form": "釓",
+    "source": "moe1945",
+    "reading": "gá",
+    "note": "formally adopted",
+    "year": 1945
+   }
+  ],
+  "current": {
+   "hans": "钆",
+   "hant": "釓",
+   "pinyin": "gá",
+   "tw": "釓",
+   "twPinyin": "gá"
+  }
+ },
+ "Tb": {
+  "forms": [],
+  "current": {
+   "hans": "铽",
+   "hant": "鋱",
+   "pinyin": "tè",
+   "tw": "鋱",
+   "twPinyin": "tè"
+  }
+ },
+ "Dy": {
+  "forms": [],
+  "current": {
+   "hans": "镝",
+   "hant": "鏑",
+   "pinyin": "dī",
+   "tw": "鏑",
+   "twPinyin": "dī"
+  }
+ },
+ "Ho": {
+  "forms": [],
+  "current": {
+   "hans": "钬",
+   "hant": "鈥",
+   "pinyin": "huǒ",
+   "tw": "鈥",
+   "twPinyin": "huǒ"
+  }
+ },
+ "Er": {
+  "forms": [],
+  "current": {
+   "hans": "铒",
+   "hant": "鉺",
+   "pinyin": "ěr",
+   "tw": "鉺",
+   "twPinyin": "ěr"
+  }
+ },
+ "Tm": {
+  "forms": [
+   {
+    "form": "銩",
+    "source": "du1900",
+    "reading": "diū",
+    "note": "proposed by Dù Yàquán and kept",
+    "year": 1900
+   }
+  ],
+  "current": {
+   "hans": "铥",
+   "hant": "銩",
+   "pinyin": "diū",
+   "tw": "銩",
+   "twPinyin": "diū"
+  }
+ },
+ "Yb": {
+  "forms": [
+   {
+    "form": "鐿",
+    "source": "du1900",
+    "reading": "yì",
+    "note": "proposed by Dù Yàquán and kept",
+    "year": 1900
+   }
+  ],
+  "current": {
+   "hans": "镱",
+   "hant": "鐿",
+   "pinyin": "yì",
+   "tw": "鐿",
+   "twPinyin": "yì"
+  }
+ },
+ "Lu": {
+  "forms": [
+   {
+    "form": "鎦",
+    "source": "moe1933",
+    "reading": "liú",
+    "year": 1933
+   },
+   {
+    "form": "鑥",
+    "source": "prc1955",
+    "reading": "lǔ",
+    "succeeds": "鎦",
+    "note": "changed on the mainland because 鎦 liú was a homophone of 硫 sulfur",
+    "year": 1955
+   },
+   {
+    "form": "鎦",
+    "source": "tw",
+    "reading": "liú",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "镥",
+   "hant": "鑥",
+   "pinyin": "lǔ",
+   "tw": "鎦",
+   "twPinyin": "liú"
+  }
+ },
+ "Hf": {
+  "forms": [],
+  "current": {
+   "hans": "铪",
+   "hant": "鉿",
+   "pinyin": "hā",
+   "tw": "鉿",
+   "twPinyin": "hā"
+  }
+ },
+ "Ta": {
+  "forms": [
+   {
+    "form": "鉭",
+    "source": "du1905",
+    "reading": "tǎn",
+    "year": 1905
+   },
+   {
+    "form": "鐽",
+    "source": "proposal",
+    "reading": "dá",
+    "note": "an early character for tantalum, reused for darmstadtium in 2003",
+    "year": 1920
+   }
+  ],
+  "current": {
+   "hans": "钽",
+   "hant": "鉭",
+   "pinyin": "tǎn",
+   "tw": "鉭",
+   "twPinyin": "tǎn"
+  }
+ },
+ "W": {
+  "forms": [
+   {
+    "form": "鎢",
+    "source": "du1905",
+    "reading": "wū",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钨",
+   "hant": "鎢",
+   "pinyin": "wū",
+   "tw": "鎢",
+   "twPinyin": "wū"
+  }
+ },
+ "Re": {
+  "forms": [],
+  "current": {
+   "hans": "铼",
+   "hant": "錸",
+   "pinyin": "lái",
+   "tw": "錸",
+   "twPinyin": "lái"
+  }
+ },
+ "Os": {
+  "forms": [
+   {
+    "form": "銤",
+    "source": "ea1901",
+    "reading": "mǐ",
+    "note": "the Educational Association wrote 金 + 區; 銤 was later reused for americium",
+    "year": 1901
+   },
+   {
+    "form": "銤",
+    "source": "du1905",
+    "reading": "mǐ",
+    "year": 1905
+   },
+   {
+    "form": "鋨",
+    "source": "moe1933",
+    "reading": "é",
+    "succeeds": "銤",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "锇",
+   "hant": "鋨",
+   "pinyin": "é",
+   "tw": "鋨",
+   "twPinyin": "é"
+  }
+ },
+ "Ir": {
+  "forms": [
+   {
+    "form": "銥",
+    "source": "du1905",
+    "reading": "yī",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铱",
+   "hant": "銥",
+   "pinyin": "yī",
+   "tw": "銥",
+   "twPinyin": "yī"
+  }
+ },
+ "Pt": {
+  "forms": [
+   {
+    "form": "白金",
+    "source": "martin1868",
+    "reading": "báijīn",
+    "note": "“white gold”",
+    "year": 1868
+   },
+   {
+    "form": "鉑",
+    "source": "xu1871",
+    "reading": "bó",
+    "succeeds": "白金",
+    "note": "an old character for gold leaf, repurposed so compounds could be written with one character",
+    "year": 1871
+   },
+   {
+    "form": "鉑",
+    "source": "du1905",
+    "reading": "bó",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铂",
+   "hant": "鉑",
+   "pinyin": "bó",
+   "tw": "鉑",
+   "twPinyin": "bó"
+  }
+ },
+ "Au": {
+  "forms": [
+   {
+    "form": "金",
+    "source": "ancient",
+    "reading": "jīn",
+    "year": 0
+   },
+   {
+    "form": "黃金",
+    "source": "martin1868",
+    "reading": "huángjīn",
+    "note": "“yellow gold”, since platinum was 白金",
+    "year": 1868
+   }
+  ],
+  "current": {
+   "hans": "金",
+   "hant": "金",
+   "pinyin": "jīn",
+   "tw": "金",
+   "twPinyin": "jīn"
+  }
+ },
+ "Hg": {
+  "forms": [
+   {
+    "form": "水銀",
+    "source": "ancient",
+    "reading": "shuǐyín",
+    "note": "“water silver”; the Shíyào Ěryǎ (806) lists twenty-one alchemical aliases",
+    "year": 0
+   },
+   {
+    "form": "汞",
+    "source": "ancient",
+    "reading": "gǒng",
+    "year": 0
+   },
+   {
+    "form": "銾",
+    "source": "du1905",
+    "reading": "hóng",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "汞",
+   "hant": "汞",
+   "pinyin": "gǒng",
+   "tw": "汞",
+   "twPinyin": "gǒng"
+  }
+ },
+ "Tl": {
+  "forms": [
+   {
+    "form": "鈶",
+    "source": "du1905",
+    "reading": "sì",
+    "year": 1905
+   },
+   {
+    "form": "鉈",
+    "source": "moe1933",
+    "reading": "tā",
+    "succeeds": "鈶",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "铊",
+   "hant": "鉈",
+   "pinyin": "tā",
+   "tw": "鉈",
+   "twPinyin": "tā"
+  }
+ },
+ "Pb": {
+  "forms": [
+   {
+    "form": "鉛",
+    "source": "ancient",
+    "reading": "qiān",
+    "year": 0
+   },
+   {
+    "form": "黑鉛",
+    "source": "martin1868",
+    "reading": "hēiqiān",
+    "note": "since zinc was 白鉛 “white lead”",
+    "year": 1868
+   }
+  ],
+  "current": {
+   "hans": "铅",
+   "hant": "鉛",
+   "pinyin": "qiān",
+   "tw": "鉛",
+   "twPinyin": "qiān"
+  }
+ },
+ "Bi": {
+  "forms": [
+   {
+    "form": "鉍",
+    "source": "du1905",
+    "reading": "bì",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铋",
+   "hant": "鉍",
+   "pinyin": "bì",
+   "tw": "鉍",
+   "twPinyin": "bì"
+  }
+ },
+ "Po": {
+  "forms": [],
+  "current": {
+   "hans": "钋",
+   "hant": "釙",
+   "pinyin": "pō",
+   "tw": "釙",
+   "twPinyin": "pō"
+  }
+ },
+ "At": {
+  "forms": [
+   {
+    "form": "鈪",
+    "source": "proposal",
+    "reading": "è",
+    "note": "erroneous early form; 銰 also occurs",
+    "year": 1948
+   },
+   {
+    "form": "砹",
+    "source": "prc1991",
+    "reading": "ài",
+    "year": 1991
+   },
+   {
+    "form": "砈",
+    "source": "tw",
+    "reading": "ài",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "砹",
+   "hant": "砹",
+   "pinyin": "ài",
+   "tw": "砈",
+   "twPinyin": "ài"
+  }
+ },
+ "Rn": {
+  "forms": [
+   {
+    "form": "氡",
+    "source": "moe1945",
+    "reading": "dōng",
+    "note": "replaced an earlier term",
+    "year": 1945
+   }
+  ],
+  "current": {
+   "hans": "氡",
+   "hant": "氡",
+   "pinyin": "dōng",
+   "tw": "氡",
+   "twPinyin": "dōng"
+  }
+ },
+ "Fr": {
+  "forms": [
+   {
+    "form": "鈁",
+    "source": "prc1991",
+    "reading": "fāng",
+    "year": 1991
+   },
+   {
+    "form": "鍅",
+    "source": "tw",
+    "reading": "fǎ",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "钫",
+   "hant": "鈁",
+   "pinyin": "fāng",
+   "tw": "鍅",
+   "twPinyin": "fǎ"
+  }
+ },
+ "Ra": {
+  "forms": [
+   {
+    "form": "鈤",
+    "source": "proposal",
+    "reading": "rì",
+    "note": "clashed with the same character used for germanium",
+    "year": 1920
+   },
+   {
+    "form": "鐳",
+    "source": "moe1933",
+    "reading": "léi",
+    "succeeds": "鈤",
+    "year": 1933
+   }
+  ],
+  "current": {
+   "hans": "镭",
+   "hant": "鐳",
+   "pinyin": "léi",
+   "tw": "鐳",
+   "twPinyin": "léi"
+  }
+ },
+ "Ac": {
+  "forms": [],
+  "current": {
+   "hans": "锕",
+   "hant": "錒",
+   "pinyin": "ā",
+   "tw": "錒",
+   "twPinyin": "ā"
+  }
+ },
+ "Th": {
+  "forms": [
+   {
+    "form": "釷",
+    "source": "du1905",
+    "reading": "tǔ",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "钍",
+   "hant": "釷",
+   "pinyin": "tǔ",
+   "tw": "釷",
+   "twPinyin": "tǔ"
+  }
+ },
+ "Pa": {
+  "forms": [],
+  "current": {
+   "hans": "镤",
+   "hant": "鏷",
+   "pinyin": "pú",
+   "tw": "鏷",
+   "twPinyin": "pú"
+  }
+ },
+ "U": {
+  "forms": [
+   {
+    "form": "鈾",
+    "source": "du1905",
+    "reading": "yóu",
+    "year": 1905
+   }
+  ],
+  "current": {
+   "hans": "铀",
+   "hant": "鈾",
+   "pinyin": "yóu",
+   "tw": "鈾",
+   "twPinyin": "yóu"
+  }
+ },
+ "Np": {
+  "forms": [
+   {
+    "form": "釢",
+    "source": "proposal",
+    "reading": "nǎi",
+    "note": "had earlier meant neodymium",
+    "year": 1945
+   },
+   {
+    "form": "鎿",
+    "source": "prc1951",
+    "reading": "ná",
+    "succeeds": "釢",
+    "year": 1951
+   },
+   {
+    "form": "錼",
+    "source": "tw",
+    "reading": "nài",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "镎",
+   "hant": "鎿",
+   "pinyin": "ná",
+   "tw": "錼",
+   "twPinyin": "nài"
+  }
+ },
+ "Pu": {
+  "forms": [
+   {
+    "form": "鈈",
+    "source": "prc1951",
+    "reading": "bù",
+    "year": 1951
+   },
+   {
+    "form": "鈽",
+    "source": "tw",
+    "reading": "bù",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "钚",
+   "hant": "鈈",
+   "pinyin": "bù",
+   "tw": "鈽",
+   "twPinyin": "bù"
+  }
+ },
+ "Am": {
+  "forms": [
+   {
+    "form": "銤",
+    "source": "proposal",
+    "reading": "mǐ",
+    "note": "had earlier meant osmium",
+    "year": 1948
+   },
+   {
+    "form": "鎇",
+    "source": "prc1951",
+    "reading": "méi",
+    "succeeds": "銤",
+    "year": 1951
+   },
+   {
+    "form": "鋂",
+    "source": "tw",
+    "reading": "měi",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "镅",
+   "hant": "鎇",
+   "pinyin": "méi",
+   "tw": "鋂",
+   "twPinyin": "měi"
+  }
+ },
+ "Cm": {
+  "forms": [],
+  "current": {
+   "hans": "锔",
+   "hant": "鋦",
+   "pinyin": "jú",
+   "tw": "鋦",
+   "twPinyin": "jū"
+  }
+ },
+ "Bk": {
+  "forms": [
+   {
+    "form": "錇",
+    "source": "prc1951",
+    "reading": "péi",
+    "year": 1951
+   },
+   {
+    "form": "鉳",
+    "source": "tw",
+    "reading": "běi",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "锫",
+   "hant": "錇",
+   "pinyin": "péi",
+   "tw": "鉳",
+   "twPinyin": "běi"
+  }
+ },
+ "Cf": {
+  "forms": [
+   {
+    "form": "鐦",
+    "source": "prc1951",
+    "reading": "kāi",
+    "note": "simplified to 锎 rather than 钘, to avoid the wine vessel 鈃",
+    "year": 1951
+   },
+   {
+    "form": "鉲",
+    "source": "tw",
+    "reading": "kǎ",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "锎",
+   "hant": "鐦",
+   "pinyin": "kāi",
+   "tw": "鉲",
+   "twPinyin": "kǎ"
+  }
+ },
+ "Es": {
+  "forms": [
+   {
+    "form": "鎄",
+    "source": "prc1955",
+    "reading": "āi",
+    "year": 1955
+   },
+   {
+    "form": "鑀",
+    "source": "tw",
+    "reading": "ài",
+    "year": 9999
+   }
+  ],
+  "current": {
+   "hans": "锿",
+   "hant": "鎄",
+   "pinyin": "āi",
+   "tw": "鑀",
+   "twPinyin": "ài"
+  }
+ },
+ "Fm": {
+  "forms": [],
+  "current": {
+   "hans": "镄",
+   "hant": "鐨",
+   "pinyin": "fèi",
+   "tw": "鐨",
+   "twPinyin": "fèi"
+  }
+ },
+ "Md": {
+  "forms": [],
+  "current": {
+   "hans": "钔",
+   "hant": "鍆",
+   "pinyin": "mén",
+   "tw": "鍆",
+   "twPinyin": "mén"
+  }
+ },
+ "No": {
+  "forms": [],
+  "current": {
+   "hans": "锘",
+   "hant": "鍩",
+   "pinyin": "nuò",
+   "tw": "鍩",
+   "twPinyin": "nuò"
+  }
+ },
+ "Lr": {
+  "forms": [],
+  "current": {
+   "hans": "铹",
+   "hant": "鐒",
+   "pinyin": "láo",
+   "tw": "鐒",
+   "twPinyin": "láo"
+  }
+ },
+ "Rf": {
+  "forms": [
+   {
+    "form": "龲",
+    "source": "bloc",
+    "reading": "kù",
+    "ids": "⿰金庫",
+    "note": "for kurchatovium, the Soviet name",
+    "year": 1970
+   },
+   {
+    "form": "鑪",
+    "source": "prc1998",
+    "reading": "lú",
+    "succeeds": "龲",
+    "note": "already defined earlier, confirmed after IUPAC settled on rutherfordium",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "𬬻",
+   "hant": "鑪",
+   "pinyin": "lú",
+   "tw": "鑪",
+   "twPinyin": "lú"
+  }
+ },
+ "Db": {
+  "forms": [
+   {
+    "form": "鉨",
+    "source": "proposal",
+    "reading": "ní",
+    "note": "for nielsbohrium, the Soviet name; 鉨 later went to nihonium",
+    "year": 1970
+   },
+   {
+    "form": "𫒢",
+    "source": "prc1980",
+    "reading": "hǎn",
+    "ids": "⿰金罕",
+    "note": "for hahnium, the American name",
+    "year": 1980
+   },
+   {
+    "form": "𨧀",
+    "source": "prc1998",
+    "reading": "dù",
+    "ids": "⿰金杜",
+    "succeeds": "𫒢",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "𬭊",
+   "hant": "𨧀",
+   "pinyin": "dù",
+   "tw": "𨧀",
+   "twPinyin": "dú"
+  }
+ },
+ "Sg": {
+  "forms": [
+   {
+    "form": "𨭎",
+    "source": "prc1998",
+    "reading": "xǐ",
+    "ids": "⿰金喜",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "𬭳",
+   "hant": "𨭎",
+   "pinyin": "xǐ",
+   "tw": "𨭎",
+   "twPinyin": "xǐ"
+  }
+ },
+ "Bh": {
+  "forms": [
+   {
+    "form": "鉨",
+    "source": "proposal",
+    "reading": "ní",
+    "note": "for nielsbohrium",
+    "year": 1994
+   },
+   {
+    "form": "𨨏",
+    "source": "prc1998",
+    "reading": "bō",
+    "ids": "⿰金波",
+    "succeeds": "鉨",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "𬭛",
+   "hant": "𨨏",
+   "pinyin": "bō",
+   "tw": "𨨏",
+   "twPinyin": "bō"
+  }
+ },
+ "Hs": {
+  "forms": [
+   {
+    "form": "𨭆",
+    "source": "prc1998",
+    "reading": "hēi",
+    "ids": "⿰金黑",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "𬭶",
+   "hant": "𨭆",
+   "pinyin": "hēi",
+   "tw": "𨭆",
+   "twPinyin": "hēi"
+  }
+ },
+ "Mt": {
+  "forms": [
+   {
+    "form": "䥑",
+    "source": "prc1998",
+    "reading": "mài",
+    "year": 1998
+   }
+  ],
+  "current": {
+   "hans": "鿏",
+   "hant": "䥑",
+   "pinyin": "mài",
+   "tw": "䥑",
+   "twPinyin": "mài"
+  }
+ },
+ "Ds": {
+  "forms": [
+   {
+    "form": "鐽",
+    "source": "prc2003",
+    "reading": "dá",
+    "note": "a character that once stood for tantalum",
+    "year": 2003
+   }
+  ],
+  "current": {
+   "hans": "𫟼",
+   "hant": "鐽",
+   "pinyin": "dá",
+   "tw": "鐽",
+   "twPinyin": "dá"
+  }
+ },
+ "Rg": {
+  "forms": [
+   {
+    "form": "錀",
+    "source": "prc2007",
+    "reading": "lún",
+    "note": "an old character for a kind of metal, agreed in 2006 and published in 2007",
+    "year": 2007
+   }
+  ],
+  "current": {
+   "hans": "𬬭",
+   "hant": "錀",
+   "pinyin": "lún",
+   "tw": "錀",
+   "twPinyin": "lún"
+  }
+ },
+ "Cn": {
+  "forms": [
+   {
+    "form": "鎶",
+    "source": "tw2010",
+    "reading": "gē",
+    "note": "the old columbium character, reused",
+    "year": 2010
+   },
+   {
+    "form": "鎶",
+    "source": "prc2012",
+    "reading": "gē",
+    "year": 2012
+   }
+  ],
+  "current": {
+   "hans": "鿔",
+   "hant": "鎶",
+   "pinyin": "gē",
+   "tw": "鎶",
+   "twPinyin": "gē"
+  }
+ },
+ "Nh": {
+  "forms": [
+   {
+    "form": "鈤",
+    "source": "proposal",
+    "reading": "rì",
+    "note": "日 for Japan; rejected because names follow Western sound",
+    "year": 2016
+   },
+   {
+    "form": "鋐",
+    "source": "proposal",
+    "reading": "hóng",
+    "note": "second syllable, as 鈧 does; rejected",
+    "year": 2016
+   },
+   {
+    "form": "鉨",
+    "source": "prc2017",
+    "reading": "nǐ",
+    "note": "钅 + 尔; a character with 兒 would have sounded like 鈮 niobium",
+    "year": 2017
+   }
+  ],
+  "current": {
+   "hans": "鿭",
+   "hant": "鿭",
+   "pinyin": "nǐ",
+   "tw": "鿭",
+   "twPinyin": "nǐ"
+  }
+ },
+ "Fl": {
+  "forms": [
+   {
+    "form": "鈇",
+    "source": "tw2012",
+    "reading": "fū",
+    "note": "provisional Taiwan name; 鈇 is an old word for an axe",
+    "year": 2012
+   },
+   {
+    "form": "𫓧",
+    "source": "prc2013",
+    "reading": "fū",
+    "ids": "⿰钅夫",
+    "year": 2013
+   }
+  ],
+  "current": {
+   "hans": "𫓧",
+   "hant": "鈇",
+   "pinyin": "fū",
+   "tw": "鈇",
+   "twPinyin": "fū"
+  }
+ },
+ "Mc": {
+  "forms": [
+   {
+    "form": "鏌",
+    "source": "prc2017",
+    "reading": "mò",
+    "note": "from the legendary sword 鏌鋣",
+    "year": 2017
+   }
+  ],
+  "current": {
+   "hans": "镆",
+   "hant": "镆",
+   "pinyin": "mò",
+   "tw": "镆",
+   "twPinyin": "mò"
+  }
+ },
+ "Lv": {
+  "forms": [],
+  "current": {
+   "hans": "𫟷",
+   "hant": "鉝",
+   "pinyin": "lì",
+   "tw": "鉝",
+   "twPinyin": "lì"
+  }
+ },
+ "Ts": {
+  "forms": [
+   {
+    "form": "鿬",
+    "source": "prc2017",
+    "reading": "tián",
+    "year": 2017
+   }
+  ],
+  "current": {
+   "hans": "鿬",
+   "hant": "鿬",
+   "pinyin": "tián",
+   "tw": "鿬",
+   "twPinyin": "tián"
+  }
+ },
+ "Og": {
+  "forms": [
+   {
+    "form": "鿫",
+    "source": "prc2017",
+    "reading": "ào",
+    "year": 2017
+   }
+  ],
+  "current": {
+   "hans": "鿫",
+   "hant": "鿫",
+   "pinyin": "ào",
+   "tw": "鿫",
+   "twPinyin": "ào"
+  }
+ }
+}

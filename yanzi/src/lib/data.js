@@ -1,4 +1,5 @@
 import elements from './elements.json';
+import history from './history.json';
 
 export { elements };
 
@@ -39,7 +40,7 @@ export function plain(s) {
 const haystacks = new Map(
 	elements.map((e) => [
 		e.z,
-		[e.symbol, e.name, String(e.z), e.char, e.pinyin, e.plain, e.phonetic ?? '', e.radical, e.radicalKey, e.state, e.codepoint]
+		[e.symbol, e.name, String(e.z), e.char, e.pinyin, e.plain, e.phonetic ?? '', e.radical, e.radicalKey, e.state, e.codepoint, ...(history[e.symbol]?.forms ?? []).flatMap((a) => [a.form, a.reading ?? ''])]
 			.map((s) => plain(String(s)))
 			.join(' ')
 	])

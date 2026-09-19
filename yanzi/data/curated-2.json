@@ -1,0 +1,779 @@
+[
+ {
+  "symbol": "Rb",
+  "form": "銣",
+  "source": "du1905",
+  "reading": "rú"
+ },
+ {
+  "symbol": "Sr",
+  "form": "鎴",
+  "source": "du1905",
+  "reading": "xī"
+ },
+ {
+  "symbol": "Sr",
+  "form": "鍶",
+  "source": "moe1933",
+  "reading": "sī",
+  "succeeds": "鎴",
+  "note": "the character Dù had used for scandium"
+ },
+ {
+  "symbol": "Y",
+  "form": "釱",
+  "source": "du1905",
+  "reading": "dì"
+ },
+ {
+  "symbol": "Y",
+  "form": "釔",
+  "source": "moe1933",
+  "reading": "yǐ",
+  "succeeds": "釱"
+ },
+ {
+  "symbol": "Zr",
+  "form": "鋯",
+  "source": "du1905",
+  "reading": "gào"
+ },
+ {
+  "symbol": "Nb",
+  "form": "鈳",
+  "source": "moe1933",
+  "reading": "kē",
+  "note": "for columbium, the name used in America until 1949"
+ },
+ {
+  "symbol": "Nb",
+  "form": "鎶",
+  "source": "proposal",
+  "reading": "gē",
+  "note": "an early 20th-century character for columbium, reused for copernicium in 2010",
+  "year": 1915
+ },
+ {
+  "symbol": "Nb",
+  "form": "鈮",
+  "source": "du1905",
+  "reading": "ní"
+ },
+ {
+  "symbol": "Nb",
+  "form": "鈮",
+  "source": "moe1945",
+  "reading": "ní",
+  "succeeds": "鈳",
+  "note": "niobium replaced columbium"
+ },
+ {
+  "symbol": "Mo",
+  "form": "鉬",
+  "source": "du1905",
+  "reading": "mù"
+ },
+ {
+  "symbol": "Tc",
+  "form": "鎷",
+  "source": "xinhua1980",
+  "reading": "mǎ",
+  "note": "for masurium, the disputed 1925 claim; 鎷 had earlier meant samarium"
+ },
+ {
+  "symbol": "Tc",
+  "form": "鍀",
+  "source": "prc1991",
+  "reading": "dé",
+  "succeeds": "鎷"
+ },
+ {
+  "symbol": "Tc",
+  "form": "鎝",
+  "source": "tw",
+  "reading": "dā"
+ },
+ {
+  "symbol": "Ru",
+  "form": "釕",
+  "source": "du1905",
+  "reading": "liǎo"
+ },
+ {
+  "symbol": "Rh",
+  "form": "錴",
+  "source": "du1905",
+  "reading": "lù"
+ },
+ {
+  "symbol": "Rh",
+  "form": "銠",
+  "source": "moe1933",
+  "reading": "lǎo",
+  "succeeds": "錴"
+ },
+ {
+  "symbol": "Pd",
+  "form": "鈀",
+  "source": "du1905",
+  "reading": "bǎ"
+ },
+ {
+  "symbol": "Ag",
+  "form": "白金",
+  "source": "ancient",
+  "reading": "báijīn",
+  "note": "“white metal” in the Shuōwén Jiězì"
+ },
+ {
+  "symbol": "Ag",
+  "form": "白銀",
+  "source": "martin1868",
+  "reading": "báiyín",
+  "note": "to keep it apart from 水銀 mercury"
+ },
+ {
+  "symbol": "Ag",
+  "form": "銀",
+  "source": "ancient",
+  "reading": "yín"
+ },
+ {
+  "symbol": "Cd",
+  "form": "鎘",
+  "source": "du1905",
+  "reading": "gé"
+ },
+ {
+  "symbol": "In",
+  "form": "銦",
+  "source": "du1905",
+  "reading": "yīn"
+ },
+ {
+  "symbol": "Sn",
+  "form": "錫",
+  "source": "ancient",
+  "reading": "xī",
+  "note": "one of the Five Metals; phonetic 易 reflects an old pronunciation"
+ },
+ {
+  "symbol": "Sb",
+  "form": "銻",
+  "source": "du1905",
+  "reading": "tì"
+ },
+ {
+  "symbol": "Te",
+  "form": "碲",
+  "source": "du1905",
+  "reading": "dì"
+ },
+ {
+  "symbol": "I",
+  "form": "愛阿靛",
+  "source": "martin1868",
+  "reading": "ài'ādiàn",
+  "note": "three-character transliteration"
+ },
+ {
+  "symbol": "I",
+  "form": "碘",
+  "source": "du1905",
+  "reading": "diǎn",
+  "note": "the Educational Association wrote 气 over 紫 “purple”, for the vapour"
+ },
+ {
+  "symbol": "Cs",
+  "form": "鏭",
+  "source": "du1905",
+  "reading": "xī"
+ },
+ {
+  "symbol": "Cs",
+  "form": "銫",
+  "source": "moe1933",
+  "reading": "sè",
+  "succeeds": "鏭",
+  "note": "色 “colour”, after the spectral lines it was named for"
+ },
+ {
+  "symbol": "Ba",
+  "form": "鋇",
+  "source": "du1905",
+  "reading": "bèi"
+ },
+ {
+  "symbol": "La",
+  "form": "鋃",
+  "source": "du1905",
+  "reading": "láng"
+ },
+ {
+  "symbol": "La",
+  "form": "鑭",
+  "source": "moe1933",
+  "reading": "lán",
+  "succeeds": "鋃"
+ },
+ {
+  "symbol": "Ce",
+  "form": "錯",
+  "source": "du1905",
+  "reading": "cuò"
+ },
+ {
+  "symbol": "Ce",
+  "form": "鈰",
+  "source": "moe1933",
+  "reading": "shì",
+  "succeeds": "錯"
+ },
+ {
+  "symbol": "Pr",
+  "form": "鐠",
+  "source": "du1900",
+  "reading": "pǔ",
+  "note": "proposed by Dù Yàquán and kept"
+ },
+ {
+  "symbol": "Nd",
+  "form": "釢",
+  "source": "proposal",
+  "reading": "nǎi",
+  "note": "later reused for neptunium, then dropped for both",
+  "year": 1920
+ },
+ {
+  "symbol": "Nd",
+  "form": "釹",
+  "source": "moe1933",
+  "reading": "nǚ",
+  "succeeds": "釢"
+ },
+ {
+  "symbol": "Sm",
+  "form": "鎷",
+  "source": "proposal",
+  "reading": "mǎ",
+  "note": "later reused for masurium",
+  "year": 1920
+ },
+ {
+  "symbol": "Sm",
+  "form": "釤",
+  "source": "moe1933",
+  "reading": "shān",
+  "succeeds": "鎷"
+ },
+ {
+  "symbol": "Gd",
+  "form": "釓",
+  "source": "du1900",
+  "reading": "gá",
+  "note": "proposed by Dù Yàquán"
+ },
+ {
+  "symbol": "Gd",
+  "form": "釓",
+  "source": "moe1945",
+  "reading": "gá",
+  "note": "formally adopted"
+ },
+ {
+  "symbol": "Tm",
+  "form": "銩",
+  "source": "du1900",
+  "reading": "diū",
+  "note": "proposed by Dù Yàquán and kept"
+ },
+ {
+  "symbol": "Yb",
+  "form": "鐿",
+  "source": "du1900",
+  "reading": "yì",
+  "note": "proposed by Dù Yàquán and kept"
+ },
+ {
+  "symbol": "Lu",
+  "form": "鎦",
+  "source": "moe1933",
+  "reading": "liú"
+ },
+ {
+  "symbol": "Lu",
+  "form": "鑥",
+  "source": "prc1955",
+  "reading": "lǔ",
+  "succeeds": "鎦",
+  "note": "changed on the mainland because 鎦 liú was a homophone of 硫 sulfur"
+ },
+ {
+  "symbol": "Lu",
+  "form": "鎦",
+  "source": "tw",
+  "reading": "liú"
+ },
+ {
+  "symbol": "Ta",
+  "form": "鐽",
+  "source": "proposal",
+  "reading": "dá",
+  "note": "an early character for tantalum, reused for darmstadtium in 2003",
+  "year": 1920
+ },
+ {
+  "symbol": "Ta",
+  "form": "鉭",
+  "source": "du1905",
+  "reading": "tǎn"
+ },
+ {
+  "symbol": "W",
+  "form": "鎢",
+  "source": "du1905",
+  "reading": "wū"
+ },
+ {
+  "symbol": "Os",
+  "form": "銤",
+  "source": "ea1901",
+  "reading": "mǐ",
+  "note": "the Educational Association wrote 金 + 區; 銤 was later reused for americium"
+ },
+ {
+  "symbol": "Os",
+  "form": "銤",
+  "source": "du1905",
+  "reading": "mǐ"
+ },
+ {
+  "symbol": "Os",
+  "form": "鋨",
+  "source": "moe1933",
+  "reading": "é",
+  "succeeds": "銤"
+ },
+ {
+  "symbol": "Ir",
+  "form": "銥",
+  "source": "du1905",
+  "reading": "yī"
+ },
+ {
+  "symbol": "Pt",
+  "form": "白金",
+  "source": "martin1868",
+  "reading": "báijīn",
+  "note": "“white gold”"
+ },
+ {
+  "symbol": "Pt",
+  "form": "鉑",
+  "source": "xu1871",
+  "reading": "bó",
+  "succeeds": "白金",
+  "note": "an old character for gold leaf, repurposed so compounds could be written with one character"
+ },
+ {
+  "symbol": "Pt",
+  "form": "鉑",
+  "source": "du1905",
+  "reading": "bó"
+ },
+ {
+  "symbol": "Au",
+  "form": "黃金",
+  "source": "martin1868",
+  "reading": "huángjīn",
+  "note": "“yellow gold”, since platinum was 白金"
+ },
+ {
+  "symbol": "Au",
+  "form": "金",
+  "source": "ancient",
+  "reading": "jīn"
+ },
+ {
+  "symbol": "Hg",
+  "form": "水銀",
+  "source": "ancient",
+  "reading": "shuǐyín",
+  "note": "“water silver”; the Shíyào Ěryǎ (806) lists twenty-one alchemical aliases"
+ },
+ {
+  "symbol": "Hg",
+  "form": "銾",
+  "source": "du1905",
+  "reading": "hóng"
+ },
+ {
+  "symbol": "Hg",
+  "form": "汞",
+  "source": "ancient",
+  "reading": "gǒng"
+ },
+ {
+  "symbol": "Tl",
+  "form": "鈶",
+  "source": "du1905",
+  "reading": "sì"
+ },
+ {
+  "symbol": "Tl",
+  "form": "鉈",
+  "source": "moe1933",
+  "reading": "tā",
+  "succeeds": "鈶"
+ },
+ {
+  "symbol": "Pb",
+  "form": "黑鉛",
+  "source": "martin1868",
+  "reading": "hēiqiān",
+  "note": "since zinc was 白鉛 “white lead”"
+ },
+ {
+  "symbol": "Pb",
+  "form": "鉛",
+  "source": "ancient",
+  "reading": "qiān"
+ },
+ {
+  "symbol": "Bi",
+  "form": "鉍",
+  "source": "du1905",
+  "reading": "bì"
+ },
+ {
+  "symbol": "At",
+  "form": "鈪",
+  "source": "proposal",
+  "reading": "è",
+  "note": "erroneous early form; 銰 also occurs",
+  "year": 1948
+ },
+ {
+  "symbol": "At",
+  "form": "砹",
+  "source": "prc1991",
+  "reading": "ài"
+ },
+ {
+  "symbol": "At",
+  "form": "砈",
+  "source": "tw",
+  "reading": "ài"
+ },
+ {
+  "symbol": "Rn",
+  "form": "氡",
+  "source": "moe1945",
+  "reading": "dōng",
+  "note": "replaced an earlier term"
+ },
+ {
+  "symbol": "Fr",
+  "form": "鈁",
+  "source": "prc1991",
+  "reading": "fāng"
+ },
+ {
+  "symbol": "Fr",
+  "form": "鍅",
+  "source": "tw",
+  "reading": "fǎ"
+ },
+ {
+  "symbol": "Ra",
+  "form": "鈤",
+  "source": "proposal",
+  "reading": "rì",
+  "note": "clashed with the same character used for germanium",
+  "year": 1920
+ },
+ {
+  "symbol": "Ra",
+  "form": "鐳",
+  "source": "moe1933",
+  "reading": "léi",
+  "succeeds": "鈤"
+ },
+ {
+  "symbol": "Ge",
+  "form": "鈤",
+  "source": "proposal",
+  "reading": "rì",
+  "note": "clashed with the same character used for radium",
+  "year": 1920
+ },
+ {
+  "symbol": "Ge",
+  "form": "鍺",
+  "source": "du1905",
+  "reading": "zhě"
+ },
+ {
+  "symbol": "Th",
+  "form": "釷",
+  "source": "du1905",
+  "reading": "tǔ"
+ },
+ {
+  "symbol": "U",
+  "form": "鈾",
+  "source": "du1905",
+  "reading": "yóu"
+ },
+ {
+  "symbol": "Np",
+  "form": "釢",
+  "source": "proposal",
+  "reading": "nǎi",
+  "note": "had earlier meant neodymium",
+  "year": 1945
+ },
+ {
+  "symbol": "Np",
+  "form": "鎿",
+  "source": "prc1951",
+  "reading": "ná",
+  "succeeds": "釢"
+ },
+ {
+  "symbol": "Np",
+  "form": "錼",
+  "source": "tw",
+  "reading": "nài"
+ },
+ {
+  "symbol": "Pu",
+  "form": "鈈",
+  "source": "prc1951",
+  "reading": "bù"
+ },
+ {
+  "symbol": "Pu",
+  "form": "鈽",
+  "source": "tw",
+  "reading": "bù"
+ },
+ {
+  "symbol": "Am",
+  "form": "銤",
+  "source": "proposal",
+  "reading": "mǐ",
+  "note": "had earlier meant osmium",
+  "year": 1948
+ },
+ {
+  "symbol": "Am",
+  "form": "鎇",
+  "source": "prc1951",
+  "reading": "méi",
+  "succeeds": "銤"
+ },
+ {
+  "symbol": "Am",
+  "form": "鋂",
+  "source": "tw",
+  "reading": "měi"
+ },
+ {
+  "symbol": "Bk",
+  "form": "錇",
+  "source": "prc1951",
+  "reading": "péi"
+ },
+ {
+  "symbol": "Bk",
+  "form": "鉳",
+  "source": "tw",
+  "reading": "běi"
+ },
+ {
+  "symbol": "Cf",
+  "form": "鐦",
+  "source": "prc1951",
+  "reading": "kāi",
+  "note": "simplified to 锎 rather than 钘, to avoid the wine vessel 鈃"
+ },
+ {
+  "symbol": "Cf",
+  "form": "鉲",
+  "source": "tw",
+  "reading": "kǎ"
+ },
+ {
+  "symbol": "Es",
+  "form": "鎄",
+  "source": "prc1955",
+  "reading": "āi"
+ },
+ {
+  "symbol": "Es",
+  "form": "鑀",
+  "source": "tw",
+  "reading": "ài"
+ },
+ {
+  "symbol": "Rf",
+  "form": "龲",
+  "source": "bloc",
+  "reading": "kù",
+  "ids": "⿰金庫",
+  "note": "for kurchatovium, the Soviet name",
+  "year": 1970
+ },
+ {
+  "symbol": "Rf",
+  "form": "鑪",
+  "source": "prc1998",
+  "reading": "lú",
+  "succeeds": "龲",
+  "note": "already defined earlier, confirmed after IUPAC settled on rutherfordium"
+ },
+ {
+  "symbol": "Db",
+  "form": "𫒢",
+  "source": "prc1980",
+  "reading": "hǎn",
+  "ids": "⿰金罕",
+  "note": "for hahnium, the American name"
+ },
+ {
+  "symbol": "Db",
+  "form": "鉨",
+  "source": "proposal",
+  "reading": "ní",
+  "note": "for nielsbohrium, the Soviet name; 鉨 later went to nihonium",
+  "year": 1970
+ },
+ {
+  "symbol": "Db",
+  "form": "𨧀",
+  "source": "prc1998",
+  "reading": "dù",
+  "ids": "⿰金杜",
+  "succeeds": "𫒢"
+ },
+ {
+  "symbol": "Sg",
+  "form": "𨭎",
+  "source": "prc1998",
+  "reading": "xǐ",
+  "ids": "⿰金喜"
+ },
+ {
+  "symbol": "Bh",
+  "form": "鉨",
+  "source": "proposal",
+  "reading": "ní",
+  "note": "for nielsbohrium",
+  "year": 1994
+ },
+ {
+  "symbol": "Bh",
+  "form": "𨨏",
+  "source": "prc1998",
+  "reading": "bō",
+  "ids": "⿰金波",
+  "succeeds": "鉨"
+ },
+ {
+  "symbol": "Hs",
+  "form": "𨭆",
+  "source": "prc1998",
+  "reading": "hēi",
+  "ids": "⿰金黑"
+ },
+ {
+  "symbol": "Mt",
+  "form": "䥑",
+  "source": "prc1998",
+  "reading": "mài"
+ },
+ {
+  "symbol": "Ds",
+  "form": "鐽",
+  "source": "prc2003",
+  "reading": "dá",
+  "note": "a character that once stood for tantalum"
+ },
+ {
+  "symbol": "Rg",
+  "form": "錀",
+  "source": "prc2007",
+  "reading": "lún",
+  "note": "an old character for a kind of metal, agreed in 2006 and published in 2007"
+ },
+ {
+  "symbol": "Cn",
+  "form": "鎶",
+  "source": "tw2010",
+  "reading": "gē",
+  "note": "the old columbium character, reused"
+ },
+ {
+  "symbol": "Cn",
+  "form": "鎶",
+  "source": "prc2012",
+  "reading": "gē"
+ },
+ {
+  "symbol": "Nh",
+  "form": "鈤",
+  "source": "proposal",
+  "reading": "rì",
+  "note": "日 for Japan; rejected because names follow Western sound",
+  "year": 2016
+ },
+ {
+  "symbol": "Nh",
+  "form": "鋐",
+  "source": "proposal",
+  "reading": "hóng",
+  "note": "second syllable, as 鈧 does; rejected",
+  "year": 2016
+ },
+ {
+  "symbol": "Nh",
+  "form": "鉨",
+  "source": "prc2017",
+  "reading": "nǐ",
+  "note": "钅 + 尔; a character with 兒 would have sounded like 鈮 niobium"
+ },
+ {
+  "symbol": "Fl",
+  "form": "鈇",
+  "source": "tw2012",
+  "reading": "fū",
+  "note": "provisional Taiwan name; 鈇 is an old word for an axe"
+ },
+ {
+  "symbol": "Fl",
+  "form": "𫓧",
+  "source": "prc2013",
+  "reading": "fū",
+  "ids": "⿰钅夫"
+ },
+ {
+  "symbol": "Mc",
+  "form": "鏌",
+  "source": "prc2017",
+  "reading": "mò",
+  "note": "from the legendary sword 鏌鋣"
+ },
+ {
+  "symbol": "Ts",
+  "form": "鿬",
+  "source": "prc2017",
+  "reading": "tián"
+ },
+ {
+  "symbol": "Og",
+  "form": "鿫",
+  "source": "prc2017",
+  "reading": "ào"
+ }
+]

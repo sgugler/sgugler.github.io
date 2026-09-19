@@ -1,0 +1,539 @@
+[
+ {
+  "symbol": "H",
+  "form": "輕氣",
+  "source": "hobson1855",
+  "reading": "qīngqì",
+  "note": "“light gas”; the lightest element"
+ },
+ {
+  "symbol": "H",
+  "form": "水母氣",
+  "source": "hobson1855",
+  "reading": "shuǐmǔqì",
+  "note": "“water-mother gas”, a calque of hydro-gen"
+ },
+ {
+  "symbol": "H",
+  "form": "輕",
+  "source": "du1905",
+  "reading": "qīng"
+ },
+ {
+  "symbol": "H",
+  "form": "氫",
+  "source": "moe1933",
+  "reading": "qīng",
+  "succeeds": "輕氣",
+  "note": "气 + the phonetic 巠 taken from 輕. A form with the whole 輕 under 气 was used briefly."
+ },
+ {
+  "symbol": "He",
+  "form": "氜",
+  "source": "ea1898",
+  "reading": "rì",
+  "note": "气 + 日 “sun”: the gas found in the solar spectrum"
+ },
+ {
+  "symbol": "He",
+  "form": "氦",
+  "source": "moe1915",
+  "reading": "hài",
+  "succeeds": "氜",
+  "note": "phonetic 亥 to follow the international name"
+ },
+ {
+  "symbol": "Be",
+  "form": "鋊",
+  "source": "du1905",
+  "reading": "yù",
+  "note": "for the older name glucinium (Gl); 鑉 was also used"
+ },
+ {
+  "symbol": "Be",
+  "form": "鑉",
+  "source": "japanese",
+  "reading": "hé",
+  "note": "another rendering of glucinium",
+  "year": 1920
+ },
+ {
+  "symbol": "Be",
+  "form": "鈹",
+  "source": "du1900",
+  "reading": "pí",
+  "succeeds": "鋊",
+  "note": "proposed by Dù Yàquán and kept"
+ },
+ {
+  "symbol": "B",
+  "form": "𥑢",
+  "source": "xu1871",
+  "reading": "bù",
+  "ids": "⿰石布",
+  "note": "石 + 布 for bo-ron; also in Dù's 1905 table"
+ },
+ {
+  "symbol": "B",
+  "form": "𥑢",
+  "source": "du1905",
+  "reading": "bù",
+  "ids": "⿰石布"
+ },
+ {
+  "symbol": "B",
+  "form": "硼",
+  "source": "kerr1870",
+  "reading": "péng",
+  "note": "from 硼砂 borax; the form that survived"
+ },
+ {
+  "symbol": "C",
+  "form": "炭",
+  "source": "du1905",
+  "reading": "tàn"
+ },
+ {
+  "symbol": "C",
+  "form": "碳",
+  "source": "ea1901",
+  "reading": "tàn",
+  "succeeds": "炭",
+  "note": "炭 “charcoal” given the stone radical"
+ },
+ {
+  "symbol": "N",
+  "form": "淡氣",
+  "source": "hobson1849",
+  "reading": "dànqì",
+  "note": "“diluting gas”: it dilutes the air"
+ },
+ {
+  "symbol": "N",
+  "form": "硝氣",
+  "source": "billequin1873",
+  "reading": "xiāoqì",
+  "note": "“nitre gas”"
+ },
+ {
+  "symbol": "N",
+  "form": "育",
+  "source": "du1905",
+  "reading": "yù",
+  "note": "the Educational Association wrote 气 over 育"
+ },
+ {
+  "symbol": "N",
+  "form": "氮",
+  "source": "moe1933",
+  "reading": "dàn",
+  "succeeds": "淡氣",
+  "note": "气 + 炎 from 淡"
+ },
+ {
+  "symbol": "O",
+  "form": "養氣",
+  "source": "hobson1849",
+  "reading": "yǎngqì",
+  "note": "“nourishing gas”"
+ },
+ {
+  "symbol": "O",
+  "form": "生氣",
+  "source": "hobson1855",
+  "reading": "shēngqì",
+  "note": "“life gas”, also used for air"
+ },
+ {
+  "symbol": "O",
+  "form": "養",
+  "source": "du1905",
+  "reading": "yǎng",
+  "note": "the Educational Association wrote 气 over 養"
+ },
+ {
+  "symbol": "O",
+  "form": "氱",
+  "source": "proposal",
+  "reading": "yǎng",
+  "note": "interim form with the full 養 under 气",
+  "year": 1920
+ },
+ {
+  "symbol": "O",
+  "form": "氧",
+  "source": "moe1933",
+  "reading": "yǎng",
+  "succeeds": "養氣",
+  "note": "气 + 羊 from 養"
+ },
+ {
+  "symbol": "F",
+  "form": "弗",
+  "source": "du1905",
+  "reading": "fú"
+ },
+ {
+  "symbol": "F",
+  "form": "氟",
+  "source": "moe1933",
+  "reading": "fú",
+  "succeeds": "弗氣"
+ },
+ {
+  "symbol": "Na",
+  "form": "鈉",
+  "source": "du1905",
+  "reading": "nà"
+ },
+ {
+  "symbol": "Al",
+  "form": "礬精",
+  "source": "martin1868",
+  "reading": "fánjīng",
+  "note": "“essence of alum”"
+ },
+ {
+  "symbol": "Al",
+  "form": "鋁",
+  "source": "du1905",
+  "reading": "lǚ"
+ },
+ {
+  "symbol": "Si",
+  "form": "砂精",
+  "source": "billequin1873",
+  "reading": "shājīng",
+  "note": "“essence of sand”"
+ },
+ {
+  "symbol": "Si",
+  "form": "矽",
+  "source": "du1905",
+  "reading": "xī"
+ },
+ {
+  "symbol": "Si",
+  "form": "矽",
+  "source": "moe1933",
+  "reading": "xī",
+  "note": "adopted over 硅, which came from the Japanese 珪素"
+ },
+ {
+  "symbol": "Si",
+  "form": "硅",
+  "source": "prc1955",
+  "reading": "guī",
+  "succeeds": "矽",
+  "note": "changed on the mainland because 矽 xī was a homophone of 硒 selenium and 錫 tin"
+ },
+ {
+  "symbol": "Si",
+  "form": "矽",
+  "source": "tw",
+  "reading": "xì"
+ },
+ {
+  "symbol": "P",
+  "form": "燐",
+  "source": "ancient",
+  "reading": "lín",
+  "note": "“ghost fire”, with the fire radical, in the Shuōwén Jiězì"
+ },
+ {
+  "symbol": "P",
+  "form": "光藥",
+  "source": "martin1868",
+  "reading": "guāngyào",
+  "note": "“light drug”"
+ },
+ {
+  "symbol": "P",
+  "form": "燐",
+  "source": "du1905",
+  "reading": "lín"
+ },
+ {
+  "symbol": "P",
+  "form": "硄",
+  "source": "ea1901",
+  "reading": "guāng"
+ },
+ {
+  "symbol": "P",
+  "form": "磷",
+  "source": "moe1933",
+  "reading": "lín",
+  "succeeds": "燐",
+  "note": "fire radical replaced by stone for a solid non-metal"
+ },
+ {
+  "symbol": "S",
+  "form": "硫磺",
+  "source": "ancient",
+  "reading": "liúhuáng",
+  "note": "brimstone"
+ },
+ {
+  "symbol": "S",
+  "form": "硫",
+  "source": "du1905",
+  "reading": "liú"
+ },
+ {
+  "symbol": "Cl",
+  "form": "鹽氣",
+  "source": "martin1868",
+  "reading": "yánqì",
+  "note": "“salt gas”, an alternative in the same book"
+ },
+ {
+  "symbol": "Cl",
+  "form": "綠",
+  "source": "du1905",
+  "reading": "lǜ",
+  "note": "the Educational Association wrote 气 over 綠"
+ },
+ {
+  "symbol": "Cl",
+  "form": "氯",
+  "source": "moe1933",
+  "reading": "lǜ",
+  "succeeds": "綠氣",
+  "note": "气 + 彔 from 綠 “green”"
+ },
+ {
+  "symbol": "Ar",
+  "form": "亞爾艮",
+  "source": "japanese",
+  "reading": "yà'ěrgěn",
+  "note": "from Japanese arugon",
+  "year": 1898
+ },
+ {
+  "symbol": "Ar",
+  "form": "氬",
+  "source": "du1900",
+  "reading": "yà",
+  "succeeds": "亞爾艮",
+  "note": "Dù Yàquán's first 气-radical coinage; he later took his own name from 氬線"
+ },
+ {
+  "symbol": "K",
+  "form": "灰精",
+  "source": "martin1868",
+  "reading": "huījīng",
+  "note": "“essence of ash”, after potash"
+ },
+ {
+  "symbol": "K",
+  "form": "鉀",
+  "source": "du1905",
+  "reading": "jiǎ"
+ },
+ {
+  "symbol": "Ca",
+  "form": "石精",
+  "source": "martin1868",
+  "reading": "shíjīng",
+  "note": "“essence of stone”"
+ },
+ {
+  "symbol": "Ca",
+  "form": "丐而西黑",
+  "source": "martin1868",
+  "reading": "gài'érxīhēi",
+  "note": "full transliteration also used"
+ },
+ {
+  "symbol": "Ca",
+  "form": "鈣",
+  "source": "du1905",
+  "reading": "gài"
+ },
+ {
+  "symbol": "Sc",
+  "form": "鍶",
+  "source": "du1905",
+  "reading": "sī",
+  "note": "the character now used for strontium"
+ },
+ {
+  "symbol": "Sc",
+  "form": "鈧",
+  "source": "moe1933",
+  "reading": "kàng",
+  "succeeds": "鍶"
+ },
+ {
+  "symbol": "Ti",
+  "form": "釱",
+  "source": "kerr1870",
+  "reading": "dì",
+  "note": "an existing character borrowed for the metal"
+ },
+ {
+  "symbol": "Ti",
+  "form": "鐟",
+  "source": "du1905",
+  "reading": "zān"
+ },
+ {
+  "symbol": "Ti",
+  "form": "鈦",
+  "source": "moe1933",
+  "reading": "tài",
+  "succeeds": "鐟"
+ },
+ {
+  "symbol": "V",
+  "form": "釩",
+  "source": "du1905",
+  "reading": "fán"
+ },
+ {
+  "symbol": "Cr",
+  "form": "生色",
+  "source": "billequin1873",
+  "reading": "shēngsè",
+  "note": "“colour-generating”, Billequin's property-based name"
+ },
+ {
+  "symbol": "Cr",
+  "form": "鉻",
+  "source": "du1905",
+  "reading": "gè"
+ },
+ {
+  "symbol": "Mn",
+  "form": "無名異",
+  "source": "billequin1873",
+  "reading": "wúmíngyì",
+  "note": "the mineral pyrolusite; Billequin merged it into one character"
+ },
+ {
+  "symbol": "Mn",
+  "form": "錳",
+  "source": "du1905",
+  "reading": "měng"
+ },
+ {
+  "symbol": "Fe",
+  "form": "黑金",
+  "source": "ancient",
+  "reading": "hēijīn",
+  "note": "“black metal” in the Shuōwén Jiězì"
+ },
+ {
+  "symbol": "Fe",
+  "form": "鐵",
+  "source": "ancient",
+  "reading": "tiě"
+ },
+ {
+  "symbol": "Co",
+  "form": "錆",
+  "source": "billequin1873",
+  "reading": "qiāng",
+  "note": "after the sky-blue colour of its salts"
+ },
+ {
+  "symbol": "Co",
+  "form": "釦",
+  "source": "ea1901",
+  "reading": "kòu"
+ },
+ {
+  "symbol": "Co",
+  "form": "鈷",
+  "source": "du1905",
+  "reading": "gǔ"
+ },
+ {
+  "symbol": "Ni",
+  "form": "尼愛",
+  "source": "martin1868",
+  "reading": "ní'ài",
+  "note": "transliteration of ni-ckel"
+ },
+ {
+  "symbol": "Ni",
+  "form": "鎳",
+  "source": "du1905",
+  "reading": "niè"
+ },
+ {
+  "symbol": "Cu",
+  "form": "赤金",
+  "source": "ancient",
+  "reading": "chìjīn",
+  "note": "“red metal”"
+ },
+ {
+  "symbol": "Cu",
+  "form": "銅",
+  "source": "ancient",
+  "reading": "tóng"
+ },
+ {
+  "symbol": "Zn",
+  "form": "倭鉛",
+  "source": "ancient",
+  "reading": "wōqiān",
+  "note": "“Japanese lead”"
+ },
+ {
+  "symbol": "Zn",
+  "form": "鋅",
+  "source": "du1905",
+  "reading": "xīn",
+  "note": "old reading zǐ changed to xīn after zinc"
+ },
+ {
+  "symbol": "Ga",
+  "form": "鋏",
+  "source": "du1905",
+  "reading": "jiá"
+ },
+ {
+  "symbol": "Ga",
+  "form": "鎵",
+  "source": "moe1933",
+  "reading": "jiā",
+  "succeeds": "鋏"
+ },
+ {
+  "symbol": "As",
+  "form": "砒",
+  "source": "ea1901",
+  "reading": "pī",
+  "note": "from 砒霜 arsenic trioxide"
+ },
+ {
+  "symbol": "As",
+  "form": "砷",
+  "source": "du1905",
+  "reading": "shēn",
+  "succeeds": "鉮",
+  "note": "stone radical once arsenic was no longer counted as a metal"
+ },
+ {
+  "symbol": "Se",
+  "form": "硒",
+  "source": "du1905",
+  "reading": "xī"
+ },
+ {
+  "symbol": "Br",
+  "form": "波羅明",
+  "source": "macgowan1871",
+  "reading": "bōluómíng",
+  "note": "míng 明 instead of mín, avoiding the Daoguang Emperor's tabooed name"
+ },
+ {
+  "symbol": "Br",
+  "form": "溴",
+  "source": "du1905",
+  "reading": "xiù"
+ }
+]

@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import { radicals, origins } from '$lib/data.js';
 	import Glyph from '$lib/Glyph.svelte';
+	import History from '$lib/History.svelte';
 
 	let { data } = $props();
 	const e = $derived(data.element);
@@ -66,6 +67,25 @@
 		{origins[e.origin].description}
 		{#if e.note}<span class="note">{e.note}</span>{/if}
 	</p>
+</section>
+
+<section class="card history">
+	<h2>History of the character</h2>
+	{#if data.history.forms.length}
+		<p class="muted intro">
+			Every form found in the sources, from the first missionary chemistry books of the 1850s to the current
+			standards. Hover a dot for the source. Simplified <b class="hanzi">{data.history.current.hans}</b>, traditional
+			<b class="hanzi">{data.history.current.hant}</b>{#if data.history.current.tw !== data.history.current.hant || data.history.current.twPinyin !== data.history.current.pinyin}, Taiwan
+				<b class="hanzi">{data.history.current.tw}</b> <i>{data.history.current.twPinyin}</i>{/if}.
+		</p>
+		<History element={e} record={data.history} />
+	{:else}
+		<p class="muted">
+			No earlier form is recorded in the sources consulted. Simplified <b class="hanzi">{data.history.current.hans}</b>,
+			traditional <b class="hanzi">{data.history.current.hant}</b>{#if data.history.current.tw !== data.history.current.hant}, Taiwan
+				<b class="hanzi">{data.history.current.tw}</b> <i>{data.history.current.twPinyin}</i>{/if}.
+		</p>
+	{/if}
 </section>
 
 <div class="grid">
@@ -145,8 +165,12 @@
 		color: var(--muted);
 		margin: 0 0 0.75rem;
 	}
-	.anatomy {
+	.anatomy,
+	.history {
 		margin-bottom: 1rem;
+	}
+	.intro {
+		margin-top: 0;
 	}
 	.equation {
 		display: flex;
