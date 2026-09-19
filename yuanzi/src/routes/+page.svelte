@@ -74,8 +74,10 @@
 					<span class="py">{e.pinyin}</span>
 				</a>
 			{/each}
-			<div class="el placeholder" style:grid-column={3} style:grid-row={6}>57–71</div>
-			<div class="el placeholder" style:grid-column={3} style:grid-row={7}>89–103</div>
+			<a class="el placeholder" href="#lanthanides" style:grid-column={3} style:grid-row={6}>57–71</a>
+			<a class="el placeholder" href="#actinides" style:grid-column={3} style:grid-row={7}>89–103</a>
+			<div class="series" id="lanthanides" style:grid-column="1 / span 2" style:grid-row={9}>Lanthanides<br /><small>57–71</small></div>
+			<div class="series" id="actinides" style:grid-column="1 / span 2" style:grid-row={10}>Actinides<br /><small>89–103</small></div>
 		</div>
 	</div>
 {:else}
@@ -149,9 +151,26 @@
 	.table {
 		display: grid;
 		grid-template-columns: repeat(var(--cols), minmax(3.4rem, 1fr));
-		grid-auto-rows: auto;
+		/* seven periods, a spacer, then the lanthanide and actinide rows */
+		grid-template-rows: repeat(7, auto) 0.6rem repeat(2, auto);
 		gap: 3px;
 		min-width: 64rem;
+	}
+	.series {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+		padding-right: 0.6rem;
+		text-align: right;
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--muted);
+		line-height: 1.15;
+		scroll-margin-top: 4rem;
+	}
+	.series small {
+		font-weight: 400;
 	}
 	.table :global(.el:nth-child(n)) {
 		min-width: 0;
@@ -193,10 +212,7 @@
 	.placeholder {
 		color: var(--muted);
 		border: 1px dashed var(--line);
-	}
-	/* space between the main table and the f-block */
-	.table :global(.el[style*='grid-row: 9']) {
-		margin-top: 0.6rem;
+		text-decoration: none;
 	}
 	.list {
 		list-style: none;
