@@ -1,0 +1,60 @@
+{
+ "fps": 25.0,
+ "clips": [
+  {
+   "id": "A",
+   "file": "audio/clip_A.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "B",
+   "file": "audio/clip_B.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "C",
+   "file": "audio/clip_C.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "D",
+   "file": "audio/clip_D.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "E",
+   "file": "audio/clip_E.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "F",
+   "file": "audio/clip_F.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "G",
+   "file": "audio/clip_G.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "H",
+   "file": "audio/clip_H.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "I",
+   "file": "audio/clip_I.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "J",
+   "file": "audio/clip_J.mp3",
+   "seconds": 30.0
+  },
+  {
+   "id": "K",
+   "file": "audio/clip_K.mp3",
+   "seconds": 30.0
+  }
+ ]
+}

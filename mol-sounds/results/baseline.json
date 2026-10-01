@@ -1,0 +1,30 @@
+{
+ "thresholds": {
+  "energy": 0.5,
+  "force": 5.0,
+  "dist": 0.75
+ },
+ "trajectories": {
+  "stable_300K": {
+   "first": null,
+   "energy": null,
+   "force": null,
+   "dist": null,
+   "frames": 2001
+  },
+  "fail_400K": {
+   "first": 333,
+   "energy": 333,
+   "force": 353,
+   "dist": null,
+   "frames": 2001
+  },
+  "long_300K": {
+   "first": null,
+   "energy": null,
+   "force": null,
+   "dist": null,
+   "frames": 20001
+  }
+ }
+}

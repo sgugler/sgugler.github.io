@@ -16,6 +16,9 @@ main:
   - name: Gorillaz
     url: /gorillaz/
     weight: 13
+  - name: Mol sounds
+    url: /mol-sounds/
+    weight: 14
   # - name: Talks
   #   url: talks/
   #   weight: 12

@@ -1,0 +1,90 @@
+{
+ "A": {
+  "source": "stable_300K",
+  "start": 1100,
+  "stop": 1850,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "B": {
+  "source": "fail_400K",
+  "start": 1250,
+  "stop": 2000,
+  "failing": true,
+  "auto_frame": 1250,
+  "auto_seconds": 0.0
+ },
+ "C": {
+  "source": "long_300K",
+  "start": 7000,
+  "stop": 7750,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "D": {
+  "source": "fail_400K",
+  "start": 240,
+  "stop": 990,
+  "failing": true,
+  "auto_frame": 333,
+  "auto_seconds": 3.72
+ },
+ "E": {
+  "source": "fail_400K",
+  "start": 120,
+  "stop": 870,
+  "failing": true,
+  "auto_frame": 333,
+  "auto_seconds": 8.52
+ },
+ "F": {
+  "source": "long_300K",
+  "start": 11000,
+  "stop": 11750,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "G": {
+  "source": "fail_400K",
+  "start": 0,
+  "stop": 750,
+  "failing": true,
+  "auto_frame": 333,
+  "auto_seconds": 13.32
+ },
+ "H": {
+  "source": "stable_300K",
+  "start": 0,
+  "stop": 750,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "I": {
+  "source": "long_300K",
+  "start": 18500,
+  "stop": 19250,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "J": {
+  "source": "long_300K",
+  "start": 2500,
+  "stop": 3250,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ },
+ "K": {
+  "source": "long_300K",
+  "start": 15000,
+  "stop": 15750,
+  "failing": false,
+  "auto_frame": null,
+  "auto_seconds": null
+ }
+}

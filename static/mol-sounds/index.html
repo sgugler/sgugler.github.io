@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mol sounds – can you hear a force field fail?</title>
+<meta name="description" content="Molecular dynamics turned into sound: listen for a machine-learned force field breaking down, and test yourself against automated checks.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🔊</text></svg>">
+<style>
+:root{--bg:#f7f6f2;--fg:#1d1f24;--muted:#626673;--card:#fff;--line:#dcdad3;--accent:#00a6a6;--warn:#d1495b;
+--v0:#F8766D;--v1:#7CAE00;--v2:#00BFC4;--v3:#C77CFF;--v4:#E68613;--v5:#00A9FF}
+@media (prefers-color-scheme:dark){:root{--bg:#121418;--fg:#ecebe6;--muted:#9a9ea8;--card:#1b1e24;--line:#2d313a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:1.5rem clamp(1rem,4vw,2.5rem) 3rem}
+a{color:inherit}
+h1{font-size:clamp(1.7rem,4vw,2.4rem);margin:.2rem 0 .4rem;line-height:1.15}
+h2{font-size:1.25rem;margin:2.2rem 0 .6rem}
+.lead{font-size:1.1rem;max-width:68ch}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:.8rem;padding:1rem 1.2rem}
+.row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+button,select{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;cursor:pointer}
+button[aria-pressed=true],button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.big{font-size:1.25rem;padding:.8rem 1.6rem;border-radius:.8rem}
+button.warn{background:var(--warn);border-color:var(--warn);color:#fff}
+button:disabled{opacity:.45;cursor:default}
+audio{width:100%;margin:.6rem 0}
+svg{display:block;width:100%;height:auto}
+svg text{fill:var(--muted);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font-size:.9rem;color:var(--muted)}
+.sw{display:inline-block;width:1rem;height:3px;vertical-align:middle;margin-right:.35rem;border-radius:2px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid var(--line)}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.tag{font-size:.8rem;padding:.1rem .5rem;border-radius:999px;border:1px solid var(--line)}
+.good{color:#2e9e44}.bad{color:var(--warn)}
+.math{font-family:"STIX Two Math","Cambria Math",serif;font-size:1.15rem}
+.grid2{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.kbd{font-family:ui-monospace,monospace;border:1px solid var(--line);border-radius:.3rem;padding:0 .35rem}
+.press-flash{animation:flash .4s}
+@keyframes flash{from{box-shadow:0 0 0 8px rgba(209,73,91,.45)}to{box-shadow:0 0 0 0 rgba(209,73,91,0)}}
+footer{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding:1rem clamp(1rem,4vw,2.5rem)}
+</style>
+</head>
+<body>
+<main>
+<p class="muted"><a href="/">sgugler.ch</a> · mol sounds</p>
+<h1>Can you hear a force field fail?</h1>
+<p class="lead">A molecular dynamics trajectory turned into a chord: one voice per bond type, pitch following how far the bonds stretch. One run is stable; in the other, the machine-learned force field slowly loses the molecule. The question for this pilot: does a listener notice before the automated checks do?</p>
+
+<h2>1 · Listen and look</h2>
+<div class="card">
+  <div class="row">
+    <span class="muted">Trajectory</span>
+    <button data-traj="stable_300K" aria-pressed="true">stable, 300 K</button>
+    <button data-traj="fail_400K" aria-pressed="false">failing, 400 K</button>
+    <span class="muted" style="margin-left:1rem">Sound</span>
+    <button data-var="pitch" aria-pressed="true">pitch</button>
+    <button data-var="pitch_force" aria-pressed="false">pitch + force loudness</button>
+  </div>
+  <audio id="exAudio" controls preload="none"></audio>
+  <div class="legend" id="voiceLegend"></div>
+  <svg id="exPlot" viewBox="0 0 1000 560" aria-label="Voice pitches and automated checks over the trajectory"></svg>
+  <p class="muted" style="font-size:.9rem;margin:.4rem 0 0">Top: each voice's pitch offset in octaves from its base note (clipped at −2 and +3). Middle: total-energy drift, kcal/mol. Bottom: largest atomic force, kcal/mol/Å. Dashed lines are the check thresholds; the red line marks the first frame an automated check fires. Click a plot to jump there.</p>
+</div>
+
+<h2>2 · Blind listening test</h2>
+<div class="card" id="test">
+  <div id="testIntro">
+    <p>Eleven unlabeled 30-second clips, a mix of stable and failing segments, in a fixed shuffled order. Press <span class="kbd">space</span> or the red button the moment something sounds off. Press as often as you like; only the first press per clip is scored. Use headphones, and don't peek at section 1 for the failing run first if you want a fair score.</p>
+    <div class="row">
+      <button class="primary big" id="startTest">Start</button>
+      <button id="resetTest">Reset saved progress</button>
+      <span class="muted" id="resumeNote"></span>
+    </div>
+  </div>
+  <div id="testRun" hidden>
+    <p><b id="clipTitle">Clip A</b> <span class="muted" id="clipCount"></span></p>
+    <audio id="testAudio" controls preload="auto"></audio>
+    <div class="row">
+      <button class="warn big" id="pressBtn">Sounds off!</button>
+      <span class="muted" id="pressLog">no presses yet</span>
+    </div>
+    <div class="row" style="margin-top:1rem">
+      <button id="replayBtn">Restart clip</button>
+      <button class="primary" id="nextBtn">Next clip →</button>
+    </div>
+  </div>
+  <div id="testDone" hidden>
+    <div id="summary"></div>
+    <div style="overflow-x:auto"><table id="resultTable"></table></div>
+    <div class="row" style="margin-top:1rem">
+      <button class="primary" id="downloadBtn">Download my results (JSON)</button>
+      <button id="againBtn">Take it again</button>
+    </div>
+    <p class="muted" style="font-size:.9rem">Send the JSON to Stefan, or run <code>evaluate.py</code> on a folder of them to get the human-versus-automated plot.</p>
+  </div>
+</div>
+
+<h2>3 · How it works</h2>
+<div class="grid2">
+  <div class="card">
+    <h3 style="margin-top:0">Sound</h3>
+    <p>Bonds are found in the first frame of the stable run. Each frame, every bond's deviation from its mean length in the stable run is taken, bonds are grouped by element pair (C–H, C–O, O–H, C–C), and each group becomes one voice whose feature <i>r<sub>i</sub>(t)</i> is the largest deviation in the group. The voice sounds at</p>
+    <p class="math" style="text-align:center">f<sub>i</sub>(t) = f<sub>0,i</sub> · 2<sup>c (r<sub>i</sub>(t) − r̄<sub>i</sub>) / σ<sub>i</sub></sup></p>
+    <p>with r̄<sub>i</sub>, σ<sub>i</sub> the feature's mean and spread in the stable run, base notes 220, 275, 330 and 440 Hz (a just A-major chord), and gain <i>c</i> = 0.5 octave per standard deviation. Sines with continuous phase, summed and soft-limited; 25 MD frames per second of audio. The optional loudness channel scales with the largest atomic force.</p>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">Automated checks</h3>
+    <p>A frame is flagged when the total energy has drifted more than 11.5 kcal/mol (0.5 eV) from the start, the largest atomic force exceeds 115 kcal/mol/Å (5 eV/Å), or two atoms come closer than 0.75 Å. Both stable runs never trip a check; the failing run is first flagged at frame 333 (energy drift), then at 353 (force).</p>
+    <h3>Data</h3>
+    <p>Glyceraldehyde, C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>, with one SchNetPack force field, NVE velocity Verlet at 0.5 fs, all runs from the same starting geometry: a 2 000-step run initialised at 300 K, a 20 000-step run at 300 K for extra stable clips, and a 2 000-step run initialised at 400 K that fails.</p>
+  </div>
+</div>
+
+<h2>Caveats</h2>
+<ul class="muted" style="max-width:72ch">
+  <li>The failing run starts hotter, so its voices wobble more from the first frame, before anything has gone wrong. A listener can pick the hot run without hearing the failure itself; a fair test needs a stable run at the same temperature.</li>
+  <li>All four failing clips come from one trajectory and three of them overlap, so a listener may recognise them.</li>
+  <li>One molecule, one force field, one listener at a time. Read the results as a pilot, not evidence.</li>
+</ul>
+<p class="muted">Scripts: <a href="https://github.com/sgugler/sgugler.github.io/tree/main/mol-sounds">sonify.py, baseline.py, evaluate.py</a>.</p>
+</main>
+<footer>Stefan Gugler · <a href="/">sgugler.ch</a></footer>
+
+<script>
+(async function(){
+const css = getComputedStyle(document.documentElement);
+const voiceColors = [0,1,2,3,4,5].map(i=>css.getPropertyValue('--v'+i).trim());
+const explore = await (await fetch('data/explore.json')).json();
+const clipsData = await (await fetch('data/clips.json')).json();
+const FPS = explore.fps;
+
+/* ---------------- explore ---------------- */
+let traj='stable_300K', variant='pitch';
+const exAudio=document.getElementById('exAudio'), svg=document.getElementById('exPlot');
+document.getElementById('voiceLegend').innerHTML = explore.voices.map((v,i)=>`<span><span class="sw" style="background:${voiceColors[i]}"></span>${v.label} · ${v.f0} Hz</span>`).join('');
+const NS='http://www.w3.org/2000/svg';
+const W=1000, L=70, R=20, panels=[{y:10,h:250},{y:290,h:115},{y:430,h:115}];
+let playhead;
+function el(tag,attrs,parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);(parent||svg).appendChild(e);return e}
+function path(vals,x,y){let d='';vals.forEach((v,i)=>{d+=(i?'L':'M')+x(i).toFixed(1)+','+y(v).toFixed(1)});return d}
+function draw(){
+  svg.innerHTML='';
+  const t=explore.trajectories[traj], n=t.frames;
+  const x=i=>L+(W-L-R)*i/(n-1);
+  // panel 1: octaves
+  const p=panels[0], yo=v=>p.y+p.h*(3-v)/5;
+  for(const g of [-2,-1,0,1,2,3]){el('line',{x1:L,x2:W-R,y1:yo(g),y2:yo(g),stroke:'var(--line)'});el('text',{x:L-8,y:yo(g)+4,'text-anchor':'end'}).textContent=(g>0?'+':'')+g}
+  el('text',{x:14,y:p.y+p.h/2,transform:`rotate(-90 14 ${p.y+p.h/2})`,'text-anchor':'middle'}).textContent='octaves';
+  t.octaves.forEach((o,i)=>el('path',{d:path(o,x,yo),fill:'none',stroke:voiceColors[i],'stroke-width':1.1,opacity:.85}));
+  // panel 2 and 3: drift and force (log-ish clamp)
+  const series=[[t.drift_kcal,explore.thresholds_kcal.energy,'ΔE kcal/mol'],[t.fmax_kcal,explore.thresholds_kcal.force,'F kcal/mol/Å']];
+  series.forEach(([vals,thr,label],k)=>{
+    const q=panels[k+1], max=Math.max(thr*2.2,...vals.slice(0,n));
+    const lg=v=>Math.log10(1+v), y=v=>q.y+q.h*(1-lg(v)/lg(max));
+    el('line',{x1:L,x2:W-R,y1:q.y+q.h,y2:q.y+q.h,stroke:'var(--line)'});
+    el('line',{x1:L,x2:W-R,y1:y(thr),y2:y(thr),stroke:'var(--muted)','stroke-dasharray':'5 4'});
+    el('text',{x:L-8,y:y(thr)+4,'text-anchor':'end'}).textContent=Math.round(thr);
+    el('text',{x:14,y:q.y+q.h/2,transform:`rotate(-90 14 ${q.y+q.h/2})`,'text-anchor':'middle','font-size':11}).textContent=label;
+    el('path',{d:path(vals,x,y),fill:'none',stroke:'var(--fg)','stroke-width':1.1});
+  });
+  // frame axis
+  for(let f=0;f<n;f+=250){el('text',{x:x(f),y:558,'text-anchor':'middle'}).textContent=f}
+  if(t.first_flag!=null){el('line',{x1:x(t.first_flag),x2:x(t.first_flag),y1:5,y2:545,stroke:'var(--warn)','stroke-width':2});
+    el('text',{x:x(t.first_flag)+6,y:22,fill:'var(--warn)',style:'fill:var(--warn)'}).textContent='first automated flag · frame '+t.first_flag}
+  playhead=el('line',{x1:L,x2:L,y1:5,y2:545,stroke:'var(--accent)','stroke-width':2});
+  svg.onclick=ev=>{const r=svg.getBoundingClientRect(),fx=(ev.clientX-r.left)/r.width*W;const f=Math.max(0,Math.min(n-1,(fx-L)/(W-L-R)*(n-1)));exAudio.currentTime=f/FPS;if(exAudio.paused)exAudio.play()};
+  svg._x=x; svg._n=n;
+}
+function load(){exAudio.src=`audio/explore_${traj}_${variant}.mp3`;draw()}
+function tick(){if(playhead&&svg._x){const f=Math.min(svg._n-1,exAudio.currentTime*FPS);const xx=svg._x(f);playhead.setAttribute('x1',xx);playhead.setAttribute('x2',xx)}requestAnimationFrame(tick)}
+document.querySelectorAll('[data-traj]').forEach(b=>b.onclick=()=>{traj=b.dataset.traj;document.querySelectorAll('[data-traj]').forEach(x=>x.setAttribute('aria-pressed',x===b));load()});
+document.querySelectorAll('[data-var]').forEach(b=>b.onclick=()=>{const t=exAudio.currentTime,playing=!exAudio.paused;variant=b.dataset.var;document.querySelectorAll('[data-var]').forEach(x=>x.setAttribute('aria-pressed',x===b));exAudio.src=`audio/explore_${traj}_${variant}.mp3`;exAudio.currentTime=t;if(playing)exAudio.play()});
+load();tick();
+
+/* ---------------- blind test ---------------- */
+const KEY='molsounds:test';
+const clips=clipsData.clips;
+let state=load_state();
+function load_state(){try{return JSON.parse(localStorage.getItem(KEY))||null}catch{return null}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
+const $=id=>document.getElementById(id);
+const tAudio=$('testAudio');
+if(state&&!state.done)$('resumeNote').textContent=`Saved progress: ${state.index} of ${clips.length} clips done. Start resumes.`;
+if(state&&state.done)finish();
+$('startTest').onclick=()=>{if(!state||state.done)state={started:new Date().toISOString(),index:0,presses:{},done:false};save();show('run');loadClip()};
+$('resetTest').onclick=()=>{state=null;try{localStorage.removeItem(KEY)}catch{};$('resumeNote').textContent='Cleared.'};
+$('againBtn').onclick=()=>{state=null;try{localStorage.removeItem(KEY)}catch{};show('intro')};
+function show(which){$('testIntro').hidden=which!=='intro';$('testRun').hidden=which!=='run';$('testDone').hidden=which!=='done'}
+function loadClip(){const c=clips[state.index];$('clipTitle').textContent='Clip '+c.id;$('clipCount').textContent=`${state.index+1} of ${clips.length}`;tAudio.src=c.file;tAudio.currentTime=0;tAudio.play().catch(()=>{});renderPresses()}
+function renderPresses(){const p=state.presses[clips[state.index].id]||[];$('pressLog').textContent=p.length?'presses at '+p.map(s=>s.toFixed(1)+' s').join(', '):'no presses yet'}
+function press(){if($('testRun').hidden||tAudio.paused&&tAudio.currentTime===0)return;const id=clips[state.index].id;(state.presses[id]=state.presses[id]||[]).push(+tAudio.currentTime.toFixed(2));save();renderPresses();const b=$('pressBtn');b.classList.remove('press-flash');void b.offsetWidth;b.classList.add('press-flash')}
+$('pressBtn').onclick=press;
+document.addEventListener('keydown',e=>{if(e.code==='Space'&&!$('testRun').hidden){e.preventDefault();press()}});
+$('replayBtn').onclick=()=>{tAudio.currentTime=0;tAudio.play()};
+$('nextBtn').onclick=()=>{tAudio.pause();state.index++;save();if(state.index>=clips.length){state.done=true;state.finished=new Date().toISOString();save();finish()}else loadClip()};
+async function finish(){
+  show('done');
+  const key=await (await fetch('data/key.json')).json();
+  let rows='',delays=[],hits=0,failing=0,stable=0,fa=0;
+  for(const c of clips){
+    const k=key[c.id],p=(state.presses[c.id]||[]),first=p.length?p[0]:null;
+    let verdict='',cls='';
+    if(k.failing){failing++;
+      if(first==null){verdict='missed';cls='bad'}
+      else{hits++;const d=first-k.auto_seconds;delays.push(d);verdict=d<=0?`${(-d).toFixed(1)} s before the checks`:`${d.toFixed(1)} s after the checks`;cls=d<=0?'good':''}
+    }else{stable++;if(first!=null){fa++;verdict='false alarm';cls='bad'}else{verdict='correctly quiet';cls='good'}}
+    rows+=`<tr><td>${c.id}</td><td>${k.failing?'<span class="tag bad">failing</span>':'<span class="tag">stable</span>'} <span class="muted">${k.source}, frames ${k.start}–${k.stop}</span></td><td>${k.auto_seconds==null?'—':k.auto_seconds.toFixed(1)+' s'}</td><td>${first==null?'—':first.toFixed(1)+' s'}</td><td class="${cls}">${verdict}</td></tr>`;
+  }
+  $('resultTable').innerHTML='<tr><th>Clip</th><th>Source</th><th>Checks fire at</th><th>Your first press</th><th>Result</th></tr>'+rows;
+  const med=delays.length?delays.slice().sort((a,b)=>a-b)[Math.floor(delays.length/2)]:null;
+  $('summary').innerHTML=`<p style="font-size:1.1rem">You flagged <b>${hits} of ${failing}</b> failing clips${med==null?'':`, with a median of <b>${Math.abs(med).toFixed(1)} s ${med<=0?'before':'after'}</b> the automated checks (${Math.round(Math.abs(med)*FPS)} frames)`}, and raised <b>${fa} false alarm${fa===1?'':'s'}</b> on ${stable} stable clips.</p>`;
+  state.results=clips.map(c=>({id:c.id,presses:state.presses[c.id]||[],...key[c.id]}));
+  save();
+}
+$('downloadBtn').onclick=()=>{const blob=new Blob([JSON.stringify({page:'mol-sounds',fps:FPS,...state},null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mol-sounds-result.json';a.click()};
+})();
+</script>
+</body>
+</html>
