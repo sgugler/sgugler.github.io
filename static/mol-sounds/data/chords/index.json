@@ -1,0 +1,154 @@
+[
+ {
+  "id": "water",
+  "name": "water",
+  "group": "small",
+  "formula": "H2O",
+  "atoms": 3,
+  "modes": 3
+ },
+ {
+  "id": "ammonia",
+  "name": "ammonia",
+  "group": "small",
+  "formula": "H3N",
+  "atoms": 4,
+  "modes": 6
+ },
+ {
+  "id": "methane",
+  "name": "methane",
+  "group": "small",
+  "formula": "CH4",
+  "atoms": 5,
+  "modes": 9
+ },
+ {
+  "id": "co2",
+  "name": "carbon dioxide",
+  "group": "small",
+  "formula": "CO2",
+  "atoms": 3,
+  "modes": 4
+ },
+ {
+  "id": "formaldehyde",
+  "name": "formaldehyde",
+  "group": "small",
+  "formula": "CH2O",
+  "atoms": 4,
+  "modes": 6
+ },
+ {
+  "id": "ethylene",
+  "name": "ethylene",
+  "group": "small",
+  "formula": "C2H4",
+  "atoms": 6,
+  "modes": 12
+ },
+ {
+  "id": "acetylene",
+  "name": "acetylene",
+  "group": "small",
+  "formula": "C2H2",
+  "atoms": 4,
+  "modes": 7
+ },
+ {
+  "id": "ethanol",
+  "name": "ethanol",
+  "group": "MD17",
+  "formula": "C2H6O",
+  "atoms": 9,
+  "modes": 21
+ },
+ {
+  "id": "malonaldehyde",
+  "name": "malonaldehyde",
+  "group": "MD17",
+  "formula": "C3H4O2",
+  "atoms": 9,
+  "modes": 21
+ },
+ {
+  "id": "glyceraldehyde",
+  "name": "glyceraldehyde",
+  "group": "this page",
+  "formula": "C3H6O3",
+  "atoms": 12,
+  "modes": 30
+ },
+ {
+  "id": "benzene",
+  "name": "benzene",
+  "group": "MD17",
+  "formula": "C6H6",
+  "atoms": 12,
+  "modes": 30
+ },
+ {
+  "id": "toluene",
+  "name": "toluene",
+  "group": "MD17",
+  "formula": "C7H8",
+  "atoms": 15,
+  "modes": 39
+ },
+ {
+  "id": "naphthalene",
+  "name": "naphthalene",
+  "group": "MD17",
+  "formula": "C10H8",
+  "atoms": 18,
+  "modes": 48
+ },
+ {
+  "id": "uracil",
+  "name": "uracil",
+  "group": "MD17",
+  "formula": "C4H4N2O2",
+  "atoms": 12,
+  "modes": 30
+ },
+ {
+  "id": "salicylic",
+  "name": "salicylic acid",
+  "group": "MD17",
+  "formula": "C7H6O3",
+  "atoms": 16,
+  "modes": 42
+ },
+ {
+  "id": "aspirin",
+  "name": "aspirin",
+  "group": "MD17",
+  "formula": "C9H8O4",
+  "atoms": 21,
+  "modes": 57
+ },
+ {
+  "id": "paracetamol",
+  "name": "paracetamol",
+  "group": "rMD17",
+  "formula": "C8H9NO2",
+  "atoms": 20,
+  "modes": 54
+ },
+ {
+  "id": "caffeine",
+  "name": "caffeine",
+  "group": "classic",
+  "formula": "C8H10N4O2",
+  "atoms": 24,
+  "modes": 66
+ },
+ {
+  "id": "glucose",
+  "name": "\u03b1-D-glucose",
+  "group": "classic",
+  "formula": "C6H12O6",
+  "atoms": 24,
+  "modes": 66
+ }
+]

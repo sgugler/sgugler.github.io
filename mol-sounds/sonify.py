@@ -32,8 +32,16 @@ from scipy.io import wavfile
 warnings.filterwarnings("ignore")
 
 SR = 44100
-# Just-intonation chord on A3, all within ~200-800 Hz.
-BASE_FREQS = [220.0, 275.0, 330.0, 440.0, 550.0, 660.0, 770.0, 385.0]
+# Just-intonation chord on A3 (1, 5/4, 3/2, 2, 9/4, 5/2), one fixed note per
+# element pair so every molecule is played on the same instrument.
+BASE_BY_PAIR = {"C-H": 220.0, "C-C": 275.0, "C-O": 330.0, "H-O": 440.0, "C-N": 495.0, "H-N": 550.0}
+BASE_FREQS = [220.0, 275.0, 330.0, 440.0, 550.0, 660.0, 770.0, 385.0]  # fallback for other pairs
+# ggplot2 hues, same order as BASE_BY_PAIR
+COLOR_BY_PAIR = {"C-H": "#F8766D", "C-C": "#7CAE00", "C-O": "#00BFC4", "H-O": "#C77CFF", "C-N": "#E68613", "H-N": "#00A9FF"}
+
+
+def base_freq(label, n):
+    return BASE_BY_PAIR.get(label, BASE_FREQS[n % len(BASE_FREQS)])
 OCTAVE_CLIP = (-2.0, 3.0)  # keep pitches audible when a bond breaks
 
 
@@ -69,6 +77,9 @@ def voice_features(lengths, bond_eq, groups):
 
 
 def max_force(frames):
+    """Largest atomic force per frame; zeros if the frames carry no forces."""
+    if frames[0].calc is None:
+        return np.zeros(len(frames))
     return np.array([np.linalg.norm(a.get_forces(), axis=1).max() for a in frames])
 
 
@@ -88,7 +99,8 @@ def make_ref(path, k):
         "bond_labels": [f"{sym[a]}{a}-{sym[b]}{b}" for a, b in bonds],
         "bond_eq": bond_eq.tolist(),
         "groups": [
-            {**g, "mean": float(X[:, n].mean()), "std": float(X[:, n].std()), "f0": BASE_FREQS[n]}
+            {**g, "mean": float(X[:, n].mean()), "std": float(X[:, n].std()), "f0": base_freq(g["label"], n),
+             "color": COLOR_BY_PAIR.get(g["label"], "#999999")}
             for n, g in enumerate(groups)
         ],
         "force": {"mean": float(F.mean()), "std": float(F.std())},

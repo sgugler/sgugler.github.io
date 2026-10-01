@@ -1,0 +1,144 @@
+{
+ "molecules": [
+  {
+   "id": "md17_ethanol",
+   "name": "ethanol",
+   "voices": [
+    "C-H",
+    "C-C",
+    "C-O",
+    "H-O"
+   ]
+  },
+  {
+   "id": "md17_malonaldehyde",
+   "name": "malonaldehyde",
+   "voices": [
+    "C-H",
+    "C-C",
+    "C-O"
+   ]
+  },
+  {
+   "id": "md17_benzene2017",
+   "name": "benzene",
+   "voices": [
+    "C-C",
+    "C-H"
+   ]
+  },
+  {
+   "id": "md17_toluene",
+   "name": "toluene",
+   "voices": [
+    "C-H",
+    "C-C"
+   ]
+  },
+  {
+   "id": "md17_naphthalene",
+   "name": "naphthalene",
+   "voices": [
+    "C-C",
+    "C-H"
+   ]
+  },
+  {
+   "id": "md17_salicylic",
+   "name": "salicylic acid",
+   "voices": [
+    "C-C",
+    "C-H",
+    "C-O",
+    "H-O"
+   ]
+  },
+  {
+   "id": "md17_aspirin",
+   "name": "aspirin",
+   "voices": [
+    "C-C",
+    "C-H",
+    "C-O",
+    "H-O"
+   ]
+  },
+  {
+   "id": "md17_uracil",
+   "name": "uracil",
+   "voices": [
+    "C-N",
+    "C-C",
+    "C-H",
+    "H-N",
+    "C-O"
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "file": "audio/quiz_benzene2017_0.mp3",
+   "answer": "md17_benzene2017"
+  },
+  {
+   "file": "audio/quiz_salicylic_1.mp3",
+   "answer": "md17_salicylic"
+  },
+  {
+   "file": "audio/quiz_salicylic_0.mp3",
+   "answer": "md17_salicylic"
+  },
+  {
+   "file": "audio/quiz_aspirin_1.mp3",
+   "answer": "md17_aspirin"
+  },
+  {
+   "file": "audio/quiz_aspirin_0.mp3",
+   "answer": "md17_aspirin"
+  },
+  {
+   "file": "audio/quiz_malonaldehyde_1.mp3",
+   "answer": "md17_malonaldehyde"
+  },
+  {
+   "file": "audio/quiz_toluene_0.mp3",
+   "answer": "md17_toluene"
+  },
+  {
+   "file": "audio/quiz_ethanol_0.mp3",
+   "answer": "md17_ethanol"
+  },
+  {
+   "file": "audio/quiz_ethanol_1.mp3",
+   "answer": "md17_ethanol"
+  },
+  {
+   "file": "audio/quiz_uracil_1.mp3",
+   "answer": "md17_uracil"
+  },
+  {
+   "file": "audio/quiz_uracil_0.mp3",
+   "answer": "md17_uracil"
+  },
+  {
+   "file": "audio/quiz_benzene2017_1.mp3",
+   "answer": "md17_benzene2017"
+  },
+  {
+   "file": "audio/quiz_malonaldehyde_0.mp3",
+   "answer": "md17_malonaldehyde"
+  },
+  {
+   "file": "audio/quiz_naphthalene_0.mp3",
+   "answer": "md17_naphthalene"
+  },
+  {
+   "file": "audio/quiz_naphthalene_1.mp3",
+   "answer": "md17_naphthalene"
+  },
+  {
+   "file": "audio/quiz_toluene_1.mp3",
+   "answer": "md17_toluene"
+  }
+ ]
+}

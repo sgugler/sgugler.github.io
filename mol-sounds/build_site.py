@@ -23,6 +23,7 @@ from ase.io import read
 
 import baseline
 import sonify
+import trajdata
 
 warnings.filterwarnings("ignore")
 
@@ -67,10 +68,9 @@ def main():
     for name in ("stable_300K", "fail_400K", "long_300K"):
         series[name] = checks(HERE / "data" / f"{name}.extxyz")
 
-    # ---- explore tracks
-    explore = {"fps": FPS, "gain": GAIN, "voices": [{"label": g["label"], "f0": g["f0"]} for g in ref["groups"]],
-               "thresholds_kcal": {"energy": THR["energy"] * EV_TO_KCAL, "force": THR["force"] * EV_TO_KCAL, "dist": THR["dist"]},
-               "trajectories": {}}
+    # ---- explore tracks (audio + animation + checks), one JSON per trajectory
+    (OUT / "data" / "traj").mkdir(parents=True, exist_ok=True)
+    labels = {"stable_300K": "glyceraldehyde, stable (300 K)", "fail_400K": "glyceraldehyde, failing (400 K)"}
     for name in ("stable_300K", "fail_400K"):
         path = HERE / "data" / f"{name}.extxyz"
         for variant, fg in (("pitch", 0.0), ("pitch_force", FORCE_GAIN)):
@@ -78,16 +78,21 @@ def main():
             mp3(audio, OUT / "audio" / f"explore_{name}_{variant}.mp3")
         s, flags = series[name]
         first = baseline.first(flags)
-        explore["trajectories"][name] = {
-            "frames": len(flags),
-            "first_flag": first,
-            "octaves": np.round(info["octaves"], 3).T.tolist(),
-            "drift_kcal": np.round(s["drift"] * EV_TO_KCAL, 2).tolist(),
-            "fmax_kcal": np.round(s["fmax"] * EV_TO_KCAL, 1).tolist(),
-            "dmin": np.round(s["dmin"], 3).tolist(),
-        }
+        frames = read(path, ":")
+        trajdata.write(
+            OUT / "data" / "traj" / f"gly_{name}.json", name=labels[name], numbers=frames[0].numbers,
+            positions=np.stack([a.positions for a in frames]), ref=ref, octaves=info["octaves"], fps=FPS,
+            extra={
+                "audio": f"audio/explore_{name}_pitch.mp3",
+                "audio_force": f"audio/explore_{name}_pitch_force.mp3",
+                "source": "SchNetPack force field, NVE",
+                "first_flag": first,
+                "thresholds_kcal": {"energy": THR["energy"] * EV_TO_KCAL, "force": THR["force"] * EV_TO_KCAL},
+                "drift_kcal": np.round(s["drift"] * EV_TO_KCAL, 2).tolist(),
+                "fmax_kcal": np.round(s["fmax"] * EV_TO_KCAL, 1).tolist(),
+            },
+        )
         print(f"explore {name}: first automated flag {first}")
-    (OUT / "data" / "explore.json").write_text(json.dumps(explore))
 
     # ---- blind clips
     rng = random.Random(SEED)
