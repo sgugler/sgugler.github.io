@@ -9,3 +9,8 @@ go.sum
 /yuanzi/node_modules/
 /yuanzi/build/
 /yuanzi/.svelte-kit/
+
+# gorillaz (SvelteKit app)
+/gorillaz/node_modules/
+/gorillaz/build/
+/gorillaz/.svelte-kit/

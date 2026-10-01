@@ -64,6 +64,11 @@ jobs:
         npm ci --prefix yuanzi
         npm run build --prefix yuanzi
         cp -r yuanzi/build public/yuanzi
+    - name: Build Gorillaz graph app
+      run: |
+        npm ci --prefix gorillaz
+        npm run build --prefix gorillaz
+        cp -r gorillaz/build public/gorillaz
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
