@@ -1,7 +1,6 @@
 <script>
 	import { graph } from '$lib/data.js';
-	const n = graph.nodes.length - 1;
-	const feat = graph.edges.filter((e) => e.kind === 'feature').length;
+		const feat = graph.nodes.length;
 	const credit = graph.edges.filter((e) => e.kind === 'credit').length;
 	const band = graph.edges.filter((e) => e.kind === 'band').length;
 </script>
@@ -17,7 +16,7 @@
 	</p>
 	<h2>How it is built</h2>
 	<ul>
-		<li>All recordings credited to Gorillaz are fetched from MusicBrainz; every other artist in a credit becomes a node ({n} artists, {feat} feature links).</li>
+		<li>All recordings credited to Gorillaz are fetched from MusicBrainz and kept only if they appear on an official Gorillaz release (bootleg mashups and mislabelled uploads are also credited there); every other artist in a credit becomes a node ({feat} artists).</li>
 		<li>For each of those artists, up to 1000 of their own recordings are scanned for credits shared with another Gorillaz collaborator ({credit} links, Gorillaz tracks excluded).</li>
 		<li>MusicBrainz artist relations add band memberships and named collaborations between collaborators ({band} links).</li>
 		<li>Colour is the era of the artist's first Gorillaz track, by first release date; size is the number of tracks.</li>

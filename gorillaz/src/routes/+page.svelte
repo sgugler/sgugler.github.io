@@ -5,7 +5,7 @@
 
 	let selected = $state(null);
 	let query = $state('');
-	let kinds = $state(new Set(['feature', 'credit', 'band']));
+	let kinds = $state(new Set(['credit', 'band']));
 
 	const sel = $derived(selected ? byId.get(selected) : null);
 	const conns = $derived(selected ? connections(selected).filter((c) => c.other.id !== GID) : []);
@@ -16,7 +16,6 @@
 		kinds = s;
 	}
 	const counts = $derived({
-		feature: graph.edges.filter((e) => e.kind === 'feature').length,
 		credit: graph.edges.filter((e) => e.kind === 'credit').length,
 		band: graph.edges.filter((e) => e.kind === 'band').length
 	});
@@ -25,9 +24,6 @@
 <section class="controls">
 	<input type="search" bind:value={query} placeholder="Find an artist" aria-label="Find an artist" />
 	<div class="chips">
-		<button class="chip" aria-pressed={kinds.has('feature')} onclick={() => toggle('feature')}>
-			<span class="sw feature"></span> featured with Gorillaz ({counts.feature})
-		</button>
 		<button class="chip" aria-pressed={kinds.has('credit')} onclick={() => toggle('credit')}>
 			<span class="sw credit"></span> recorded together elsewhere ({counts.credit})
 		</button>
@@ -54,7 +50,7 @@
 			{#if sel.songs.length}
 				<h3>With Gorillaz</h3>
 				<ul>
-					{#each sel.songs.slice(0, 8) as s}<li>{s.title}{#if s.year}&nbsp;<span class="muted">{s.year}</span>{/if}</li>{/each}
+					{#each sel.songs.slice(0, 8) as s}<li>{s.title}{#if s.year}&nbsp;<span class="muted">{s.year}</span>{/if}{#if s.album}&nbsp;<span class="muted">({s.album})</span>{/if}</li>{/each}
 					{#if sel.songs.length > 8}<li class="muted">and {sel.songs.length - 8} more</li>{/if}
 				</ul>
 			{/if}
@@ -78,7 +74,7 @@
 	{/if}
 </div>
 
-<p class="muted hint">Drag to pan, scroll to zoom, click an artist to see their links. Node size is the number of Gorillaz tracks; colour is the era of their first one.</p>
+<p class="muted hint">Every dot is an artist on an official Gorillaz release. Linked artists sit in the middle, the ones with no link to another collaborator on the outer ring. Node size is the number of Gorillaz tracks, colour the era of the first. Drag to pan, scroll to zoom, click for details.</p>
 
 <style>
 	.controls {

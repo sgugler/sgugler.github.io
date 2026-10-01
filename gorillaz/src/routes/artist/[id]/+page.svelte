@@ -21,7 +21,7 @@
 	<section class="card">
 		<h2>With Gorillaz · {a.era}</h2>
 		<ol>
-			{#each a.songs as s}<li>{s.title}{#if s.year}&nbsp;<span class="muted">{s.year}</span>{/if}</li>{/each}
+			{#each a.songs as s}<li>{s.title}{#if s.year}&nbsp;<span class="muted">{s.year}</span>{/if}{#if s.album}&nbsp;<span class="muted">({s.album})</span>{/if}</li>{/each}
 		</ol>
 	</section>
 	<section class="card">

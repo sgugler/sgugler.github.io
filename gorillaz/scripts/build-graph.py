@@ -21,6 +21,33 @@ GID = "e21857d5-3256-4547-afb3-4b6ded592596"
 
 recordings = json.loads((data / "recordings.json").read_text())
 artists = json.loads((data / "artists.json").read_text())
+releases = json.loads((data / "releases.json").read_text())
+
+# Only recordings that appear on an official Gorillaz release count. This
+# drops bootleg mashups and mislabelled uploads that MusicBrainz also credits
+# to Gorillaz. Each recording maps to its best release group: album first,
+# then EP/single, then compilations.
+RANK = {"Album": 0, "EP": 1, "Single": 2, "Other": 3, "Broadcast": 4}
+EXCLUDE_RELEASE_GROUPS = {"East Type Beat"}  # credited to Gorillaz in MusicBrainz, not a Gorillaz release
+albums = {}
+for rel in releases:
+    if rel.get("status") != "Official":
+        continue
+    rg = rel.get("release-group") or {}
+    title = rg.get("title") or rel["title"]
+    if title in EXCLUDE_RELEASE_GROUPS:
+        continue
+    rank = RANK.get(rg.get("primary-type"), 3) + (5 if rg.get("secondary-types") else 0)
+    date = rel.get("date") or rg.get("first-release-date") or ""
+    for m in rel.get("media", []):
+        for t in m.get("tracks", []):
+            rid = t["recording"]["id"]
+            cand = (rank, date, title)
+            if rid not in albums or cand < albums[rid]:
+                albums[rid] = cand
+UNKNOWN_ARTIST = "125ec42a-7229-4250-afc5-e057484327fe"
+# Cover projects credited to Gorillaz in MusicBrainz but not Gorillaz recordings.
+EXCLUDE_ARTISTS = {"Rhythms del Mundo", "Red Village"}
 
 ERAS = [
     (2000, 2003, "Gorillaz", "#7ed957"),
@@ -43,33 +70,60 @@ def era(year):
 
 
 def clean_title(t):
-    return re.sub(r"\s*\((live|demo|instrumental|remix|edit|radio edit|acoustic|mix|version|album version|single version|clean|explicit)[^)]*\)\s*$", "", t, flags=re.I).strip()
+    return re.sub(r"\s*\((live|demo|instrumental|remix|refix|edit|radio edit|acoustic|mix|version|album version|single version|clean|explicit|episode)[^)]*\)\s*$", "", t, flags=re.I).strip()
 
 
 # feature edges
 songs = defaultdict(dict)  # artist -> title -> year
 names = {}
+# A featured recording is often a separate MusicBrainz entry from the album
+# track, so also accept recordings whose cleaned title matches an official track.
+official_titles = {}
+for rel in releases:
+    if rel.get("status") != "Official":
+        continue
+    rg = rel.get("release-group") or {}
+    title = rg.get("title") or rel["title"]
+    if title in EXCLUDE_RELEASE_GROUPS:
+        continue
+    rank = RANK.get(rg.get("primary-type"), 3) + (5 if rg.get("secondary-types") else 0)
+    date = rel.get("date") or rg.get("first-release-date") or ""
+    for m in rel.get("media", []):
+        for t in m.get("tracks", []):
+            key = clean_title(t["title"]).lower()
+            cand = (rank, date, title)
+            if key not in official_titles or cand < official_titles[key]:
+                official_titles[key] = cand
+
+# Official Gorillaz tracks that were released on someone else's record.
+EXTRA_TITLES = {"gorillaz on my mind": (3, "2003", "Laugh Now, Cry Later soundtrack")}
+official_titles.update(EXTRA_TITLES)
+
 for r in recordings:
-    year = int(r["first-release-date"][:4]) if r.get("first-release-date") else None
     title = clean_title(r["title"])
+    hit = albums.get(r["id"]) or official_titles.get(title.lower())
+    if not hit:
+        continue
+    year = int(r["first-release-date"][:4]) if r.get("first-release-date") else None
     if title.lower() in ("[untitled]", "[silence]"):
         continue
+    album = hit[2]
     for ac in r["artist-credit"]:
         if not isinstance(ac, dict):
             continue
         aid = ac["artist"]["id"]
-        if aid == GID:
+        if aid == GID or aid == UNKNOWN_ARTIST or ac["artist"]["name"] in EXCLUDE_ARTISTS:
             continue
         names[aid] = ac["artist"]["name"]
         prev = songs[aid].get(title)
-        if prev is None or (year and (prev is None or year < prev)):
-            songs[aid][title] = year
+        if prev is None or (year and prev[0] and year < prev[0]):
+            songs[aid][title] = (year, album)
 
 nodes = {GID: {"id": GID, "name": "Gorillaz", "type": "Group", "core": True, "songs": [], "era": "Gorillaz", "color": "#ffffff", "degree": 0}}
 for aid, name in names.items():
     a = artists.get(aid, {})
-    s = sorted(songs[aid].items(), key=lambda kv: (kv[1] or 9999, kv[0]))
-    first = next((y for _, y in s if y), None)
+    s = sorted(songs[aid].items(), key=lambda kv: (kv[1][0] or 9999, kv[0]))
+    first = next((y for _, (y, _a) in s if y), None)
     ename, color = era(first)
     nodes[aid] = {
         "id": aid,
@@ -82,7 +136,7 @@ for aid, name in names.items():
         "tags": a.get("tags", []),
         "wikipedia": a.get("wikipedia"),
         "wikidata": a.get("wikidata"),
-        "songs": [{"title": t, "year": y} for t, y in s],
+        "songs": [{"title": t, "year": y, "album": a} for t, (y, a) in s],
         "first": first,
         "era": ename,
         "color": color,
@@ -123,7 +177,7 @@ for e in edges:
     nodes[e["source"]]["degree"] += 1
     nodes[e["target"]]["degree"] += 1
 
-out = {"nodes": list(nodes.values()), "edges": edges, "eras": [{"name": n, "color": c, "from": lo, "to": hi} for lo, hi, n, c in ERAS]}
+out = {"nodes": [n for n in nodes.values() if not n.get("core")], "edges": [e for e in edges if e["kind"] != "feature"], "eras": [{"name": n, "color": c, "from": lo, "to": hi} for lo, hi, n, c in ERAS]}
 (root / "src/lib/graph.json").write_text(json.dumps(out, ensure_ascii=False) + "\n")
 kinds = defaultdict(int)
 for e in edges:

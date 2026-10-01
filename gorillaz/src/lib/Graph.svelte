@@ -1,17 +1,18 @@
 <script>
-	// Force-directed graph of Gorillaz and their collaborators. d3-force does
-	// the layout; Svelte renders the SVG; d3-zoom and d3-drag handle gestures.
+	// Force-directed graph of Gorillaz collaborators. Gorillaz itself is not a
+	// node: every artist here is on a Gorillaz track, so the hub would only add
+	// 150 spokes. Connected artists pull to the middle; artists with no link to
+	// another collaborator settle on an outer ring.
 	import { onMount } from 'svelte';
-	import { forceSimulation, forceLink, forceManyBody, forceCenter, forceCollide } from 'd3-force';
+	import { forceSimulation, forceLink, forceManyBody, forceCollide, forceRadial, forceX, forceY } from 'd3-force';
 	import { select } from 'd3-selection';
 	import { zoom, zoomIdentity } from 'd3-zoom';
 	import { drag } from 'd3-drag';
 
 	/** @type {{ graph: any, selected?: string|null, onselect?: (id: string|null) => void, kinds?: Set<string>, query?: string }} */
-	let { graph, selected = null, onselect = () => {}, kinds = new Set(['feature', 'credit', 'band']), query = '' } = $props();
+	let { graph, selected = null, onselect = () => {}, kinds = new Set(['credit', 'band']), query = '' } = $props();
 
 	let svg;
-	let g;
 	let width = $state(1200);
 	let height = $state(800);
 	let nodes = $state([]);
@@ -19,11 +20,8 @@
 	let transform = $state(zoomIdentity);
 	let sim;
 
-	const GID = 'e21857d5-3256-4547-afb3-4b6ded592596';
-
 	function radius(n) {
-		if (n.core) return 26;
-		return 5 + Math.sqrt(n.songs.length) * 3.2 + Math.min(n.degree, 12) * 0.35;
+		return 5 + Math.sqrt(n.songs.length) * 3.2;
 	}
 
 	const q = $derived(query.trim().toLowerCase());
@@ -31,17 +29,12 @@
 		if (!selected) return null;
 		const s = new Set([selected]);
 		for (const l of links) {
-			const a = l.source.id ?? l.source;
-			const b = l.target.id ?? l.target;
-			if (a === selected) s.add(b);
-			if (b === selected) s.add(a);
+			if (l.source.id === selected) s.add(l.target.id);
+			if (l.target.id === selected) s.add(l.source.id);
 		}
 		return s;
 	});
 
-	function visible(l) {
-		return kinds.has(l.kind);
-	}
 	function dim(n) {
 		if (q) return !n.name.toLowerCase().includes(q);
 		if (neighbours) return !neighbours.has(n.id);
@@ -51,34 +44,48 @@
 	onMount(() => {
 		const rect = svg.getBoundingClientRect();
 		width = rect.width;
-		height = Math.max(560, Math.min(900, window.innerHeight - 220));
+		height = Math.max(600, Math.min(950, window.innerHeight - 200));
 
-		nodes = graph.nodes.map((n) => ({ ...n }));
+		// start near the centre so the first frames are not a blob at the origin
+		nodes = graph.nodes.map((n, i) => ({
+			...n,
+			x: width / 2 + Math.cos(i) * 120 * Math.sqrt(i / graph.nodes.length),
+			y: height / 2 + Math.sin(i) * 120 * Math.sqrt(i / graph.nodes.length)
+		}));
 		const byId = new Map(nodes.map((n) => [n.id, n]));
-		links = graph.edges.map((e) => ({ ...e, source: byId.get(e.source), target: byId.get(e.target) }));
-		const core = byId.get(GID);
-		core.fx = width / 2;
-		core.fy = height / 2;
+		links = graph.edges
+			.filter((e) => e.kind !== 'feature')
+			.map((e) => ({ ...e, source: byId.get(e.source), target: byId.get(e.target) }))
+			.filter((l) => l.source && l.target);
+		const linked = new Set(links.flatMap((l) => [l.source.id, l.target.id]));
+		const R = Math.min(width, height) * 0.46;
 
 		sim = forceSimulation(nodes)
-			.force(
-				'link',
-				forceLink(links)
-					.id((d) => d.id)
-					.distance((l) => (l.kind === 'feature' ? 140 + 40 * Math.random() : 60))
-					.strength((l) => (l.kind === 'feature' ? 0.25 : 0.6))
-			)
-			.force('charge', forceManyBody().strength((d) => (d.core ? -1200 : -140)))
-			.force('center', forceCenter(width / 2, height / 2))
-			.force('collide', forceCollide().radius((d) => radius(d) + 6))
+			.force('link', forceLink(links).id((d) => d.id).distance(70).strength(0.5))
+			.force('charge', forceManyBody().strength(-160))
+			.force('collide', forceCollide().radius((d) => radius(d) + 7))
+			.force('radial', forceRadial((d) => (linked.has(d.id) ? R * 0.35 : R), width / 2, height / 2).strength((d) => (linked.has(d.id) ? 0.05 : 0.6)))
+			.force('x', forceX(width / 2).strength(0.02))
+			.force('y', forceY(height / 2).strength(0.02))
 			.on('tick', () => {
 				nodes = nodes;
 			});
+		// settle the layout before the first paint
+		sim.stop();
+		for (let i = 0; i < 200; i++) sim.tick();
+		nodes = nodes;
+		sim.alpha(0.3).restart();
 
 		const z = zoom()
-			.scaleExtent([0.25, 4])
+			.scaleExtent([0.3, 4])
 			.on('zoom', (ev) => (transform = ev.transform));
 		select(svg).call(z).on('dblclick.zoom', null);
+		// fit the settled layout into the viewport
+		const xs = nodes.map((n) => n.x);
+		const ys = nodes.map((n) => n.y);
+		const [x0, x1, y0, y1] = [Math.min(...xs) - 40, Math.max(...xs) + 40, Math.min(...ys) - 30, Math.max(...ys) + 30];
+		const k = Math.min(width / (x1 - x0), height / (y1 - y0), 1.5);
+		select(svg).call(z.transform, zoomIdentity.translate(width / 2 - (k * (x0 + x1)) / 2, height / 2 - (k * (y0 + y1)) / 2).scale(k));
 
 		const d = drag()
 			.on('start', (ev, n) => {
@@ -92,27 +99,19 @@
 			})
 			.on('end', (ev, n) => {
 				if (!ev.active) sim.alphaTarget(0);
-				if (!n.core) {
-					n.fx = null;
-					n.fy = null;
-				}
+				n.fx = null;
+				n.fy = null;
 			});
-		// attach drag after first render
-		requestAnimationFrame(() => select(g).selectAll('g.node').data(nodes, (n) => n.id).call(d));
+		requestAnimationFrame(() => select(svg).selectAll('g.node').data(nodes, (n) => n.id).call(d));
 
 		return () => sim.stop();
-	});
-
-	$effect(() => {
-		// re-bind drag when nodes array identity changes (it does not), kept for safety
-		if (g) select(g).selectAll('g.node').data(nodes, (n) => n.id);
 	});
 </script>
 
 <svg bind:this={svg} {width} {height} viewBox="0 0 {width} {height}" role="img" aria-label="Collaboration graph">
-	<g bind:this={g} transform={transform.toString()}>
+	<g transform={transform.toString()}>
 		{#each links as l (l.source.id + l.target.id + l.kind)}
-			{#if visible(l)}
+			{#if kinds.has(l.kind)}
 				<line
 					class="link {l.kind}"
 					class:dim={dim(l.source) || dim(l.target)}
@@ -139,9 +138,7 @@
 				tabindex="0"
 			>
 				<circle r={radius(n)} fill={n.color} />
-				{#if n.core || radius(n) > 9 || n.id === selected || (q && !dim(n))}
-					<text dy={radius(n) + 12}>{n.name}</text>
-				{/if}
+				<text dy={radius(n) + 11}>{n.name}</text>
 				<title>{n.name} · {n.songs.length} Gorillaz track{n.songs.length === 1 ? '' : 's'}</title>
 			</g>
 		{/each}
@@ -159,27 +156,20 @@
 		touch-action: none;
 	}
 	.link {
-		stroke: var(--line);
-		stroke-width: 1;
+		stroke-width: 1.4;
 		transition: opacity 0.2s;
-	}
-	.link.feature {
-		stroke: var(--muted);
-		stroke-opacity: 0.35;
 	}
 	.link.credit {
 		stroke: var(--accent);
 		stroke-opacity: 0.7;
-		stroke-width: 1.6;
 	}
 	.link.band {
 		stroke: #ff6fb5;
 		stroke-dasharray: 4 3;
-		stroke-width: 1.6;
 	}
 	.link.hot {
 		stroke-opacity: 1;
-		stroke-width: 2.4;
+		stroke-width: 2.6;
 	}
 	.link.dim {
 		opacity: 0.08;
@@ -200,7 +190,7 @@
 		opacity: 0.12;
 	}
 	text {
-		font-size: 11px;
+		font-size: 10px;
 		fill: var(--fg);
 		text-anchor: middle;
 		pointer-events: none;
